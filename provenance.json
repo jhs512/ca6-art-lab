@@ -1,0 +1,3182 @@
+{
+  "experiment": "ca6-art-lab-2026-10-22",
+  "purpose": "Choose an art direction, representative action only. Not a complete final game animation set.",
+  "motionSource": "All three groups use PixelLab animate_image. A/B masters PixelLab Pro; C masters built-in image_gen.",
+  "skills": [
+    {
+      "name": "pixellab",
+      "url": "https://github.com/freema/ai-skills/tree/main/skills/pixellab",
+      "commit": "018a9a9f60f274b483eb7e37a151dd98357af077",
+      "use": "B detailed prompt, reference, palette, camera and light constraints"
+    },
+    {
+      "name": "generate2dsprite",
+      "url": "https://github.com/0x0funky/agent-sprite-forge/tree/main/skills/generate2dsprite",
+      "commit": "5324342fdfab72430f4e9604f3fe427009f8596d",
+      "use": "C shared scale/root principles and packaged-frame QA"
+    }
+  ],
+  "startingPixelLabAllowance": 4570,
+  "additionalPixelLabPurchase": false,
+  "jobs": [
+    {
+      "asset": "painted-fruit-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "15474697-bd80-4d9f-bc93-e5cb049b52b1",
+      "parameters": {
+        "action": "Gentle magical idle loop, leaf swaying, rune glow pulses and one tiny sparkle appears. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "painted-goblin-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "7064d64d-4694-47e7-b44c-1278de6834bd",
+      "parameters": {
+        "action": "Sneaky walking in place, alternating short steps and small arm swings. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "painted-hero-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "fe3733f0-00f1-4745-be48-aa899abcb9a7",
+      "parameters": {
+        "action": "Walking in place, alternating feet and arms, cloak swaying. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "painted-imp-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "274802ca-5000-4734-9dea-5beb9e7facec",
+      "parameters": {
+        "action": "Hover in place while wings flap through a full upstroke and downstroke. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "painted-ogre-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "5fb0dc3b-240d-4201-824a-ca6b665d0f34",
+      "parameters": {
+        "action": "Heavy lumbering walk in place, alternating broad feet and shoulders. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "painted-orc-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "5735379b-27e6-4143-9d8e-5d4a17c613cd",
+      "parameters": {
+        "action": "Heavy charging run in place, alternating feet and pumping arms. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "painted-raft-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "5bd96f8c-5fcc-4afd-86c6-f3fd5c59c606",
+      "parameters": {
+        "action": "Subtle floating loop with gentle rocking, rope ends swaying, no water background. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "painted-slime-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "263bf09c-7b62-4ceb-8e26-e5fac144e723",
+      "parameters": {
+        "action": "Squash down then spring up and land, elastic hopping loop. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "painted-wisp-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "eca11094-028a-4ff1-80f5-6f6ba5b8e2f9",
+      "parameters": {
+        "action": "Floating in place, tail curls and waves, luminous core pulses gently. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "painted-wyvern-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "bb3d7972-9a2c-4823-80e0-d28ac1565ed3",
+      "parameters": {
+        "action": "Hovering flight in place with strong alternating wing upstroke and downstroke. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "plain-desert-background",
+      "provider": "PixelLab MCP",
+      "jobId": "a098f6f8-78a9-4943-87a4-8b26e232a80d",
+      "parameters": {
+        "description": "Fantasy RPG warm ochre dunes, sandy footpath, small sandstone ruins and dry shrubs near edges. Vertical top-down map background, open center for gameplay, flat ground plane, edge-to-edge, no characters, no objects in center, no text, no UI.",
+        "width": 512,
+        "height": 320,
+        "no_background": false
+      }
+    },
+    {
+      "asset": "plain-fruit-base",
+      "provider": "PixelLab MCP",
+      "jobId": "2a974887-49b0-4473-95db-6dbf246a4f49",
+      "parameters": {
+        "description": "Fantasy RPG pixel art, top-down game sprite facing right, full body, transparent background. single ripe golden enchanted pear fruit with green leaf and small cyan rune. No text, no frame.",
+        "width": 96,
+        "height": 96,
+        "no_background": true
+      }
+    },
+    {
+      "asset": "plain-fruit-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "dcaef820-20ec-497a-a0ff-70c3a94fcb52",
+      "parameters": {
+        "action": "Gentle magical idle loop, leaf swaying, rune glow pulses and one tiny sparkle appears. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "plain-goblin-base",
+      "provider": "PixelLab MCP",
+      "jobId": "a52fad23-5713-4ff1-ace7-cbb3bf0b80b1",
+      "parameters": {
+        "description": "Fantasy RPG pixel art, top-down game sprite facing right, full body, transparent background. small nimble green goblin with large pointed ears, rust leather vest and empty belt pouch. No text, no frame.",
+        "width": 96,
+        "height": 96,
+        "no_background": true
+      }
+    },
+    {
+      "asset": "plain-goblin-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "2012ec0b-e89f-4824-8123-1236a251fb35",
+      "parameters": {
+        "action": "Sneaky walking in place, alternating short steps and small arm swings. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "plain-grass-background",
+      "provider": "PixelLab MCP",
+      "jobId": "fa34c417-2aec-441b-a1a9-f3d8849b11d3",
+      "parameters": {
+        "description": "Fantasy RPG sage green meadow, small wildflowers, earth footpath, oak trees near edges. Vertical top-down map background, open center for gameplay, flat ground plane, edge-to-edge, no characters, no objects in center, no text, no UI.",
+        "width": 512,
+        "height": 320,
+        "no_background": false
+      }
+    },
+    {
+      "asset": "plain-hero-base",
+      "provider": "PixelLab MCP",
+      "jobId": "0d00a0ef-2c01-49b3-8cb9-b3ecdb0148c6",
+      "parameters": {
+        "description": "Fantasy RPG pixel art, top-down game sprite facing right, full body, transparent background. young fantasy adventurer with chestnut hair, emerald cloak, cream sleeves, indigo tunic and leather boots, no helmet. No text, no frame.",
+        "width": 96,
+        "height": 96,
+        "no_background": true
+      }
+    },
+    {
+      "asset": "plain-hero-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "254f0c7a-c942-4c28-8a6a-fa13cbcf2e50",
+      "parameters": {
+        "action": "Walking in place, alternating feet and arms, cloak swaying. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "plain-imp-base",
+      "provider": "PixelLab MCP",
+      "jobId": "3c86960e-f0c2-4b43-b56c-6938953719d5",
+      "parameters": {
+        "description": "Fantasy RPG pixel art, top-down game sprite facing right, full body, transparent background. tiny crimson imp with curved horns, leathery bat wings, thin tail, mischievous eyes. No text, no frame.",
+        "width": 96,
+        "height": 96,
+        "no_background": true
+      }
+    },
+    {
+      "asset": "plain-imp-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "b9b0a0d9-d6bf-4ce6-a81a-36daeb8cf40c",
+      "parameters": {
+        "action": "Hover in place while wings flap through a full upstroke and downstroke. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "plain-ogre-base",
+      "provider": "PixelLab MCP",
+      "jobId": "c2c1a932-5375-4cf4-b412-1fcff78ef97c",
+      "parameters": {
+        "description": "Fantasy RPG pixel art, top-down game sprite facing right, full body, transparent background. large friendly tan ogre, small tusks, dark wool vest and blue trousers. No text, no frame.",
+        "width": 96,
+        "height": 96,
+        "no_background": true
+      }
+    },
+    {
+      "asset": "plain-ogre-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "6ac1b8fb-81d9-41ec-81eb-6bde349f8bc7",
+      "parameters": {
+        "action": "Heavy lumbering walk in place, alternating broad feet and shoulders. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "plain-orc-base",
+      "provider": "PixelLab MCP",
+      "jobId": "cabda56d-514e-4436-81fb-282a8e600068",
+      "parameters": {
+        "description": "Fantasy RPG pixel art, top-down game sprite facing right, full body, transparent background. stocky green orc with tiny tusks, leather shoulder pads, rust tunic, empty hands. No text, no frame.",
+        "width": 96,
+        "height": 96,
+        "no_background": true
+      }
+    },
+    {
+      "asset": "plain-orc-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "e6f2082f-99f2-4b5c-8998-2beee7833322",
+      "parameters": {
+        "action": "Heavy charging run in place, alternating feet and pumping arms. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "plain-raft-base",
+      "provider": "PixelLab MCP",
+      "jobId": "7791edc9-a953-4cf0-97da-ae1678319c00",
+      "parameters": {
+        "description": "Fantasy RPG pixel art, top-down game sprite facing right, full body, transparent background. small oval raft made of four wooden logs tied with rope, turquoise rune in its center, no occupants. No text, no frame.",
+        "width": 96,
+        "height": 96,
+        "no_background": true
+      }
+    },
+    {
+      "asset": "plain-raft-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "f79b370d-29bd-4051-9daf-486a246ae1fa",
+      "parameters": {
+        "action": "Subtle floating loop with gentle rocking, rope ends swaying, no water background. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "plain-slime-base",
+      "provider": "PixelLab MCP",
+      "jobId": "bf7fa418-42b0-47ec-b602-1324c02039dd",
+      "parameters": {
+        "description": "Fantasy RPG pixel art, top-down game sprite facing right, full body, transparent background. round translucent turquoise slime with two expressive eyes, no limbs. No text, no frame.",
+        "width": 96,
+        "height": 96,
+        "no_background": true
+      }
+    },
+    {
+      "asset": "plain-slime-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "5d796262-5bbe-4356-b62c-c989c30ce319",
+      "parameters": {
+        "action": "Squash down then spring up and land, elastic hopping loop. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "plain-snow-background",
+      "provider": "PixelLab MCP",
+      "jobId": "2375a6cf-7e81-4856-ba4e-82218312ff56",
+      "parameters": {
+        "description": "Fantasy RPG pale blue snowfield, winding snowy path, fir trees near edges, crystalline rocks. Vertical top-down map background, open center for gameplay, flat ground plane, edge-to-edge, no characters, no objects in center, no text, no UI.",
+        "width": 512,
+        "height": 320,
+        "no_background": false
+      }
+    },
+    {
+      "asset": "plain-swamp-background",
+      "provider": "PixelLab MCP",
+      "jobId": "19cae548-5ed3-4c89-b292-647b0ff9cde3",
+      "parameters": {
+        "description": "Fantasy RPG mossy teal wetland, raised muddy path, shallow pools and reeds near edges. Vertical top-down map background, open center for gameplay, flat ground plane, edge-to-edge, no characters, no objects in center, no text, no UI.",
+        "width": 512,
+        "height": 320,
+        "no_background": false
+      }
+    },
+    {
+      "asset": "plain-wisp-base",
+      "provider": "PixelLab MCP",
+      "jobId": "c3b1726b-8f9b-4a0e-80ee-77985ca73ed3",
+      "parameters": {
+        "description": "Fantasy RPG pixel art, top-down game sprite facing right, full body, transparent background. small luminous pale cyan spirit with a curled tapering tail and warm expressive eyes. No text, no frame.",
+        "width": 96,
+        "height": 96,
+        "no_background": true
+      }
+    },
+    {
+      "asset": "plain-wisp-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "ce9578fa-40fa-4dd2-a4bc-0cd78ff8c41b",
+      "parameters": {
+        "action": "Floating in place, tail curls and waves, luminous core pulses gently. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "plain-wyvern-base",
+      "provider": "PixelLab MCP",
+      "jobId": "be405b91-8e75-48ca-9519-a96f03f3a754",
+      "parameters": {
+        "description": "Fantasy RPG pixel art, top-down game sprite facing right, full body, transparent background. small emerald fantasy wyvern with cream belly, two russet wings, curled tail. No text, no frame.",
+        "width": 96,
+        "height": 96,
+        "no_background": true
+      }
+    },
+    {
+      "asset": "plain-wyvern-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "afc19b97-0d07-4937-bd8c-46d3e32c2930",
+      "parameters": {
+        "action": "Hovering flight in place with strong alternating wing upstroke and downstroke. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "styled-desert-background",
+      "provider": "PixelLab MCP",
+      "jobId": "b1f7d1ba-bbeb-4b31-96d9-2dfbae9bbddc",
+      "parameters": {
+        "description": "Fantasy RPG warm ochre dunes, sandy footpath, small sandstone ruins and dry shrubs near edges. Vertical top-down map background, open center for gameplay, flat ground plane, edge-to-edge, no characters, no objects in center, no text, no UI. Premium hand-crafted 16-bit pixel clusters, calm texture density, warm upper-left light, coherent muted palette, strong readability. No perspective horizon, no frame, no vignette.",
+        "width": 512,
+        "height": 320,
+        "no_background": false,
+        "palette": [
+          "#17242b",
+          "#303f46",
+          "#55636b",
+          "#8d9c9c",
+          "#d5dfd2",
+          "#fff1c1",
+          "#263f35",
+          "#436b48",
+          "#75a368",
+          "#bad18b",
+          "#3a252b",
+          "#744238",
+          "#ad6b4b",
+          "#dfaa6d",
+          "#f0ce8b",
+          "#21494c",
+          "#3f7e83",
+          "#75b7b6",
+          "#b8e2da",
+          "#323951",
+          "#59647b",
+          "#929fae",
+          "#b84d45",
+          "#eb9172",
+          "#5b3c61",
+          "#987399",
+          "#d0a0b5",
+          "#c79e45",
+          "#edcf74",
+          "#eae2cc",
+          "#5d4c3e",
+          "#a88b65"
+        ],
+        "max_colors": 32,
+        "seed": 241022
+      }
+    },
+    {
+      "asset": "styled-fruit-base",
+      "provider": "PixelLab MCP",
+      "jobId": "f91d73e6-528e-4dcb-8ee5-35694708ef4a",
+      "parameters": {
+        "description": "One premium hand-crafted 16-bit fantasy RPG asset. STRICT VERTICAL OVERHEAD plan view, camera directly above. Face east/right. Compact body and expressive silhouette readable at 58 pixels. single ripe golden enchanted pear fruit with green leaf and small cyan rune. Warm upper-left light, clean clustered pixels, restrained earthy hues, dark colored contours, three-step material shading. Identical visual language to style reference. Entire body centered, generous transparent margin. No floor, cast shadow, text, weapons, armor helmet, isometric camera, cut-off extremities or UI.",
+        "width": 96,
+        "height": 96,
+        "no_background": true,
+        "max_colors": 32,
+        "palette": [
+          "#17242b",
+          "#303f46",
+          "#55636b",
+          "#8d9c9c",
+          "#d5dfd2",
+          "#fff1c1",
+          "#263f35",
+          "#436b48",
+          "#75a368",
+          "#bad18b",
+          "#3a252b",
+          "#744238",
+          "#ad6b4b",
+          "#dfaa6d",
+          "#f0ce8b",
+          "#21494c",
+          "#3f7e83",
+          "#75b7b6",
+          "#b8e2da",
+          "#323951",
+          "#59647b",
+          "#929fae",
+          "#b84d45",
+          "#eb9172",
+          "#5b3c61",
+          "#987399",
+          "#d0a0b5",
+          "#c79e45",
+          "#edcf74",
+          "#eae2cc",
+          "#5d4c3e",
+          "#a88b65"
+        ],
+        "seed": 241022,
+        "style_image_url": "https://api.pixellab.ai/mcp/images/7458d9fa-2179-4a04-aa6d-dcff8ccf66aa/download?index=0",
+        "style_copy": [
+          "outline",
+          "detail",
+          "shading"
+        ]
+      }
+    },
+    {
+      "asset": "styled-fruit-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "0ceca17c-8cc8-4b88-bba8-66f82cbe4643",
+      "parameters": {
+        "action": "Gentle magical idle loop, leaf swaying, rune glow pulses and one tiny sparkle appears. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "styled-goblin-base",
+      "provider": "PixelLab MCP",
+      "jobId": "af962ca9-4dff-4c81-8e67-f3bba5b420d2",
+      "parameters": {
+        "description": "One premium hand-crafted 16-bit fantasy RPG asset. STRICT VERTICAL OVERHEAD plan view, camera directly above. Face east/right. Compact body and expressive silhouette readable at 58 pixels. small nimble green goblin with large pointed ears, rust leather vest and empty belt pouch. Warm upper-left light, clean clustered pixels, restrained earthy hues, dark colored contours, three-step material shading. Identical visual language to style reference. Entire body centered, generous transparent margin. No floor, cast shadow, text, weapons, armor helmet, isometric camera, cut-off extremities or UI.",
+        "width": 96,
+        "height": 96,
+        "no_background": true,
+        "max_colors": 32,
+        "palette": [
+          "#17242b",
+          "#303f46",
+          "#55636b",
+          "#8d9c9c",
+          "#d5dfd2",
+          "#fff1c1",
+          "#263f35",
+          "#436b48",
+          "#75a368",
+          "#bad18b",
+          "#3a252b",
+          "#744238",
+          "#ad6b4b",
+          "#dfaa6d",
+          "#f0ce8b",
+          "#21494c",
+          "#3f7e83",
+          "#75b7b6",
+          "#b8e2da",
+          "#323951",
+          "#59647b",
+          "#929fae",
+          "#b84d45",
+          "#eb9172",
+          "#5b3c61",
+          "#987399",
+          "#d0a0b5",
+          "#c79e45",
+          "#edcf74",
+          "#eae2cc",
+          "#5d4c3e",
+          "#a88b65"
+        ],
+        "seed": 241022,
+        "style_image_url": "https://api.pixellab.ai/mcp/images/7458d9fa-2179-4a04-aa6d-dcff8ccf66aa/download?index=0",
+        "style_copy": [
+          "outline",
+          "detail",
+          "shading"
+        ]
+      }
+    },
+    {
+      "asset": "styled-goblin-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "65f35006-0ce2-4816-919c-f29055682ccb",
+      "parameters": {
+        "action": "Sneaky walking in place, alternating short steps and small arm swings. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "styled-grass-background",
+      "provider": "PixelLab MCP",
+      "jobId": "c06ae50c-72a0-462d-bbd6-4639ddbaf446",
+      "parameters": {
+        "description": "Fantasy RPG sage green meadow, small wildflowers, earth footpath, oak trees near edges. Vertical top-down map background, open center for gameplay, flat ground plane, edge-to-edge, no characters, no objects in center, no text, no UI. Premium hand-crafted 16-bit pixel clusters, calm texture density, warm upper-left light, coherent muted palette, strong readability. No perspective horizon, no frame, no vignette.",
+        "width": 512,
+        "height": 320,
+        "no_background": false,
+        "palette": [
+          "#17242b",
+          "#303f46",
+          "#55636b",
+          "#8d9c9c",
+          "#d5dfd2",
+          "#fff1c1",
+          "#263f35",
+          "#436b48",
+          "#75a368",
+          "#bad18b",
+          "#3a252b",
+          "#744238",
+          "#ad6b4b",
+          "#dfaa6d",
+          "#f0ce8b",
+          "#21494c",
+          "#3f7e83",
+          "#75b7b6",
+          "#b8e2da",
+          "#323951",
+          "#59647b",
+          "#929fae",
+          "#b84d45",
+          "#eb9172",
+          "#5b3c61",
+          "#987399",
+          "#d0a0b5",
+          "#c79e45",
+          "#edcf74",
+          "#eae2cc",
+          "#5d4c3e",
+          "#a88b65"
+        ],
+        "max_colors": 32,
+        "seed": 241022
+      }
+    },
+    {
+      "asset": "styled-hero-base",
+      "provider": "PixelLab MCP",
+      "jobId": "7458d9fa-2179-4a04-aa6d-dcff8ccf66aa",
+      "parameters": {
+        "description": "One premium hand-crafted 16-bit fantasy RPG asset. STRICT VERTICAL OVERHEAD plan view, camera directly above. Face east/right. Compact body and expressive silhouette readable at 58 pixels. young fantasy adventurer with chestnut hair, emerald cloak, cream sleeves, indigo tunic and leather boots, no helmet. Warm upper-left light, clean clustered pixels, restrained earthy hues, dark colored contours, three-step material shading. Identical visual language to style reference. Entire body centered, generous transparent margin. No floor, cast shadow, text, weapons, armor helmet, isometric camera, cut-off extremities or UI.",
+        "width": 96,
+        "height": 96,
+        "no_background": true,
+        "max_colors": 32,
+        "palette": [
+          "#17242b",
+          "#303f46",
+          "#55636b",
+          "#8d9c9c",
+          "#d5dfd2",
+          "#fff1c1",
+          "#263f35",
+          "#436b48",
+          "#75a368",
+          "#bad18b",
+          "#3a252b",
+          "#744238",
+          "#ad6b4b",
+          "#dfaa6d",
+          "#f0ce8b",
+          "#21494c",
+          "#3f7e83",
+          "#75b7b6",
+          "#b8e2da",
+          "#323951",
+          "#59647b",
+          "#929fae",
+          "#b84d45",
+          "#eb9172",
+          "#5b3c61",
+          "#987399",
+          "#d0a0b5",
+          "#c79e45",
+          "#edcf74",
+          "#eae2cc",
+          "#5d4c3e",
+          "#a88b65"
+        ],
+        "seed": 241022
+      }
+    },
+    {
+      "asset": "styled-hero-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "328be2f0-c893-450f-b51f-5d8dc44e23b8",
+      "parameters": {
+        "action": "Walking in place, alternating feet and arms, cloak swaying. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "styled-imp-base",
+      "provider": "PixelLab MCP",
+      "jobId": "0ab4d77a-7981-48d5-a59d-de0dc5ceeb13",
+      "parameters": {
+        "description": "One premium hand-crafted 16-bit fantasy RPG asset. STRICT VERTICAL OVERHEAD plan view, camera directly above. Face east/right. Compact body and expressive silhouette readable at 58 pixels. tiny crimson imp with curved horns, leathery bat wings, thin tail, mischievous eyes. Warm upper-left light, clean clustered pixels, restrained earthy hues, dark colored contours, three-step material shading. Identical visual language to style reference. Entire body centered, generous transparent margin. No floor, cast shadow, text, weapons, armor helmet, isometric camera, cut-off extremities or UI.",
+        "width": 96,
+        "height": 96,
+        "no_background": true,
+        "max_colors": 32,
+        "palette": [
+          "#17242b",
+          "#303f46",
+          "#55636b",
+          "#8d9c9c",
+          "#d5dfd2",
+          "#fff1c1",
+          "#263f35",
+          "#436b48",
+          "#75a368",
+          "#bad18b",
+          "#3a252b",
+          "#744238",
+          "#ad6b4b",
+          "#dfaa6d",
+          "#f0ce8b",
+          "#21494c",
+          "#3f7e83",
+          "#75b7b6",
+          "#b8e2da",
+          "#323951",
+          "#59647b",
+          "#929fae",
+          "#b84d45",
+          "#eb9172",
+          "#5b3c61",
+          "#987399",
+          "#d0a0b5",
+          "#c79e45",
+          "#edcf74",
+          "#eae2cc",
+          "#5d4c3e",
+          "#a88b65"
+        ],
+        "seed": 241022,
+        "style_image_url": "https://api.pixellab.ai/mcp/images/7458d9fa-2179-4a04-aa6d-dcff8ccf66aa/download?index=0",
+        "style_copy": [
+          "outline",
+          "detail",
+          "shading"
+        ]
+      }
+    },
+    {
+      "asset": "styled-imp-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "31942251-129a-4ff8-8f9a-df099b0395af",
+      "parameters": {
+        "action": "Hover in place while wings flap through a full upstroke and downstroke. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "styled-ogre-base",
+      "provider": "PixelLab MCP",
+      "jobId": "cdff5e9a-d7dd-411b-9a26-f6d908d0feed",
+      "parameters": {
+        "description": "One premium hand-crafted 16-bit fantasy RPG asset. STRICT VERTICAL OVERHEAD plan view, camera directly above. Face east/right. Compact body and expressive silhouette readable at 58 pixels. large friendly tan ogre, small tusks, dark wool vest and blue trousers. Warm upper-left light, clean clustered pixels, restrained earthy hues, dark colored contours, three-step material shading. Identical visual language to style reference. Entire body centered, generous transparent margin. No floor, cast shadow, text, weapons, armor helmet, isometric camera, cut-off extremities or UI.",
+        "width": 96,
+        "height": 96,
+        "no_background": true,
+        "max_colors": 32,
+        "palette": [
+          "#17242b",
+          "#303f46",
+          "#55636b",
+          "#8d9c9c",
+          "#d5dfd2",
+          "#fff1c1",
+          "#263f35",
+          "#436b48",
+          "#75a368",
+          "#bad18b",
+          "#3a252b",
+          "#744238",
+          "#ad6b4b",
+          "#dfaa6d",
+          "#f0ce8b",
+          "#21494c",
+          "#3f7e83",
+          "#75b7b6",
+          "#b8e2da",
+          "#323951",
+          "#59647b",
+          "#929fae",
+          "#b84d45",
+          "#eb9172",
+          "#5b3c61",
+          "#987399",
+          "#d0a0b5",
+          "#c79e45",
+          "#edcf74",
+          "#eae2cc",
+          "#5d4c3e",
+          "#a88b65"
+        ],
+        "seed": 241022,
+        "style_image_url": "https://api.pixellab.ai/mcp/images/7458d9fa-2179-4a04-aa6d-dcff8ccf66aa/download?index=0",
+        "style_copy": [
+          "outline",
+          "detail",
+          "shading"
+        ]
+      }
+    },
+    {
+      "asset": "styled-ogre-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "9b9e5fd2-ee62-410e-b120-cc6b748b25b8",
+      "parameters": {
+        "action": "Heavy lumbering walk in place, alternating broad feet and shoulders. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "styled-orc-base",
+      "provider": "PixelLab MCP",
+      "jobId": "da0cd26c-ad19-46ed-be6a-c1282cd8167d",
+      "parameters": {
+        "description": "One premium hand-crafted 16-bit fantasy RPG asset. STRICT VERTICAL OVERHEAD plan view, camera directly above. Face east/right. Compact body and expressive silhouette readable at 58 pixels. stocky green orc with tiny tusks, leather shoulder pads, rust tunic, empty hands. Warm upper-left light, clean clustered pixels, restrained earthy hues, dark colored contours, three-step material shading. Identical visual language to style reference. Entire body centered, generous transparent margin. No floor, cast shadow, text, weapons, armor helmet, isometric camera, cut-off extremities or UI.",
+        "width": 96,
+        "height": 96,
+        "no_background": true,
+        "max_colors": 32,
+        "palette": [
+          "#17242b",
+          "#303f46",
+          "#55636b",
+          "#8d9c9c",
+          "#d5dfd2",
+          "#fff1c1",
+          "#263f35",
+          "#436b48",
+          "#75a368",
+          "#bad18b",
+          "#3a252b",
+          "#744238",
+          "#ad6b4b",
+          "#dfaa6d",
+          "#f0ce8b",
+          "#21494c",
+          "#3f7e83",
+          "#75b7b6",
+          "#b8e2da",
+          "#323951",
+          "#59647b",
+          "#929fae",
+          "#b84d45",
+          "#eb9172",
+          "#5b3c61",
+          "#987399",
+          "#d0a0b5",
+          "#c79e45",
+          "#edcf74",
+          "#eae2cc",
+          "#5d4c3e",
+          "#a88b65"
+        ],
+        "seed": 241022,
+        "style_image_url": "https://api.pixellab.ai/mcp/images/7458d9fa-2179-4a04-aa6d-dcff8ccf66aa/download?index=0",
+        "style_copy": [
+          "outline",
+          "detail",
+          "shading"
+        ]
+      }
+    },
+    {
+      "asset": "styled-orc-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "2ce1da33-b921-41ec-8ef0-be88b6110de9",
+      "parameters": {
+        "action": "Heavy charging run in place, alternating feet and pumping arms. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "styled-raft-base",
+      "provider": "PixelLab MCP",
+      "jobId": "b71bb58f-84c9-44a1-be86-98b46c9bf6e4",
+      "parameters": {
+        "description": "One premium hand-crafted 16-bit fantasy RPG asset. STRICT VERTICAL OVERHEAD plan view, camera directly above. Face east/right. Compact body and expressive silhouette readable at 58 pixels. small oval raft made of four wooden logs tied with rope, turquoise rune in its center, no occupants. Warm upper-left light, clean clustered pixels, restrained earthy hues, dark colored contours, three-step material shading. Identical visual language to style reference. Entire body centered, generous transparent margin. No floor, cast shadow, text, weapons, armor helmet, isometric camera, cut-off extremities or UI.",
+        "width": 96,
+        "height": 96,
+        "no_background": true,
+        "max_colors": 32,
+        "palette": [
+          "#17242b",
+          "#303f46",
+          "#55636b",
+          "#8d9c9c",
+          "#d5dfd2",
+          "#fff1c1",
+          "#263f35",
+          "#436b48",
+          "#75a368",
+          "#bad18b",
+          "#3a252b",
+          "#744238",
+          "#ad6b4b",
+          "#dfaa6d",
+          "#f0ce8b",
+          "#21494c",
+          "#3f7e83",
+          "#75b7b6",
+          "#b8e2da",
+          "#323951",
+          "#59647b",
+          "#929fae",
+          "#b84d45",
+          "#eb9172",
+          "#5b3c61",
+          "#987399",
+          "#d0a0b5",
+          "#c79e45",
+          "#edcf74",
+          "#eae2cc",
+          "#5d4c3e",
+          "#a88b65"
+        ],
+        "seed": 241022,
+        "style_image_url": "https://api.pixellab.ai/mcp/images/7458d9fa-2179-4a04-aa6d-dcff8ccf66aa/download?index=0",
+        "style_copy": [
+          "outline",
+          "detail",
+          "shading"
+        ]
+      }
+    },
+    {
+      "asset": "styled-raft-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "40ac70a2-4b31-4201-8444-bcbe3ce164da",
+      "parameters": {
+        "action": "Subtle floating loop with gentle rocking, rope ends swaying, no water background. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "styled-slime-base",
+      "provider": "PixelLab MCP",
+      "jobId": "00017f35-d947-42a1-a4fc-e25918c5001e",
+      "parameters": {
+        "description": "One premium hand-crafted 16-bit fantasy RPG asset. STRICT VERTICAL OVERHEAD plan view, camera directly above. Face east/right. Compact body and expressive silhouette readable at 58 pixels. round translucent turquoise slime with two expressive eyes, no limbs. Warm upper-left light, clean clustered pixels, restrained earthy hues, dark colored contours, three-step material shading. Identical visual language to style reference. Entire body centered, generous transparent margin. No floor, cast shadow, text, weapons, armor helmet, isometric camera, cut-off extremities or UI.",
+        "width": 96,
+        "height": 96,
+        "no_background": true,
+        "max_colors": 32,
+        "palette": [
+          "#17242b",
+          "#303f46",
+          "#55636b",
+          "#8d9c9c",
+          "#d5dfd2",
+          "#fff1c1",
+          "#263f35",
+          "#436b48",
+          "#75a368",
+          "#bad18b",
+          "#3a252b",
+          "#744238",
+          "#ad6b4b",
+          "#dfaa6d",
+          "#f0ce8b",
+          "#21494c",
+          "#3f7e83",
+          "#75b7b6",
+          "#b8e2da",
+          "#323951",
+          "#59647b",
+          "#929fae",
+          "#b84d45",
+          "#eb9172",
+          "#5b3c61",
+          "#987399",
+          "#d0a0b5",
+          "#c79e45",
+          "#edcf74",
+          "#eae2cc",
+          "#5d4c3e",
+          "#a88b65"
+        ],
+        "seed": 241022,
+        "style_image_url": "https://api.pixellab.ai/mcp/images/7458d9fa-2179-4a04-aa6d-dcff8ccf66aa/download?index=0",
+        "style_copy": [
+          "outline",
+          "detail",
+          "shading"
+        ]
+      }
+    },
+    {
+      "asset": "styled-slime-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "06108e0e-5eca-4b2c-9dd2-a483fdd8076f",
+      "parameters": {
+        "action": "Squash down then spring up and land, elastic hopping loop. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "styled-snow-background",
+      "provider": "PixelLab MCP",
+      "jobId": "123875a3-9d27-46d3-ae4d-4870663ba1a3",
+      "parameters": {
+        "description": "Fantasy RPG pale blue snowfield, winding snowy path, fir trees near edges, crystalline rocks. Vertical top-down map background, open center for gameplay, flat ground plane, edge-to-edge, no characters, no objects in center, no text, no UI. Premium hand-crafted 16-bit pixel clusters, calm texture density, warm upper-left light, coherent muted palette, strong readability. No perspective horizon, no frame, no vignette.",
+        "width": 512,
+        "height": 320,
+        "no_background": false,
+        "palette": [
+          "#17242b",
+          "#303f46",
+          "#55636b",
+          "#8d9c9c",
+          "#d5dfd2",
+          "#fff1c1",
+          "#263f35",
+          "#436b48",
+          "#75a368",
+          "#bad18b",
+          "#3a252b",
+          "#744238",
+          "#ad6b4b",
+          "#dfaa6d",
+          "#f0ce8b",
+          "#21494c",
+          "#3f7e83",
+          "#75b7b6",
+          "#b8e2da",
+          "#323951",
+          "#59647b",
+          "#929fae",
+          "#b84d45",
+          "#eb9172",
+          "#5b3c61",
+          "#987399",
+          "#d0a0b5",
+          "#c79e45",
+          "#edcf74",
+          "#eae2cc",
+          "#5d4c3e",
+          "#a88b65"
+        ],
+        "max_colors": 32,
+        "seed": 241022
+      }
+    },
+    {
+      "asset": "styled-swamp-background",
+      "provider": "PixelLab MCP",
+      "jobId": "0bd39613-c46e-4afb-8f55-0aa2ff3557e1",
+      "parameters": {
+        "description": "Fantasy RPG mossy teal wetland, raised muddy path, shallow pools and reeds near edges. Vertical top-down map background, open center for gameplay, flat ground plane, edge-to-edge, no characters, no objects in center, no text, no UI. Premium hand-crafted 16-bit pixel clusters, calm texture density, warm upper-left light, coherent muted palette, strong readability. No perspective horizon, no frame, no vignette.",
+        "width": 512,
+        "height": 320,
+        "no_background": false,
+        "palette": [
+          "#17242b",
+          "#303f46",
+          "#55636b",
+          "#8d9c9c",
+          "#d5dfd2",
+          "#fff1c1",
+          "#263f35",
+          "#436b48",
+          "#75a368",
+          "#bad18b",
+          "#3a252b",
+          "#744238",
+          "#ad6b4b",
+          "#dfaa6d",
+          "#f0ce8b",
+          "#21494c",
+          "#3f7e83",
+          "#75b7b6",
+          "#b8e2da",
+          "#323951",
+          "#59647b",
+          "#929fae",
+          "#b84d45",
+          "#eb9172",
+          "#5b3c61",
+          "#987399",
+          "#d0a0b5",
+          "#c79e45",
+          "#edcf74",
+          "#eae2cc",
+          "#5d4c3e",
+          "#a88b65"
+        ],
+        "max_colors": 32,
+        "seed": 241022
+      }
+    },
+    {
+      "asset": "styled-wisp-base",
+      "provider": "PixelLab MCP",
+      "jobId": "6d829af6-74b4-44a2-8a80-cf65ed81f6eb",
+      "parameters": {
+        "description": "One premium hand-crafted 16-bit fantasy RPG asset. STRICT VERTICAL OVERHEAD plan view, camera directly above. Face east/right. Compact body and expressive silhouette readable at 58 pixels. small luminous pale cyan spirit with a curled tapering tail and warm expressive eyes. Warm upper-left light, clean clustered pixels, restrained earthy hues, dark colored contours, three-step material shading. Identical visual language to style reference. Entire body centered, generous transparent margin. No floor, cast shadow, text, weapons, armor helmet, isometric camera, cut-off extremities or UI.",
+        "width": 96,
+        "height": 96,
+        "no_background": true,
+        "max_colors": 32,
+        "palette": [
+          "#17242b",
+          "#303f46",
+          "#55636b",
+          "#8d9c9c",
+          "#d5dfd2",
+          "#fff1c1",
+          "#263f35",
+          "#436b48",
+          "#75a368",
+          "#bad18b",
+          "#3a252b",
+          "#744238",
+          "#ad6b4b",
+          "#dfaa6d",
+          "#f0ce8b",
+          "#21494c",
+          "#3f7e83",
+          "#75b7b6",
+          "#b8e2da",
+          "#323951",
+          "#59647b",
+          "#929fae",
+          "#b84d45",
+          "#eb9172",
+          "#5b3c61",
+          "#987399",
+          "#d0a0b5",
+          "#c79e45",
+          "#edcf74",
+          "#eae2cc",
+          "#5d4c3e",
+          "#a88b65"
+        ],
+        "seed": 241022,
+        "style_image_url": "https://api.pixellab.ai/mcp/images/7458d9fa-2179-4a04-aa6d-dcff8ccf66aa/download?index=0",
+        "style_copy": [
+          "outline",
+          "detail",
+          "shading"
+        ]
+      }
+    },
+    {
+      "asset": "styled-wisp-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "54bee707-4fdd-4b9e-a2c9-ee9f9cfacc83",
+      "parameters": {
+        "action": "Floating in place, tail curls and waves, luminous core pulses gently. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "styled-wyvern-base",
+      "provider": "PixelLab MCP",
+      "jobId": "090fb5eb-5ee4-47c2-865f-4dd7996eb10c",
+      "parameters": {
+        "description": "One premium hand-crafted 16-bit fantasy RPG asset. STRICT VERTICAL OVERHEAD plan view, camera directly above. Face east/right. Compact body and expressive silhouette readable at 58 pixels. small emerald fantasy wyvern with cream belly, two russet wings, curled tail. Warm upper-left light, clean clustered pixels, restrained earthy hues, dark colored contours, three-step material shading. Identical visual language to style reference. Entire body centered, generous transparent margin. No floor, cast shadow, text, weapons, armor helmet, isometric camera, cut-off extremities or UI.",
+        "width": 96,
+        "height": 96,
+        "no_background": true,
+        "max_colors": 32,
+        "palette": [
+          "#17242b",
+          "#303f46",
+          "#55636b",
+          "#8d9c9c",
+          "#d5dfd2",
+          "#fff1c1",
+          "#263f35",
+          "#436b48",
+          "#75a368",
+          "#bad18b",
+          "#3a252b",
+          "#744238",
+          "#ad6b4b",
+          "#dfaa6d",
+          "#f0ce8b",
+          "#21494c",
+          "#3f7e83",
+          "#75b7b6",
+          "#b8e2da",
+          "#323951",
+          "#59647b",
+          "#929fae",
+          "#b84d45",
+          "#eb9172",
+          "#5b3c61",
+          "#987399",
+          "#d0a0b5",
+          "#c79e45",
+          "#edcf74",
+          "#eae2cc",
+          "#5d4c3e",
+          "#a88b65"
+        ],
+        "seed": 241022,
+        "style_image_url": "https://api.pixellab.ai/mcp/images/7458d9fa-2179-4a04-aa6d-dcff8ccf66aa/download?index=0",
+        "style_copy": [
+          "outline",
+          "detail",
+          "shading"
+        ]
+      }
+    },
+    {
+      "asset": "styled-wyvern-motion",
+      "provider": "PixelLab MCP",
+      "jobId": "bd6fae03-c7de-4694-9360-73a92e26bcb0",
+      "parameters": {
+        "action": "Hovering flight in place with strong alternating wing upstroke and downstroke. Seamless loop, stay facing right, fixed overhead camera, no turning, no translation, preserve body size and central pivot throughout. No new objects or background.",
+        "frame_count": 8,
+        "no_background": true,
+        "source": "same variant and subject base.png"
+      }
+    },
+    {
+      "asset": "painted-bg-desert",
+      "provider": "built-in image_gen",
+      "prompt": "Production-ready 2D fantasy game background, a warm ochre desert, gently rippled sand, a winding path, scattered sandstone ruins and tiny dry shrubs near the edges. Premium hand-painted storybook fantasy illustration with clean readable painted shapes, muted warm earthy palette, soft upper-left lighting, charming adventurous mood. STRICT VERTICAL OVERHEAD ORTHOGRAPHIC MAP: no horizon, no sky, no cinematic perspective. Wide landscape gameplay composition, huge calm open center for characters, low contrast ground texture, more detail restricted to perimeter. Full bleed to all four edges. No characters, animals, collectible items, text, labels, borders, UI, grid or vignette. Must fit the same world as a green-caped young fantasy adventurer. Do not draw the reference character; use reference only for finish and color harmony.",
+      "reference": "painted-hero style reference",
+      "kind": "background"
+    },
+    {
+      "asset": "painted-bg-grass",
+      "provider": "built-in image_gen",
+      "prompt": "Production-ready 2D fantasy game background, a lush sage-green meadow, tiny wildflowers, a winding earthen trail, rounded oak canopies and mossy stones around the edges. Premium hand-painted storybook fantasy illustration with clean readable painted shapes, muted warm earthy palette, soft upper-left lighting, charming adventurous mood. STRICT VERTICAL OVERHEAD ORTHOGRAPHIC MAP: no horizon, no sky, no cinematic perspective. Wide landscape gameplay composition, huge calm open center for characters, low contrast ground texture, more detail restricted to perimeter. Full bleed to all four edges. No characters, animals, collectible items, text, labels, borders, UI, grid or vignette. Must fit the same world as a green-caped young fantasy adventurer. Do not draw the reference character; use reference only for finish and color harmony.",
+      "reference": "painted-hero style reference",
+      "kind": "background"
+    },
+    {
+      "asset": "painted-bg-snow",
+      "provider": "built-in image_gen",
+      "prompt": "Production-ready 2D fantasy game background, a pale blue snowy field, a winding snow path, snow-laden fir canopies, blue crystalline rocks around the edges. Premium hand-painted storybook fantasy illustration with clean readable painted shapes, muted warm earthy palette, soft upper-left lighting, charming adventurous mood. STRICT VERTICAL OVERHEAD ORTHOGRAPHIC MAP: no horizon, no sky, no cinematic perspective. Wide landscape gameplay composition, huge calm open center for characters, low contrast ground texture, more detail restricted to perimeter. Full bleed to all four edges. No characters, animals, collectible items, text, labels, borders, UI, grid or vignette. Must fit the same world as a green-caped young fantasy adventurer. Do not draw the reference character; use reference only for finish and color harmony.",
+      "reference": "painted-hero style reference",
+      "kind": "background"
+    },
+    {
+      "asset": "painted-bg-swamp",
+      "provider": "built-in image_gen",
+      "prompt": "Production-ready 2D fantasy game background, a mossy teal marsh, a raised muddy path, shallow pools, reeds and ancient willow canopies near the edges. Premium hand-painted storybook fantasy illustration with clean readable painted shapes, muted warm earthy palette, soft upper-left lighting, charming adventurous mood. STRICT VERTICAL OVERHEAD ORTHOGRAPHIC MAP: no horizon, no sky, no cinematic perspective. Wide landscape gameplay composition, huge calm open center for characters, low contrast ground texture, more detail restricted to perimeter. Full bleed to all four edges. No characters, animals, collectible items, text, labels, borders, UI, grid or vignette. Must fit the same world as a green-caped young fantasy adventurer. Do not draw the reference character; use reference only for finish and color harmony.",
+      "reference": "painted-hero style reference",
+      "kind": "background"
+    },
+    {
+      "asset": "painted-fruit",
+      "provider": "built-in image_gen",
+      "prompt": "ONE isolated game asset master of a single ripe golden enchanted pear with one fresh green leaf and a small glowing cyan rune, one compact collectible. Premium hand-painted 2D fantasy illustration matching the supplied reference's finish and warm upper-left lighting ONLY, not human anatomy. Strict vertical overhead top-down camera, facing right/east where relevant. Full subject completely visible, readable compact silhouette and clean colored contour at 60px, restrained earthy colors with gentle magical accents. Centered, generous transparent padding. No floor, water, cast shadow, text, UI, frame, scene or checkerboard. True transparent background.",
+      "reference": "painted-hero",
+      "kind": "master"
+    },
+    {
+      "asset": "painted-goblin",
+      "provider": "built-in image_gen",
+      "prompt": "Create ONE isolated production game sprite master of a small nimble green goblin with enormous pointed ears, rust leather vest, bare feet and an empty belt pouch. Match ONLY the reference's premium hand-painted 2D fantasy illustration finish, warm upper-left lighting and friendly readable appeal; use this new creature anatomy, NOT the human adventurer. Strict vertical overhead top-down game view facing right/east. Full body centered with large transparent margin, no floor or cast shadow, no UI, lettering, weapons, grid or frame. Compact silhouette readable at 60px in a children's fantasy programming game. Distinct clean colored contours and clear material groups. True transparent background.",
+      "reference": "painted-hero",
+      "kind": "master"
+    },
+    {
+      "asset": "painted-hero",
+      "provider": "built-in image_gen",
+      "prompt": "Friendly chestnut-haired emerald-cloak fantasy adventurer, vertical overhead plan view, facing east, hand-painted finish, transparent background.",
+      "reference": "painted-hero style reference",
+      "kind": "master"
+    },
+    {
+      "asset": "painted-imp",
+      "provider": "built-in image_gen",
+      "prompt": "One isolated production-ready master sprite: a tiny crimson imp with small curved horns, outstretched leathery bat wings, thin tail and mischievous eyes. Premium hand-painted 2D fantasy game illustration, friendly readable anatomy for a children's programming adventure. True overhead top-down camera looking vertically down, face RIGHT/EAST. Warm upper-left light, clean colored contours, nuanced but restrained material shading, rich earthy colors with gentle magical accents. Full body and all wings/tail completely visible, centered with generous transparent padding. No ground, cast shadow, text, UI, frame, scene or checkerboard. Use the reference ONLY for illustration style and lighting, not its human anatomy or costume. True transparent background.",
+      "reference": "painted-hero",
+      "kind": "master"
+    },
+    {
+      "asset": "painted-ogre",
+      "provider": "built-in image_gen",
+      "prompt": "One isolated production-ready master sprite: a broad friendly tan ogre with tiny tusks, dark wool vest and indigo trousers, heavy bare feet. Premium hand-painted 2D fantasy game illustration, friendly readable anatomy for a children's programming adventure. True overhead top-down camera looking vertically down, face RIGHT/EAST. Warm upper-left light, clean colored contours, nuanced but restrained material shading, rich earthy colors with gentle magical accents. Full body and all wings/tail completely visible, centered with generous transparent padding. No ground, cast shadow, text, UI, frame, scene or checkerboard. Use the reference ONLY for illustration style and lighting, not its human anatomy or costume. True transparent background.",
+      "reference": "painted-hero",
+      "kind": "master"
+    },
+    {
+      "asset": "painted-orc",
+      "provider": "built-in image_gen",
+      "prompt": "Create ONE isolated production game sprite master of a stocky green orc with tiny tusks, simple brown leather shoulder pads, rust tunic and empty hands. Match ONLY the reference's premium hand-painted 2D fantasy illustration finish, warm upper-left lighting and friendly readable appeal; use this new creature anatomy, NOT the human adventurer. Strict vertical overhead top-down game view facing right/east. Full body centered with large transparent margin, no floor or cast shadow, no UI, lettering, weapons, grid or frame. Compact silhouette readable at 60px in a children's fantasy programming game. Distinct clean colored contours and clear material groups. True transparent background.",
+      "reference": "painted-hero",
+      "kind": "master"
+    },
+    {
+      "asset": "painted-raft",
+      "provider": "built-in image_gen",
+      "prompt": "ONE isolated game asset master of an empty small oval raft of four warm wooden logs tied with rope, a turquoise rune engraved in the center, viewed from directly overhead. Premium hand-painted 2D fantasy illustration matching the supplied reference's finish and warm upper-left lighting ONLY, not human anatomy. Strict vertical overhead top-down camera, facing right/east where relevant. Full subject completely visible, readable compact silhouette and clean colored contour at 60px, restrained earthy colors with gentle magical accents. Centered, generous transparent padding. No floor, water, cast shadow, text, UI, frame, scene or checkerboard. True transparent background.",
+      "reference": "painted-hero",
+      "kind": "master"
+    },
+    {
+      "asset": "painted-slime",
+      "provider": "built-in image_gen",
+      "prompt": "Create ONE isolated production game sprite master of a round translucent turquoise slime with two large expressive eyes, no legs, no arms, compact blob body. Match ONLY the reference's premium hand-painted 2D fantasy illustration finish, warm upper-left lighting and friendly readable appeal; use this new creature anatomy, NOT the human adventurer. Strict vertical overhead top-down game view facing right/east. Full body centered with large transparent margin, no floor or cast shadow, no UI, lettering, weapons, grid or frame. Compact silhouette readable at 60px in a children's fantasy programming game. Distinct clean colored contours and clear material groups. True transparent background.",
+      "reference": "painted-hero",
+      "kind": "master"
+    },
+    {
+      "asset": "painted-wisp",
+      "provider": "built-in image_gen",
+      "prompt": "One isolated production-ready master sprite: a small luminous pale cyan spirit with a curled tapering tail, a warm expressive face and no limbs. Premium hand-painted 2D fantasy game illustration, friendly readable anatomy for a children's programming adventure. True overhead top-down camera looking vertically down, face RIGHT/EAST. Warm upper-left light, clean colored contours, nuanced but restrained material shading, rich earthy colors with gentle magical accents. Full body and all wings/tail completely visible, centered with generous transparent padding. No ground, cast shadow, text, UI, frame, scene or checkerboard. Use the reference ONLY for illustration style and lighting, not its human anatomy or costume. True transparent background.",
+      "reference": "painted-hero",
+      "kind": "master"
+    },
+    {
+      "asset": "painted-wyvern",
+      "provider": "built-in image_gen",
+      "prompt": "ONE isolated game asset master of a small emerald green wyvern with cream belly, two broad russet wings and a curling tail, friendly but adventurous. Premium hand-painted 2D fantasy illustration matching the supplied reference's finish and warm upper-left lighting ONLY, not human anatomy. Strict vertical overhead top-down camera, facing right/east where relevant. Full subject completely visible, readable compact silhouette and clean colored contour at 60px, restrained earthy colors with gentle magical accents. Centered, generous transparent padding. No floor, water, cast shadow, text, UI, frame, scene or checkerboard. True transparent background.",
+      "reference": "painted-hero",
+      "kind": "master"
+    }
+  ],
+  "files": [
+    {
+      "file": "assets/painted/desert/background.png",
+      "sha256": "1d60e9c6f437ff01db0b73a7f2bb1d29e0c98976f4ea9f3a895321b18afb1c42",
+      "bytes": 288285
+    },
+    {
+      "file": "assets/painted/fruit/0.png",
+      "sha256": "5ed879062cf2bf5ccbb07e7ad24b7548a6663cffde67a2382ee96121ed74b720",
+      "bytes": 4366
+    },
+    {
+      "file": "assets/painted/fruit/1.png",
+      "sha256": "70614ee29a02cf66b793dc7b3376067b1b73d5c3d133d5d01654f56619d9a8da",
+      "bytes": 4245
+    },
+    {
+      "file": "assets/painted/fruit/2.png",
+      "sha256": "44c6cd2bce96c50e65d8f2aee0c3c31801f4da58d212203d5c45a8fee496902b",
+      "bytes": 4684
+    },
+    {
+      "file": "assets/painted/fruit/3.png",
+      "sha256": "7ba25dbaa10bea0ff9c10498680125cb9710495709d835d102da49445f3debd0",
+      "bytes": 4606
+    },
+    {
+      "file": "assets/painted/fruit/4.png",
+      "sha256": "53ce90f86e1c8230ac88167597a935d8397a1fefc28f36ac33af9ef6c8216507",
+      "bytes": 4575
+    },
+    {
+      "file": "assets/painted/fruit/5.png",
+      "sha256": "89614388e11fc525d3c958f1d7154be2bb6155ff83f34d1f3ee5e3f2ac35a94f",
+      "bytes": 4746
+    },
+    {
+      "file": "assets/painted/fruit/6.png",
+      "sha256": "2607911ceadcb677debb78b48c10281f6700bbf57a7a077755d78af53c92cdd2",
+      "bytes": 4670
+    },
+    {
+      "file": "assets/painted/fruit/7.png",
+      "sha256": "5e991ab110d8d00bc4bf79c97fdfbf01b36ad3850f7dd541b47f4111812434ba",
+      "bytes": 4709
+    },
+    {
+      "file": "assets/painted/fruit/base.png",
+      "sha256": "689e2dfd22a0fe6afd630505ef8eef112081b455923db183586745407fe8a01c",
+      "bytes": 7183
+    },
+    {
+      "file": "assets/painted/goblin/0.png",
+      "sha256": "949cdac1067cdb4e5added6ed987c15e40e6852cc7651d314c11db7590c7c924",
+      "bytes": 5469
+    },
+    {
+      "file": "assets/painted/goblin/1.png",
+      "sha256": "277ab79556aee979b8dee9a78a55535ba16a973d01cd2b31b8e999cff3d83c92",
+      "bytes": 5122
+    },
+    {
+      "file": "assets/painted/goblin/2.png",
+      "sha256": "0786af24857fb305451268dbe0ecb201707249add6e6175a99ab14e5e2456729",
+      "bytes": 4954
+    },
+    {
+      "file": "assets/painted/goblin/3.png",
+      "sha256": "4c0ae4d223cfe3a5d2be223b59e282219a1ee22e860317131ead7452c950aa79",
+      "bytes": 5058
+    },
+    {
+      "file": "assets/painted/goblin/4.png",
+      "sha256": "317ec632a5a43330dd279e80c582c3c5a4d67c528b214baf61b545665d5e1733",
+      "bytes": 5155
+    },
+    {
+      "file": "assets/painted/goblin/5.png",
+      "sha256": "455f289a29d57920ca808dd275e09499273ec19cf295415affdfff64bdc38a1a",
+      "bytes": 4968
+    },
+    {
+      "file": "assets/painted/goblin/6.png",
+      "sha256": "44f53d3c3587f9578acb81437f9b0e6e51316586d1da79f0097934a55608b37f",
+      "bytes": 5008
+    },
+    {
+      "file": "assets/painted/goblin/7.png",
+      "sha256": "16a4ae67e3d571af539dd5fd59fab581826ac516631440d7f64fae6a65a32699",
+      "bytes": 5229
+    },
+    {
+      "file": "assets/painted/goblin/base.png",
+      "sha256": "48cf1e5c0c410d780715d9e81d4257d0536ff85fb043aec9136965c7d4995b93",
+      "bytes": 8206
+    },
+    {
+      "file": "assets/painted/grass/background.png",
+      "sha256": "a5358507a21c73a451e23244aa3c3ee7d8bcfc31d845113de14e0e0f262264ef",
+      "bytes": 369274
+    },
+    {
+      "file": "assets/painted/hero/0.png",
+      "sha256": "e23854c758f6e3f57384ac8b40bb97bd43472ee3bdd8ff23ccfc9006b2634877",
+      "bytes": 3832
+    },
+    {
+      "file": "assets/painted/hero/1.png",
+      "sha256": "b33a0ec6a4c83a2d88969675567e93fe285770b1c6bed2f0cbf4f58baa47a877",
+      "bytes": 3788
+    },
+    {
+      "file": "assets/painted/hero/2.png",
+      "sha256": "536df4de8283af3b2cde718590888fc3ac00fdcc93af8aec868a45b172998a9c",
+      "bytes": 3696
+    },
+    {
+      "file": "assets/painted/hero/3.png",
+      "sha256": "ede230e706451d07dbc69e5596ef149d2a6735233389df65658499f3f6646346",
+      "bytes": 3564
+    },
+    {
+      "file": "assets/painted/hero/4.png",
+      "sha256": "be369652e3fc366dcb77c7083c3b317bb1da0b7da7667231b55fa9e8c88fa04f",
+      "bytes": 3527
+    },
+    {
+      "file": "assets/painted/hero/5.png",
+      "sha256": "d446e6e284eb48470772602b70cfe3a7e1ed937de2a59b07da840625eff852ad",
+      "bytes": 3572
+    },
+    {
+      "file": "assets/painted/hero/6.png",
+      "sha256": "1537739f37ce8a0ef59962b337469ff127de520af29e4a449d4b3305ae560a0d",
+      "bytes": 3775
+    },
+    {
+      "file": "assets/painted/hero/7.png",
+      "sha256": "20c7cdc1d15bbae02a87d477e9951bc6a763209730c9691d45ecdbb03b226b49",
+      "bytes": 3887
+    },
+    {
+      "file": "assets/painted/hero/base.png",
+      "sha256": "9a5ae46e8c0e5eb6ba950de771574a94a4e2ca67519aa9f8a7d172639d4bb40d",
+      "bytes": 6662
+    },
+    {
+      "file": "assets/painted/imp/0.png",
+      "sha256": "567246b3dfac82c33775580371c7d5acb51b111dee8384ac2dac5adcdba3c9b0",
+      "bytes": 6695
+    },
+    {
+      "file": "assets/painted/imp/1.png",
+      "sha256": "b5ebd519925c8cae87c85c5be44fed518741fd304518db244372a7d7d6470412",
+      "bytes": 6592
+    },
+    {
+      "file": "assets/painted/imp/2.png",
+      "sha256": "13fbdf657154b9605de8b24e792881876103aaf1f17de9c32e4418a529eba2b8",
+      "bytes": 6475
+    },
+    {
+      "file": "assets/painted/imp/3.png",
+      "sha256": "7b5831e6c681d11ed66c5b11547efad0c6086a0bdd7a1504137bc91223abbf89",
+      "bytes": 6441
+    },
+    {
+      "file": "assets/painted/imp/4.png",
+      "sha256": "6f19a345dcc912c88c9de3962e2c470e5f75001585ee190ca7acc55370528d45",
+      "bytes": 6274
+    },
+    {
+      "file": "assets/painted/imp/5.png",
+      "sha256": "84a84b49a38c82f7f29afbd4fc0a9c4acd7dca4d60f0f93326fef8900f58a839",
+      "bytes": 6456
+    },
+    {
+      "file": "assets/painted/imp/6.png",
+      "sha256": "302cc1fe57b3aac273a1ebfac12f05cc73f3200e3b68e7b0bf75dc456605559d",
+      "bytes": 6487
+    },
+    {
+      "file": "assets/painted/imp/7.png",
+      "sha256": "6e6854deb82f388d002b8ffeeadc13b72bfdc6cb53590c25d3908cf364d74a3b",
+      "bytes": 6670
+    },
+    {
+      "file": "assets/painted/imp/base.png",
+      "sha256": "a44aea706aa80e0a29ea53c23846437c5ff86f126084882c3801a24e9fec539b",
+      "bytes": 11263
+    },
+    {
+      "file": "assets/painted/ogre/0.png",
+      "sha256": "7c35911a6b1c92e45e6df9c5ef5da9ba1175291e845821707a7849fcd1248c42",
+      "bytes": 7464
+    },
+    {
+      "file": "assets/painted/ogre/1.png",
+      "sha256": "e03084acc3b6b9795804b776c646fb77f9d407d8a77a724ae7aa48b0d8ba026e",
+      "bytes": 6750
+    },
+    {
+      "file": "assets/painted/ogre/2.png",
+      "sha256": "10da6b66208fa15a33abb0d3655d62e46adcd68919bd84982caa67050f5492c4",
+      "bytes": 6521
+    },
+    {
+      "file": "assets/painted/ogre/3.png",
+      "sha256": "5996b1d1a290ae32af571be1beba892d2e991d149afca8a9a005be72dced80cb",
+      "bytes": 6516
+    },
+    {
+      "file": "assets/painted/ogre/4.png",
+      "sha256": "4b339aaaa82ee96dffb72723f15f722765a0484cd4498feb8c4a2d38c0be129c",
+      "bytes": 6759
+    },
+    {
+      "file": "assets/painted/ogre/5.png",
+      "sha256": "acd3ee8f695901ce55d82b88bfb4ed302dd7911aba57d1c50f1b27407d2415c5",
+      "bytes": 7262
+    },
+    {
+      "file": "assets/painted/ogre/6.png",
+      "sha256": "84b0bd3a5c589cfbd98488bbd9e079687e0a98e3aa9a79dd1c230a535dcd8ab2",
+      "bytes": 7791
+    },
+    {
+      "file": "assets/painted/ogre/7.png",
+      "sha256": "b8ba53acd87efeb2ea41c8c7832c28472e45851253487b446fdeee74b49fd175",
+      "bytes": 7812
+    },
+    {
+      "file": "assets/painted/ogre/base.png",
+      "sha256": "3c48850e77a0fa206aafde25ea7b784300485f26edb415f69bb709a7826fda6f",
+      "bytes": 11827
+    },
+    {
+      "file": "assets/painted/orc/0.png",
+      "sha256": "c86e445a9ce330983d84904666a54b0ae0f19b034ae4c790de4d59026871f637",
+      "bytes": 4699
+    },
+    {
+      "file": "assets/painted/orc/1.png",
+      "sha256": "9a9e933ab24bc0d54cdb33048668911dcd46d063ba60cc9a528a493b91f2fe81",
+      "bytes": 4730
+    },
+    {
+      "file": "assets/painted/orc/2.png",
+      "sha256": "bbbb8fd6b1fd69487e6d6ba69e627c25cd0587f72d6e0c7820b340de8fe91e62",
+      "bytes": 4643
+    },
+    {
+      "file": "assets/painted/orc/3.png",
+      "sha256": "d67ca9a253aee6f763f5bbcd70983f6fda53b3371f6b011c72c189b2618a6aa5",
+      "bytes": 4552
+    },
+    {
+      "file": "assets/painted/orc/4.png",
+      "sha256": "c97f3d75c01712bf66719d678d9f551b18d2f167c8e17cf08122b0d7906b5747",
+      "bytes": 4741
+    },
+    {
+      "file": "assets/painted/orc/5.png",
+      "sha256": "5dc42fbf77c9927522694fcbed3c7e50ab49e02993d6c821a2c5d137c390a91b",
+      "bytes": 5094
+    },
+    {
+      "file": "assets/painted/orc/6.png",
+      "sha256": "1ea4aa1582f4dadd6c7e7a654afc472561725538edf75eb1cd60993665d861ee",
+      "bytes": 5453
+    },
+    {
+      "file": "assets/painted/orc/7.png",
+      "sha256": "5bfb6471257694d5213aa33ee94f7df06f1f7f328b19f28a3b01afcf39118c18",
+      "bytes": 5638
+    },
+    {
+      "file": "assets/painted/orc/base.png",
+      "sha256": "75e81df5e427f3ddf9a76887bf3d275313933b9ae3d4b87d58547d92f4041a3b",
+      "bytes": 7645
+    },
+    {
+      "file": "assets/painted/raft/0.png",
+      "sha256": "adf5e7d559761f9dfc999c46072fb652ad531c8cc1e4c5bfce5df8e3729e7532",
+      "bytes": 8171
+    },
+    {
+      "file": "assets/painted/raft/1.png",
+      "sha256": "c462695b7fc3b2ae68db54e74a879bf433bde492b5e7cba0c903e69cf670c40a",
+      "bytes": 8422
+    },
+    {
+      "file": "assets/painted/raft/2.png",
+      "sha256": "98fcbc8b6fa29dc5742d8104fbf484ce026b3ece7a3a8f60ac195ec2b525841c",
+      "bytes": 9415
+    },
+    {
+      "file": "assets/painted/raft/3.png",
+      "sha256": "29eca427887d1bd5dbd62647ea1aefbde1c5b6f3e4c942d60e7b985f161bf7d9",
+      "bytes": 9709
+    },
+    {
+      "file": "assets/painted/raft/4.png",
+      "sha256": "573b44390b8f48db99bdd156efe462c64652f57e7a99bbf7b3320fe0c225dc83",
+      "bytes": 9616
+    },
+    {
+      "file": "assets/painted/raft/5.png",
+      "sha256": "46f14ef7f6d1242383fc7e65e943cf6e9a76a3b111f513ee76f214edfd68302e",
+      "bytes": 9083
+    },
+    {
+      "file": "assets/painted/raft/6.png",
+      "sha256": "19d707c147d24bc51ef430d2b64153af90228a1d2b82139de1c8a563af7b1409",
+      "bytes": 8912
+    },
+    {
+      "file": "assets/painted/raft/7.png",
+      "sha256": "a80a7162d4e2e5a31109c62a2c26ccd3a1758f2303af3aefbb2137b9f77377a3",
+      "bytes": 8645
+    },
+    {
+      "file": "assets/painted/raft/base.png",
+      "sha256": "acb4fca15f83770a5c6502dcb7ee6be13121b391bd6b820b65760a85150a48cd",
+      "bytes": 12834
+    },
+    {
+      "file": "assets/painted/slime/0.png",
+      "sha256": "f4d4fc3a6d08b5bce411f0fcfb5842e0e29584dc8633551070ecf3da5670fd9f",
+      "bytes": 4271
+    },
+    {
+      "file": "assets/painted/slime/1.png",
+      "sha256": "a045ad0961ed4dd3a4f387fb8d848682d523f4a72f44b280ae038f83fb6a9f84",
+      "bytes": 2995
+    },
+    {
+      "file": "assets/painted/slime/2.png",
+      "sha256": "398483bfe01cbde1a4aaa20fe06d556c076114a242056235bac0d8e5306065ce",
+      "bytes": 5919
+    },
+    {
+      "file": "assets/painted/slime/3.png",
+      "sha256": "afceb0d5a7add90afb95d2f4a217c1ea6425627a4dce00da85bcde62740f7247",
+      "bytes": 5179
+    },
+    {
+      "file": "assets/painted/slime/4.png",
+      "sha256": "948549427159a1025955f4c9c688f3c0f0433b665257c4e520bbc9348057321e",
+      "bytes": 4107
+    },
+    {
+      "file": "assets/painted/slime/5.png",
+      "sha256": "21afa6bdc21328718541f85469edacfb23835b12b49e0da3ab1cd91bfa682797",
+      "bytes": 4125
+    },
+    {
+      "file": "assets/painted/slime/6.png",
+      "sha256": "b28c477dae81fa1caad38391ff892492f8c250d608f1e517891af424609c4b05",
+      "bytes": 4246
+    },
+    {
+      "file": "assets/painted/slime/7.png",
+      "sha256": "7e5a60c12908d619256feb129f4e6dd70695d4dd9677b4ced9376016acde13b8",
+      "bytes": 4214
+    },
+    {
+      "file": "assets/painted/slime/base.png",
+      "sha256": "269959c36b19fe2b6b9a0c86610ae4ae54ff0fdeb05cb783fd6d1b44b87cb56b",
+      "bytes": 6374
+    },
+    {
+      "file": "assets/painted/snow/background.png",
+      "sha256": "132797067fb462f7f39a4b3909619cd2d6f61873ddaac01af36e2ae5139a0ee8",
+      "bytes": 339357
+    },
+    {
+      "file": "assets/painted/swamp/background.png",
+      "sha256": "24e42b3fb767d501e277fd67b3b6bd20d9b647efba1643d0e307f09f367d7bbc",
+      "bytes": 365281
+    },
+    {
+      "file": "assets/painted/wisp/0.png",
+      "sha256": "565b91f59a55163e065d85468590b11a513acba1e61da9edc8aeab1cf71d3005",
+      "bytes": 4088
+    },
+    {
+      "file": "assets/painted/wisp/1.png",
+      "sha256": "1b46331d0068aa45c638e4942a7128bef4b1cee5279ddca9a6ced1768805c6ca",
+      "bytes": 4138
+    },
+    {
+      "file": "assets/painted/wisp/2.png",
+      "sha256": "ec34fe6af9b5243bf5fe966c0655059c812720e4fbe05c7cca2216c710d62adf",
+      "bytes": 4779
+    },
+    {
+      "file": "assets/painted/wisp/3.png",
+      "sha256": "8b2955bfd022ae28d065ca8f9bd315959ff3401c85b53cc42988275e16eb5d6f",
+      "bytes": 4609
+    },
+    {
+      "file": "assets/painted/wisp/4.png",
+      "sha256": "45303f05323c782589ef283f699d1285b8c33f884b1f8d358c227e949630cf28",
+      "bytes": 4938
+    },
+    {
+      "file": "assets/painted/wisp/5.png",
+      "sha256": "fb428c4111f60b9fe1e2a2f27f5b1e0da612876d9448ea3de36f5dd945db1144",
+      "bytes": 4788
+    },
+    {
+      "file": "assets/painted/wisp/6.png",
+      "sha256": "5463c0e3047320fe9b180892656ff1d45982892d3cb3ffe758b2eddc96759459",
+      "bytes": 4884
+    },
+    {
+      "file": "assets/painted/wisp/7.png",
+      "sha256": "8f7f85d615e8420cc2341f3f1d75a6c59fa7a56ac541b882fe9ddb7b74f71757",
+      "bytes": 4930
+    },
+    {
+      "file": "assets/painted/wisp/base.png",
+      "sha256": "14ee6f1a974d7a8336e27580c55a1775194507a028ce5e2900e3b7868132f09c",
+      "bytes": 7391
+    },
+    {
+      "file": "assets/painted/wyvern/0.png",
+      "sha256": "bafccb1918530cbf15d3a866ad06e7d5d7de7d4373d6de09fbfbdbcf68198154",
+      "bytes": 7831
+    },
+    {
+      "file": "assets/painted/wyvern/1.png",
+      "sha256": "4047741de21ded1dd8c527fb5aa957b53c13506ada48d83355b30f24be7b89b1",
+      "bytes": 7392
+    },
+    {
+      "file": "assets/painted/wyvern/2.png",
+      "sha256": "c1649f5ceeee84a8032347e27ca63f00967f7e9c2946552d1a843b24e6ff9b2c",
+      "bytes": 6107
+    },
+    {
+      "file": "assets/painted/wyvern/3.png",
+      "sha256": "39ce1a6e48c11ce41d2bd79a529f60a0a045e068afa0541a7fedc2d4888cb8b9",
+      "bytes": 5789
+    },
+    {
+      "file": "assets/painted/wyvern/4.png",
+      "sha256": "4438b2819f457b3d3130f957952cd5efa8c946af59161e17aecae878e7fbc567",
+      "bytes": 6046
+    },
+    {
+      "file": "assets/painted/wyvern/5.png",
+      "sha256": "b879292a799ef1b68b4aeef9e5133f328b379f73bd6610134e74519f28a3188e",
+      "bytes": 7158
+    },
+    {
+      "file": "assets/painted/wyvern/6.png",
+      "sha256": "07aa93e246f373fc70db13a92af14b099258bc9c8d86d33f45d0f2c068fbc0eb",
+      "bytes": 7449
+    },
+    {
+      "file": "assets/painted/wyvern/7.png",
+      "sha256": "8e56cda993bc70eacb7c571104a78bc4412d9e41721792f0987e548ddf4f2b84",
+      "bytes": 7710
+    },
+    {
+      "file": "assets/painted/wyvern/base.png",
+      "sha256": "b469763d455bb6267697ba39a2329ff4e64144a4db134a0238a461c00fe6cdf0",
+      "bytes": 12927
+    },
+    {
+      "file": "assets/plain/desert/background.png",
+      "sha256": "811ea17043a2829bbc1ff508feca9d49af01ec45770c711132dd975231f94fee",
+      "bytes": 100353
+    },
+    {
+      "file": "assets/plain/fruit/0.png",
+      "sha256": "54f4ed580ef62fcf9c794b9eebac33811402eec523de2322565418f55e50c658",
+      "bytes": 3472
+    },
+    {
+      "file": "assets/plain/fruit/1.png",
+      "sha256": "f18d1ce852f20e5bf666329b45df215710d53d642d3f0c9149a28c6adb468a90",
+      "bytes": 3533
+    },
+    {
+      "file": "assets/plain/fruit/2.png",
+      "sha256": "3f5a05db9715b3fd28f2d8a624a9e0e5b15329460c644c39a75b4e5164ada80c",
+      "bytes": 3359
+    },
+    {
+      "file": "assets/plain/fruit/3.png",
+      "sha256": "ef7e518c5b291cffe24b4121a4e8b7f71778c502450cbdad18a74bd3f37c4991",
+      "bytes": 3060
+    },
+    {
+      "file": "assets/plain/fruit/4.png",
+      "sha256": "dd52107d1570cc81023555ef468a409a29a98c47db3ec655d58d54bc8b9e69f2",
+      "bytes": 3178
+    },
+    {
+      "file": "assets/plain/fruit/5.png",
+      "sha256": "732329b3f45d47bea8dc42bac2a99834ca9de34baae810c026a2155a965b65f1",
+      "bytes": 3215
+    },
+    {
+      "file": "assets/plain/fruit/6.png",
+      "sha256": "7250c5d4aa94767654a7fccc64eec67e6d37bfa684fed55ade765c7110b3701c",
+      "bytes": 3277
+    },
+    {
+      "file": "assets/plain/fruit/7.png",
+      "sha256": "3cb046ee32eef08248e30dd133b8f62cc5741dcdf7119712136cf27a0e280a8f",
+      "bytes": 4058
+    },
+    {
+      "file": "assets/plain/fruit/base.png",
+      "sha256": "695bdc728c273e341016432a0f65924145a558dcf2b31366685771caa3902746",
+      "bytes": 3980
+    },
+    {
+      "file": "assets/plain/goblin/0.png",
+      "sha256": "8ef88e0e1a8f1407416ea740bd29aea207ce3b6dddb8725e21416d38a09c2ae7",
+      "bytes": 4533
+    },
+    {
+      "file": "assets/plain/goblin/1.png",
+      "sha256": "177ae43fcbbf3f6b7f01a87be6f5fad232a9c0521af5c26ec44f6df09582dd81",
+      "bytes": 4131
+    },
+    {
+      "file": "assets/plain/goblin/2.png",
+      "sha256": "2bd311ea783515777e68801c15ba22921c4b7be9d1e88b1334c524d960891eb8",
+      "bytes": 3893
+    },
+    {
+      "file": "assets/plain/goblin/3.png",
+      "sha256": "8ea3bf4f8b441a8436991842d2a66f8debe5df2fc20fe7b2a6d7c50f7c45b133",
+      "bytes": 3866
+    },
+    {
+      "file": "assets/plain/goblin/4.png",
+      "sha256": "63002dbde60b6ca22322a8bce599a49e464a8f9848cd102eeb0906c5a0a942bb",
+      "bytes": 3629
+    },
+    {
+      "file": "assets/plain/goblin/5.png",
+      "sha256": "b342cd47d47e762d11341554e6a582577b6be54916327dfe95a60bf558e77af4",
+      "bytes": 3510
+    },
+    {
+      "file": "assets/plain/goblin/6.png",
+      "sha256": "ca8f1ee258a93fbee38be4c19b3c0460c9896a73bc4bbff565315898d1bbea39",
+      "bytes": 3844
+    },
+    {
+      "file": "assets/plain/goblin/7.png",
+      "sha256": "353c94f1e9424b0be191562e27407c0acda730b9f18966de3d0cbbb1ff4356a1",
+      "bytes": 4043
+    },
+    {
+      "file": "assets/plain/goblin/base.png",
+      "sha256": "b5a9d1b79febc74fadd7d6875414aaec618e57cb1beb61bd9342eb439c979c02",
+      "bytes": 4360
+    },
+    {
+      "file": "assets/plain/grass/background.png",
+      "sha256": "520e24c51ec4b2d4573e5d364cc28ed3d57872855a3fc17d668ece9b2980afd4",
+      "bytes": 126113
+    },
+    {
+      "file": "assets/plain/hero/0.png",
+      "sha256": "bf0f16f4135bfc8cddc018cdfff4b5eab75c9dbdd614c327d9c6ff37767a5955",
+      "bytes": 3457
+    },
+    {
+      "file": "assets/plain/hero/1.png",
+      "sha256": "0600d5e529bb021079abc452fa96d51938a8bfaab430dd727600e1cb98027ad1",
+      "bytes": 3136
+    },
+    {
+      "file": "assets/plain/hero/2.png",
+      "sha256": "1e447fdb384dfee0dcaac2e216509b64d622031f1677fde6a466e9b5580cf58b",
+      "bytes": 2972
+    },
+    {
+      "file": "assets/plain/hero/3.png",
+      "sha256": "159d2af3e6e9065f989044bcc24478eb52119840940b5f17977231d875c1699b",
+      "bytes": 2958
+    },
+    {
+      "file": "assets/plain/hero/4.png",
+      "sha256": "8131cf504db2acb8888ecf0a1e113b9ef4b919accab70550f8e224c189b9bab8",
+      "bytes": 3180
+    },
+    {
+      "file": "assets/plain/hero/5.png",
+      "sha256": "07b573f3edffc85e2733613ca27060e680a4e21f6c64fbe39d92d31a5f77e650",
+      "bytes": 2899
+    },
+    {
+      "file": "assets/plain/hero/6.png",
+      "sha256": "83769ed2ed58c52992d274af15122efb84ece73e4444d5a188dc281ff93c3f7b",
+      "bytes": 3031
+    },
+    {
+      "file": "assets/plain/hero/7.png",
+      "sha256": "9eaf5d06142c7a7e13dd394b2ed9f0bfd58165c5f9b2704aa9bf2ad4c591c770",
+      "bytes": 2903
+    },
+    {
+      "file": "assets/plain/hero/base.png",
+      "sha256": "073b1a2e0dc8e6828879c238ca93e8faf7ad1930be51e4f87678d0d0248b3ce4",
+      "bytes": 3329
+    },
+    {
+      "file": "assets/plain/imp/0.png",
+      "sha256": "038e431ba391cce68fe8e9a3574f34ef2d7668a175ab0607dcf2952bac24bdf3",
+      "bytes": 5077
+    },
+    {
+      "file": "assets/plain/imp/1.png",
+      "sha256": "73e5482e55bfef607fbbd3cfd4f863a35d672e7db5cf324090531de85b32a159",
+      "bytes": 5026
+    },
+    {
+      "file": "assets/plain/imp/2.png",
+      "sha256": "6e5223c092590601b57a26e85b60a33db937ffb29d94475927eefd21d1132da1",
+      "bytes": 5346
+    },
+    {
+      "file": "assets/plain/imp/3.png",
+      "sha256": "17af938df84ed172ef7388d472a176d36e719265755a9675c74730d0c8c94585",
+      "bytes": 4865
+    },
+    {
+      "file": "assets/plain/imp/4.png",
+      "sha256": "fd7f2763f70b592b46b1365a98baef211a1050725a3b841775c837942366d5ec",
+      "bytes": 4941
+    },
+    {
+      "file": "assets/plain/imp/5.png",
+      "sha256": "102e0d88cf3d034850ce156afe9ab0f101d09df4043a4b36babf1f2cdaab40e8",
+      "bytes": 4873
+    },
+    {
+      "file": "assets/plain/imp/6.png",
+      "sha256": "2059fa5126cd5578659a13367ff393493c1ba1558468db92e254790e1596dbe8",
+      "bytes": 5246
+    },
+    {
+      "file": "assets/plain/imp/7.png",
+      "sha256": "d89c9eb0ce413fdb897ce24dc4f99469b30d514a4c3ba2d48dc76e25904ac593",
+      "bytes": 5065
+    },
+    {
+      "file": "assets/plain/imp/base.png",
+      "sha256": "8d7500edab36f34ea03058f082fbc30931d4591a13d9857719b4ac098fc171d0",
+      "bytes": 4975
+    },
+    {
+      "file": "assets/plain/ogre/0.png",
+      "sha256": "e4d6bbc82d5418b98875caee5a15df15ffd059bf9b7829d8e2a9c391b04b875e",
+      "bytes": 4902
+    },
+    {
+      "file": "assets/plain/ogre/1.png",
+      "sha256": "176533a17f99e79dd70f02f25413499f6d5d56605e86b93e1240eac58af000f0",
+      "bytes": 4463
+    },
+    {
+      "file": "assets/plain/ogre/2.png",
+      "sha256": "67525dbd55cabfb5744bab66ab882598fb8b2d2bf65e901dafe892d77f600e10",
+      "bytes": 4427
+    },
+    {
+      "file": "assets/plain/ogre/3.png",
+      "sha256": "e6bd5e778dd8050c9f79baf3cd5e5bfcf03c8295a4730524a7d9e9203e9ad356",
+      "bytes": 3995
+    },
+    {
+      "file": "assets/plain/ogre/4.png",
+      "sha256": "bbcc67de11c9b3ffa1c87d6b817011a1414cdfaba291817e1afb068c5101ecf3",
+      "bytes": 4264
+    },
+    {
+      "file": "assets/plain/ogre/5.png",
+      "sha256": "5f4e86203c399e37fb944fc59e2f03af6be1beb44e5fc397c6ff797d4f2eca51",
+      "bytes": 3896
+    },
+    {
+      "file": "assets/plain/ogre/6.png",
+      "sha256": "8db30841d97d470142cda4b59b2a64898f57ac3e04989e1fdfd1e81bc0ebf1a3",
+      "bytes": 4126
+    },
+    {
+      "file": "assets/plain/ogre/7.png",
+      "sha256": "61a56138dea388c4895287c368fc98509afdbf5337020f558f0a9cbed449babc",
+      "bytes": 4193
+    },
+    {
+      "file": "assets/plain/ogre/base.png",
+      "sha256": "36f9eabdcf622f5ff038d9f3a635014e155e96e0b208845f0a7ee1c32d30669c",
+      "bytes": 4944
+    },
+    {
+      "file": "assets/plain/orc/0.png",
+      "sha256": "9b05aca2f06829dadda0d753171a9ba1a5d876b570f85890d9249b5656dedb22",
+      "bytes": 4608
+    },
+    {
+      "file": "assets/plain/orc/1.png",
+      "sha256": "c140b6bf16507be593264215afe7fce58661c0d0db2aa94b42d41e4726027d82",
+      "bytes": 4458
+    },
+    {
+      "file": "assets/plain/orc/2.png",
+      "sha256": "d358d5104ab0ceed2144e81488ec593a631037b5972cc9a8fc34e6d85e46ce0a",
+      "bytes": 4646
+    },
+    {
+      "file": "assets/plain/orc/3.png",
+      "sha256": "10f40c59c5920e17e6dc51de5b7ad5dccb932234c242d2811c0c392c62741d37",
+      "bytes": 4296
+    },
+    {
+      "file": "assets/plain/orc/4.png",
+      "sha256": "3980695e1b00f1ef04a69de9f3062a2e8ae1e01976bb75b51e012204c6a79884",
+      "bytes": 4373
+    },
+    {
+      "file": "assets/plain/orc/5.png",
+      "sha256": "26e7d69e81f5e5706745c38e14b20f1b1c75c8666877ed4b025fe4ed79b820f2",
+      "bytes": 4121
+    },
+    {
+      "file": "assets/plain/orc/6.png",
+      "sha256": "24d31ed69e067e1538574aec509d6a84b4be968ff290aaf3dcbf88430ca56ad4",
+      "bytes": 4472
+    },
+    {
+      "file": "assets/plain/orc/7.png",
+      "sha256": "c543bbcb1e4da691d7e157fbf5375888cffd949575387c84582603ebe0362bda",
+      "bytes": 4451
+    },
+    {
+      "file": "assets/plain/orc/base.png",
+      "sha256": "f1c6a52d63ed70ce46002e2616d28719be7829210b9c11a4e110c00e93e71cd6",
+      "bytes": 4358
+    },
+    {
+      "file": "assets/plain/raft/0.png",
+      "sha256": "d5e924460b2d7cc33573d07faf880b9dff60da80747a937085599a160900da6c",
+      "bytes": 4030
+    },
+    {
+      "file": "assets/plain/raft/1.png",
+      "sha256": "f0fecb44f7c44117ddf9ed073602e5dc6961ceef19a46b86e1ec25ba2b4e4cb5",
+      "bytes": 3798
+    },
+    {
+      "file": "assets/plain/raft/2.png",
+      "sha256": "26b98516213ba46e6e795d8a08417df2da648842a099cf04f0a1896bd88bf6df",
+      "bytes": 3896
+    },
+    {
+      "file": "assets/plain/raft/3.png",
+      "sha256": "3ce88e5d45f8b5e4a8f9749475c71fb0f88849a61f8913e2cc6fcf00695ea3c1",
+      "bytes": 3938
+    },
+    {
+      "file": "assets/plain/raft/4.png",
+      "sha256": "6ae452a65ee4325ffa6d3bd393a677992eb5ad5494c37929723b0cd98663a264",
+      "bytes": 4111
+    },
+    {
+      "file": "assets/plain/raft/5.png",
+      "sha256": "153bed0e92f0188dbc948c8b1cfa2fb91bb4174ed5a15a3c53609924d774de2f",
+      "bytes": 4020
+    },
+    {
+      "file": "assets/plain/raft/6.png",
+      "sha256": "24cdef6224558e43a876470f10c8435e50bb98a62b50cd1f53d583d3f5caf747",
+      "bytes": 4380
+    },
+    {
+      "file": "assets/plain/raft/7.png",
+      "sha256": "a2ac20ca31a068abacf2bfcd63910498320a6abdf6fe5a707a4d7b2d10cc4d51",
+      "bytes": 3936
+    },
+    {
+      "file": "assets/plain/raft/base.png",
+      "sha256": "0bc2f40ee4a3f61b3724b9c17daff1d1dcaac697a5bdf37ae409033b1c18f029",
+      "bytes": 3996
+    },
+    {
+      "file": "assets/plain/slime/0.png",
+      "sha256": "f884ecbe6d18adbf4d9e3690cdc4d7b1f2b43789afb5e5e69d0c9de5bc9615f3",
+      "bytes": 3087
+    },
+    {
+      "file": "assets/plain/slime/1.png",
+      "sha256": "930507ddbc053b4e35f4f51c7f80f20d6f56c443aaa4a0aa6f02fb364fc73703",
+      "bytes": 3074
+    },
+    {
+      "file": "assets/plain/slime/2.png",
+      "sha256": "35f2f69684f447091eb664b56dd8ba2d5fb4dcbc5d54602abbfc1746cf437b55",
+      "bytes": 3209
+    },
+    {
+      "file": "assets/plain/slime/3.png",
+      "sha256": "ef58cf2cf75ebbdace6653f03c38df4d89d4b544b6d8b58f00cfe489836cf6ed",
+      "bytes": 3284
+    },
+    {
+      "file": "assets/plain/slime/4.png",
+      "sha256": "7ca8b9c21d2ce252c02fbc1b688f45a0c06a40957cdcd63d839ed6f307063f1e",
+      "bytes": 3428
+    },
+    {
+      "file": "assets/plain/slime/5.png",
+      "sha256": "2111bbb2dfcbedaae803b1aa6ecba7f6ca499571aafdf632efce9b6e0f89a1fe",
+      "bytes": 3270
+    },
+    {
+      "file": "assets/plain/slime/6.png",
+      "sha256": "d68b35c7b089f099d2821da7e71ea9592250279989a526a1e35272b6bac15956",
+      "bytes": 3590
+    },
+    {
+      "file": "assets/plain/slime/7.png",
+      "sha256": "608e7645dcad0e6b499085864066bbf65232c051995407872d36c944de5807e6",
+      "bytes": 3130
+    },
+    {
+      "file": "assets/plain/slime/base.png",
+      "sha256": "53a6c3040653b50fceda9a93e27c2dd5a3761afa828b6fe5035dae3b4f730abf",
+      "bytes": 3191
+    },
+    {
+      "file": "assets/plain/snow/background.png",
+      "sha256": "4ee9658c06ee17636ffb31dc9a9911ed05c977442d387b0ebd2be4f0c1714e39",
+      "bytes": 91074
+    },
+    {
+      "file": "assets/plain/swamp/background.png",
+      "sha256": "90685b3148b85b948fefce09f3c6d26f06080fc82dfa89d58a28acf274a9f7bb",
+      "bytes": 130205
+    },
+    {
+      "file": "assets/plain/wisp/0.png",
+      "sha256": "2dd5690899ff57dd90f3bfe8b5e1674952c8c90a82405821046e0a5110c61038",
+      "bytes": 3459
+    },
+    {
+      "file": "assets/plain/wisp/1.png",
+      "sha256": "4c769212bf2c15d2fcfaf7ac85ed33f01a1d5d7134ed62a1dfac39e49c030853",
+      "bytes": 3374
+    },
+    {
+      "file": "assets/plain/wisp/2.png",
+      "sha256": "747292ad4993fbcc6ba5abd5f6d9c8eb74d38f6fddc7bfa5967a5d1ec7ea8bff",
+      "bytes": 3476
+    },
+    {
+      "file": "assets/plain/wisp/3.png",
+      "sha256": "02945ce9f7ebde561b177bbda80154b508a5538829d43ca3e8a3ad25a9abdbf9",
+      "bytes": 3382
+    },
+    {
+      "file": "assets/plain/wisp/4.png",
+      "sha256": "b2ad8403f5d6726743bd0ce9ec7dbd6c24a9dd1182b9cbfd221f9f7cc2064502",
+      "bytes": 3690
+    },
+    {
+      "file": "assets/plain/wisp/5.png",
+      "sha256": "38f9a40f7d84ba776e3a50671007d9bd3cf61b3da0d902edb9f6e4201a6c33a3",
+      "bytes": 3455
+    },
+    {
+      "file": "assets/plain/wisp/6.png",
+      "sha256": "8652d3cab2554a6f78b37f0fdc54fde8cd32b45005dcf910bb57fb7b78c39bb5",
+      "bytes": 3861
+    },
+    {
+      "file": "assets/plain/wisp/7.png",
+      "sha256": "e51018ba886d6f2bf3b1bc0d94ae1ccdfd78196f3f68475ab9b8766df3f158d8",
+      "bytes": 3838
+    },
+    {
+      "file": "assets/plain/wisp/base.png",
+      "sha256": "15521eee29be7b6183e4908cb849e2581d6f685a013d66d9c65a35ebc882e60e",
+      "bytes": 3884
+    },
+    {
+      "file": "assets/plain/wyvern/0.png",
+      "sha256": "91c9a6e376bbd746c7b5250e15aadd56397a6c68fd567745de59b2cb36e32e95",
+      "bytes": 4765
+    },
+    {
+      "file": "assets/plain/wyvern/1.png",
+      "sha256": "32adf9a5710930cc1f5acbb06f54a0c72005bb77b712a94e4facec0f7ba9f245",
+      "bytes": 4420
+    },
+    {
+      "file": "assets/plain/wyvern/2.png",
+      "sha256": "94c82485a0165cfcc10247aa6cad4006dc42e5b168258dee359d3b47137155f8",
+      "bytes": 4799
+    },
+    {
+      "file": "assets/plain/wyvern/3.png",
+      "sha256": "41cf40209df5129120d7a96345e044e6c9ae636a8fbd7387b34b6df41572daab",
+      "bytes": 4265
+    },
+    {
+      "file": "assets/plain/wyvern/4.png",
+      "sha256": "9116e245451652ac6a16eb0059abb77ea4b5833bb7481ca58ad64ebaded71c39",
+      "bytes": 4510
+    },
+    {
+      "file": "assets/plain/wyvern/5.png",
+      "sha256": "77be3e57f5e987c82898ebff347521b59998ce752260cacc741fe686cf667d0b",
+      "bytes": 4275
+    },
+    {
+      "file": "assets/plain/wyvern/6.png",
+      "sha256": "eb01df4fe24492e4c166613869629c965ad1584573b4e11d53266bee0073b5aa",
+      "bytes": 4784
+    },
+    {
+      "file": "assets/plain/wyvern/7.png",
+      "sha256": "f3e5f7257e80efe4ff31d23cffadf9bcda74dba4e173438441587aa8ca567844",
+      "bytes": 4483
+    },
+    {
+      "file": "assets/plain/wyvern/base.png",
+      "sha256": "f9aaa9195e4660fded9751b1b80365c06adeb9d897a5fa0caf4c9d174be09f7c",
+      "bytes": 4368
+    },
+    {
+      "file": "assets/styled/desert/background.png",
+      "sha256": "36ffe07c4935b3bc06139c3b4676a5ee76cb354470be0e15181f208111500ab9",
+      "bytes": 55421
+    },
+    {
+      "file": "assets/styled/fruit/0.png",
+      "sha256": "69a170c7405d376e4d15569034b6484c8426b4cb183b925d3fa9c39d82250f5a",
+      "bytes": 1434
+    },
+    {
+      "file": "assets/styled/fruit/1.png",
+      "sha256": "862b4617712772b1f158127386cc2f498d7cba47befe6e9497f92f0bc544062a",
+      "bytes": 1446
+    },
+    {
+      "file": "assets/styled/fruit/2.png",
+      "sha256": "640ee485386d974efd0f3269957a498fe632641d1032740383ad16a8b96918d9",
+      "bytes": 1633
+    },
+    {
+      "file": "assets/styled/fruit/3.png",
+      "sha256": "8f5a4343fa87b602d89c5cb52cff944b0f8b5146cf129bb3a65263e48ebf30fb",
+      "bytes": 1615
+    },
+    {
+      "file": "assets/styled/fruit/4.png",
+      "sha256": "0b414fbe9ded24da8dbed033951a77b7e4fcbe7625dcb569daad93631e685801",
+      "bytes": 1801
+    },
+    {
+      "file": "assets/styled/fruit/5.png",
+      "sha256": "2d69f6f9adf78b689a1fad08e002163de65ae1f9d57534e21b66346c23adb917",
+      "bytes": 1486
+    },
+    {
+      "file": "assets/styled/fruit/6.png",
+      "sha256": "91bb33ed6caebff083b75e1186e00793a29279cc8ad9ef921359d228e817a887",
+      "bytes": 1687
+    },
+    {
+      "file": "assets/styled/fruit/7.png",
+      "sha256": "24d835e104dc609d90a72e9b9ad9c13a0443886e41f345fe40462a9e3605f2a3",
+      "bytes": 1390
+    },
+    {
+      "file": "assets/styled/fruit/base.png",
+      "sha256": "0b03562a9250dc8768dfdb095cf3d0a86f1b7572af502826334ec6ecc5e3926d",
+      "bytes": 1551
+    },
+    {
+      "file": "assets/styled/fruit/prepared/0.png",
+      "sha256": "73fd3082acc076d780b144107435b048e9ea803787a7cb131dbce5131006fc54",
+      "bytes": 1202
+    },
+    {
+      "file": "assets/styled/fruit/prepared/1.png",
+      "sha256": "10399320b9cf9af26eb8f49944726a5e09f8b7440a009f2da88b264015db0fa1",
+      "bytes": 1226
+    },
+    {
+      "file": "assets/styled/fruit/prepared/2.png",
+      "sha256": "794b82c4de8a3e502fc88c9d544598f3726faae7e359ef063d51ead750ea897b",
+      "bytes": 1335
+    },
+    {
+      "file": "assets/styled/fruit/prepared/3.png",
+      "sha256": "8c723ac6caf90e917f9d08c3487081570b6125f77cb32175c5aa38d7fb0ab8b0",
+      "bytes": 1231
+    },
+    {
+      "file": "assets/styled/fruit/prepared/4.png",
+      "sha256": "aa0b0367d7145ba64c1b4d7d2b6b2b0b14aae451e8974bbc51c70b2c5ed62e17",
+      "bytes": 1347
+    },
+    {
+      "file": "assets/styled/fruit/prepared/5.png",
+      "sha256": "229a3908f7141a4e101d9fdf618a4450d9ba63f403571e45561b6529e05376fd",
+      "bytes": 1286
+    },
+    {
+      "file": "assets/styled/fruit/prepared/6.png",
+      "sha256": "9033c2049cd83ee422a907bd3e3e8958ba3a35ddb91f0ae44a41a8bfa774b4b5",
+      "bytes": 1363
+    },
+    {
+      "file": "assets/styled/fruit/prepared/7.png",
+      "sha256": "bd1bd331509c2874f29347b6cd4eb7f98bccde56a2c3a61893f02064970a966e",
+      "bytes": 1190
+    },
+    {
+      "file": "assets/styled/fruit/prepared/base.png",
+      "sha256": "fad3f441635bd2604e12ccbff52c6898b8bdcdf2b9c0187ac39a3fe56a78075c",
+      "bytes": 1372
+    },
+    {
+      "file": "assets/styled/goblin/0.png",
+      "sha256": "07487918ea833be3ce669257969a257d20d8f978845ffe04fc032ebc8a31f0ab",
+      "bytes": 1895
+    },
+    {
+      "file": "assets/styled/goblin/1.png",
+      "sha256": "b492322fdaec006dcc81ae62e08d631ad2ee7f3f1fdd8a6232a0748a9d51b498",
+      "bytes": 1719
+    },
+    {
+      "file": "assets/styled/goblin/2.png",
+      "sha256": "a3e0451f794bf5146d2852bd2cc57a097c0e2447f3413b0970cf8adae6583cd6",
+      "bytes": 1850
+    },
+    {
+      "file": "assets/styled/goblin/3.png",
+      "sha256": "01bf1859695cb35a72e6d24b6189303a8cabdd9c6e28ed7ede4c83b0bbb65fbd",
+      "bytes": 1775
+    },
+    {
+      "file": "assets/styled/goblin/4.png",
+      "sha256": "8526267947359753b8eedaf3075a033b850b9fc118f27fcd75ae74529146600b",
+      "bytes": 1832
+    },
+    {
+      "file": "assets/styled/goblin/5.png",
+      "sha256": "675b53a26ab2c4b3fdaa21a7367b66aec6622d5b9aa242997b7856cdf8eb61a4",
+      "bytes": 1640
+    },
+    {
+      "file": "assets/styled/goblin/6.png",
+      "sha256": "80da013b277e60e3ea4dc6bd6d22e230535afc67688b52c5f510028a057ddeb8",
+      "bytes": 1841
+    },
+    {
+      "file": "assets/styled/goblin/7.png",
+      "sha256": "a0fbd14c294df18222b4c7423f1b77a43ce2835c5a0e9c2d29dccfcaeb35f7c0",
+      "bytes": 1697
+    },
+    {
+      "file": "assets/styled/goblin/base.png",
+      "sha256": "7dadc3c81a321c6d344c43d01e2ae6dbd987b380ed6d8e8864551d843225ded0",
+      "bytes": 1512
+    },
+    {
+      "file": "assets/styled/goblin/prepared/0.png",
+      "sha256": "7db1e30da711b86303c69ee6cdc18eba934f2c13142a1bc0c8f61defda09de3d",
+      "bytes": 1432
+    },
+    {
+      "file": "assets/styled/goblin/prepared/1.png",
+      "sha256": "076c11bed8a6a5417bc9600a5cb1d2a8200dec6a39bf769dbd2908cfdee661e9",
+      "bytes": 1349
+    },
+    {
+      "file": "assets/styled/goblin/prepared/2.png",
+      "sha256": "8468becf88c81d278aea2db21c61bc3f4bf64d993a219cd7f4faa48dc5c456af",
+      "bytes": 1366
+    },
+    {
+      "file": "assets/styled/goblin/prepared/3.png",
+      "sha256": "ac5cbf723c264ac2ea8c2daff73857f2c70dbacc3ae4bff48cf3a3471d09197e",
+      "bytes": 1380
+    },
+    {
+      "file": "assets/styled/goblin/prepared/4.png",
+      "sha256": "ac2f3aa4bb8ec4d92d56d9cbcbf595226b74112c31f5511a6b05c330a49fac93",
+      "bytes": 1305
+    },
+    {
+      "file": "assets/styled/goblin/prepared/5.png",
+      "sha256": "754ef3537cecc8df58e94910258b214ce3bb7a048022c95851a5f5607b2eb1fa",
+      "bytes": 1248
+    },
+    {
+      "file": "assets/styled/goblin/prepared/6.png",
+      "sha256": "0748d74084dd7e7db3f0e60953303b2f64daa29d10123b69a6bbf2ae3a8a67aa",
+      "bytes": 1308
+    },
+    {
+      "file": "assets/styled/goblin/prepared/7.png",
+      "sha256": "378a8768b4add29d4114f8b42e511c2ae526bb7a6075081b153765218e80e039",
+      "bytes": 1326
+    },
+    {
+      "file": "assets/styled/goblin/prepared/base.png",
+      "sha256": "5e56c6fc7c8e3af3cc339f2709a224dff86b42710f18ccd8835ce8b314af2e4d",
+      "bytes": 1348
+    },
+    {
+      "file": "assets/styled/grass/background.png",
+      "sha256": "23de3795367e0484e8cede80f56b032d263921aeeb5624f56349b69a0dd6f0e0",
+      "bytes": 40385
+    },
+    {
+      "file": "assets/styled/hero/0.png",
+      "sha256": "548dd901664a1a88656a5df67026b4143cb233f07778cacfb82e2a74257c7664",
+      "bytes": 2085
+    },
+    {
+      "file": "assets/styled/hero/1.png",
+      "sha256": "1611ce6a4b0e904f2eb79e7b523e4cb639f05a45a1121b76bce472079e96b490",
+      "bytes": 2052
+    },
+    {
+      "file": "assets/styled/hero/2.png",
+      "sha256": "91eb285f1357c0c2e84310a778b0a2238ffc731f12bbcbfac4cedb5399d74baf",
+      "bytes": 2275
+    },
+    {
+      "file": "assets/styled/hero/3.png",
+      "sha256": "feabc0111d139c1a14858991e252007a65403e78bb1cd60474f24b420f691adc",
+      "bytes": 1904
+    },
+    {
+      "file": "assets/styled/hero/4.png",
+      "sha256": "7c4f09a828b47e71cc8046ed3506c6770c9dee19308c5ebcf852957df39598a4",
+      "bytes": 1826
+    },
+    {
+      "file": "assets/styled/hero/5.png",
+      "sha256": "b1ea5ba593209446a12ca6f354c6eedfef07debbe74b03e662b9e59c8730902a",
+      "bytes": 1895
+    },
+    {
+      "file": "assets/styled/hero/6.png",
+      "sha256": "150ade4a1d71d8e52d2f6b0c7e147a2952f070b0531d1c799b7eb86a454a07b3",
+      "bytes": 2115
+    },
+    {
+      "file": "assets/styled/hero/7.png",
+      "sha256": "516e7369592f42d3703efde1a65faefefacc4b968f6e49a729f6113210559770",
+      "bytes": 1902
+    },
+    {
+      "file": "assets/styled/hero/base.png",
+      "sha256": "829c44bff1bfe1aea01d9cd7c5e6b81ae990c85ccfaa1906c36f91e543f46a22",
+      "bytes": 1515
+    },
+    {
+      "file": "assets/styled/hero/prepared/0.png",
+      "sha256": "980f24c1f425012beed93bc39c838f5bc41da0a5f247d381682219b3c43c5151",
+      "bytes": 1608
+    },
+    {
+      "file": "assets/styled/hero/prepared/1.png",
+      "sha256": "e0fc52d19a54944044585a7b2e9d0ccf6c05421cfb8c2ac9bbdb74581d326800",
+      "bytes": 1627
+    },
+    {
+      "file": "assets/styled/hero/prepared/2.png",
+      "sha256": "ca33175884e0b4c980935d5f614a82e006d515a5925a3ab9e7d1af2cf7effc22",
+      "bytes": 1713
+    },
+    {
+      "file": "assets/styled/hero/prepared/3.png",
+      "sha256": "ac4c2e8f9c32bd865bc8f124cb331c525be22324da1606df0b4cf47ce0e98f5b",
+      "bytes": 1475
+    },
+    {
+      "file": "assets/styled/hero/prepared/4.png",
+      "sha256": "3b349343bb391fc3ac6d25207bc890e814b993e04d36c2924da88dfb94ac8bf2",
+      "bytes": 1396
+    },
+    {
+      "file": "assets/styled/hero/prepared/5.png",
+      "sha256": "7304d90aeb634a1b846a14e5b5e7e52f6f0fd0d52fc6c7157a937140668d3638",
+      "bytes": 1433
+    },
+    {
+      "file": "assets/styled/hero/prepared/6.png",
+      "sha256": "7bd67999174f8d128b91ce3ee5c5d19afd948102bc5ac6d2bc57fab5384a1edc",
+      "bytes": 1560
+    },
+    {
+      "file": "assets/styled/hero/prepared/7.png",
+      "sha256": "859a76eca1bac6d5ce56e76e152fed3d50568c48541cb44601948a1e8895e5ff",
+      "bytes": 1509
+    },
+    {
+      "file": "assets/styled/hero/prepared/base.png",
+      "sha256": "ed7d27c34becf931297aa6846ec1bbc6b6e50d52ad0ab9201b40590c643fe4f3",
+      "bytes": 1352
+    },
+    {
+      "file": "assets/styled/imp/0.png",
+      "sha256": "52d1d00df3d393edc193ab73071fc6c879c49ea8decb42a88d6f2059eafafa5e",
+      "bytes": 2042
+    },
+    {
+      "file": "assets/styled/imp/1.png",
+      "sha256": "11bed7513fc12d9da83e7169131f1194d78538550f4e91a51e179b3b2d5c60b7",
+      "bytes": 1935
+    },
+    {
+      "file": "assets/styled/imp/2.png",
+      "sha256": "3ddca31b23ba831bac1f2a1c01f4b93c1dbce0ad33ee2d1f331f949a5e334683",
+      "bytes": 2010
+    },
+    {
+      "file": "assets/styled/imp/3.png",
+      "sha256": "13b3f3703ac346eb1859daa0c91b3b35b2ee9f1c127424ad3158188f235c1a2e",
+      "bytes": 2001
+    },
+    {
+      "file": "assets/styled/imp/4.png",
+      "sha256": "316fe8861e804a71621005e9dde9ee8101dbb9c02b11bf9e152cf0f3410ab3bf",
+      "bytes": 2112
+    },
+    {
+      "file": "assets/styled/imp/5.png",
+      "sha256": "e85b3a62f7b58237818cc3061c59797534270827a97afb95c98a95603dbbcce7",
+      "bytes": 1945
+    },
+    {
+      "file": "assets/styled/imp/6.png",
+      "sha256": "7f40e7ca418b3174d91803f6af7b815928cd6b551c2473c02aa98d8d84358b8f",
+      "bytes": 2083
+    },
+    {
+      "file": "assets/styled/imp/7.png",
+      "sha256": "eb0b6beadd96d99d1777ccd255c80bcc0007bd687b19294f6abfa5ff3f8a698c",
+      "bytes": 1941
+    },
+    {
+      "file": "assets/styled/imp/base.png",
+      "sha256": "5d07c1dd4b4ac23293046ca67c08d88b800690dfd5c209a4f0091fdb3a87017b",
+      "bytes": 1620
+    },
+    {
+      "file": "assets/styled/imp/prepared/0.png",
+      "sha256": "eedc96bb12b0ebfd1d932816de8b06541edb3dc032dcbed45eb2174f6e2287fe",
+      "bytes": 1535
+    },
+    {
+      "file": "assets/styled/imp/prepared/1.png",
+      "sha256": "de16e9bd137361e32a1eeb6f9f9debfd0fb023a8934c3e4885760f569fdfa803",
+      "bytes": 1465
+    },
+    {
+      "file": "assets/styled/imp/prepared/2.png",
+      "sha256": "0567742ae65b9a526921b92d5e15823a09fe5f98199f13272b2e0c936cd23f01",
+      "bytes": 1523
+    },
+    {
+      "file": "assets/styled/imp/prepared/3.png",
+      "sha256": "ab7d6d5cc9ebe78dcbd39d0bd1185c6be652c17565880c1a4cd5730dc74c17b0",
+      "bytes": 1489
+    },
+    {
+      "file": "assets/styled/imp/prepared/4.png",
+      "sha256": "bb31b6271e7613cb117891d02e33e55479001f1c0000d1c9b295863b8db6ef0e",
+      "bytes": 1585
+    },
+    {
+      "file": "assets/styled/imp/prepared/5.png",
+      "sha256": "1a9e53391f8182af0dd22e846cf4fb0337d28ad090a31685656c32d8d6061f53",
+      "bytes": 1541
+    },
+    {
+      "file": "assets/styled/imp/prepared/6.png",
+      "sha256": "329665dcf3a14db97ea8ebb5df6324ca84da13e98f32d1f99b2fcbb09fe56e50",
+      "bytes": 1575
+    },
+    {
+      "file": "assets/styled/imp/prepared/7.png",
+      "sha256": "faff8d8e051b3a64bab398abac3f217b4fb4e8524227fb8c5b0b94264148ab08",
+      "bytes": 1463
+    },
+    {
+      "file": "assets/styled/imp/prepared/base.png",
+      "sha256": "e3acec5954abcf850e5a1ab8d3844c0c671d43785de5924d567282635f117f43",
+      "bytes": 1414
+    },
+    {
+      "file": "assets/styled/ogre/0.png",
+      "sha256": "6b52482b5b681254094003680ff8d1ff34e42f5ac82c1ed5e364a17411ad0bc8",
+      "bytes": 2522
+    },
+    {
+      "file": "assets/styled/ogre/1.png",
+      "sha256": "429ebbffe544cc04cacada2aa19507c3475735af7d89940371ec0de0a1251f64",
+      "bytes": 2218
+    },
+    {
+      "file": "assets/styled/ogre/2.png",
+      "sha256": "216c4ecb459abe1ec1126a6c5263b5d4f8cdfa81575f7beff42b4e3be3e6140f",
+      "bytes": 2551
+    },
+    {
+      "file": "assets/styled/ogre/3.png",
+      "sha256": "e568f7e08d73fe2ad74b3e681ff613dc0b389f3b7ec846f45115c33cb8273bba",
+      "bytes": 2471
+    },
+    {
+      "file": "assets/styled/ogre/4.png",
+      "sha256": "915440d44415ac0d6c14f7c038747ba0817399549840dd8c1883e2ef9cbe7774",
+      "bytes": 2387
+    },
+    {
+      "file": "assets/styled/ogre/5.png",
+      "sha256": "e78521afeb642456abc0bebb99900e5f922889b5635d56325a3a0883cec9c613",
+      "bytes": 2187
+    },
+    {
+      "file": "assets/styled/ogre/6.png",
+      "sha256": "86e1b676b9ef08dff6b0fe19656770bcf817f1c6d23987278d8b949e74fae356",
+      "bytes": 2419
+    },
+    {
+      "file": "assets/styled/ogre/7.png",
+      "sha256": "7cc9fbf40121822a5fe343ce34f4724f7ff7883d2612bc7a1f60230b69adcd6c",
+      "bytes": 2396
+    },
+    {
+      "file": "assets/styled/ogre/base.png",
+      "sha256": "2f2acb0b006a96b4b4eedf17a2342b0084c375e9e155da101b879dbbe1cfc36a",
+      "bytes": 1860
+    },
+    {
+      "file": "assets/styled/ogre/prepared/0.png",
+      "sha256": "d302ec5ace93c8cc727863f7d4ef92e099b505e780b4a6f6e494d5529c005494",
+      "bytes": 1775
+    },
+    {
+      "file": "assets/styled/ogre/prepared/1.png",
+      "sha256": "d4422fb58a94f5b4a32a547f85d1b462e222f7ff4226d3695616f49e06f3d884",
+      "bytes": 1583
+    },
+    {
+      "file": "assets/styled/ogre/prepared/2.png",
+      "sha256": "2f5c223344ebd6d3bfcfeed2b865b6afda39191586ea92e4b9fb5f0d0cd95479",
+      "bytes": 1767
+    },
+    {
+      "file": "assets/styled/ogre/prepared/3.png",
+      "sha256": "a08d049a44e2161d950428c648300e94a28b07962935a237bb516f4e45ab1ea2",
+      "bytes": 1714
+    },
+    {
+      "file": "assets/styled/ogre/prepared/4.png",
+      "sha256": "bd4519a2e4342355b56180e27760bc258921f70f8001846d14ca1d920c859175",
+      "bytes": 1667
+    },
+    {
+      "file": "assets/styled/ogre/prepared/5.png",
+      "sha256": "420bd9104f8f567b36d6b7773cc3a269c0ea1063885721d65462e0ed6b56b14e",
+      "bytes": 1583
+    },
+    {
+      "file": "assets/styled/ogre/prepared/6.png",
+      "sha256": "9be9eb954efebf008a19ea71db35a76e1327915ed54227c5f85696b4d5d05f59",
+      "bytes": 1703
+    },
+    {
+      "file": "assets/styled/ogre/prepared/7.png",
+      "sha256": "d486fc93d249883bd49cc9363a0317152536b4d35e15045475ecc910f5e8ed81",
+      "bytes": 1694
+    },
+    {
+      "file": "assets/styled/ogre/prepared/base.png",
+      "sha256": "50e42b95267c3c9cd6469404f8ec10cf91bbd60b2efb0c870249b3cb3c8739a2",
+      "bytes": 1637
+    },
+    {
+      "file": "assets/styled/orc/0.png",
+      "sha256": "64a193c8f2543e385d79139389e93dfd80583946e121bfde9a8aa088abe5f3f5",
+      "bytes": 1773
+    },
+    {
+      "file": "assets/styled/orc/1.png",
+      "sha256": "960759a330da6882f8fd8ecd91bf6b67f17eda6cff78e4b17a0c102170b8cfc4",
+      "bytes": 1643
+    },
+    {
+      "file": "assets/styled/orc/2.png",
+      "sha256": "dbf097d0bd15c9e6dfad0316e95d6f9e22414b055eb7748c4cfbda8257369f23",
+      "bytes": 1671
+    },
+    {
+      "file": "assets/styled/orc/3.png",
+      "sha256": "d2a65d7693a687db272863d6b1babb5649e855c171915fe34f62aec01527d125",
+      "bytes": 1655
+    },
+    {
+      "file": "assets/styled/orc/4.png",
+      "sha256": "94f10ef3ee6cf1bc5fe5f55bd077a983b75d6237ed0b133507a6181f48a7109a",
+      "bytes": 1743
+    },
+    {
+      "file": "assets/styled/orc/5.png",
+      "sha256": "b3fab6d5f1fbb79e8c172262f5ece14f70dfc07994ceedd241ca2a450b6988c5",
+      "bytes": 1722
+    },
+    {
+      "file": "assets/styled/orc/6.png",
+      "sha256": "cfbd265dbc28f16fae002d800a33d31c0b2a7ca51bba8287d87afa6480d43d5d",
+      "bytes": 1859
+    },
+    {
+      "file": "assets/styled/orc/7.png",
+      "sha256": "f9646d732d0074ee6ae81042ee65284a254a99e99e6965d52a3cb521e97d0954",
+      "bytes": 1783
+    },
+    {
+      "file": "assets/styled/orc/base.png",
+      "sha256": "9656bdba9ee683492812ddf362fa0682f0bff29fe878874021f5dd6002c42c77",
+      "bytes": 1655
+    },
+    {
+      "file": "assets/styled/orc/prepared/0.png",
+      "sha256": "9a145212c0cc73df3e186ad507c0f64f31b6846f70f6fb0c5785272fe82f8448",
+      "bytes": 1413
+    },
+    {
+      "file": "assets/styled/orc/prepared/1.png",
+      "sha256": "662d457b1733331bb324b96f41b494ee89d10f881e15a3c79c9cf79590f9f2b4",
+      "bytes": 1370
+    },
+    {
+      "file": "assets/styled/orc/prepared/2.png",
+      "sha256": "5fb2bba770b76327dbf39d98852c52c7ef5340841e94bec956b80a1f7edf7f76",
+      "bytes": 1411
+    },
+    {
+      "file": "assets/styled/orc/prepared/3.png",
+      "sha256": "7276c05af2fed64257446cdad067072cf9a6f5d9ca88e7757d1b841bcb1b1a98",
+      "bytes": 1353
+    },
+    {
+      "file": "assets/styled/orc/prepared/4.png",
+      "sha256": "a3fe1ecdbd75cb433a432aa15f7d309d39f21f5bff70509952c56d99ba67905e",
+      "bytes": 1368
+    },
+    {
+      "file": "assets/styled/orc/prepared/5.png",
+      "sha256": "674a3e84e55fc47afb9ff5b42216a46d8d15783f1cc084403da91f57e4c184a4",
+      "bytes": 1393
+    },
+    {
+      "file": "assets/styled/orc/prepared/6.png",
+      "sha256": "45830b7cef7189f00a6b1944a9507b8a425448bbd087a25a8f2a9a32bc48e19b",
+      "bytes": 1477
+    },
+    {
+      "file": "assets/styled/orc/prepared/7.png",
+      "sha256": "5c08bc6b5cedd19768a01a36137898ee36119d3a25ef2f53ed8a1cc6e66c1bfe",
+      "bytes": 1433
+    },
+    {
+      "file": "assets/styled/orc/prepared/base.png",
+      "sha256": "76ea9dde3651ea3745520a0f90532c79ffcba2f680d29f563ff82c58fa011e2a",
+      "bytes": 1466
+    },
+    {
+      "file": "assets/styled/raft/0.png",
+      "sha256": "9be1d843b1a32334a064a21dbd6c8dfa292a5c7c0257145d32b1908c7b9d9a3a",
+      "bytes": 3786
+    },
+    {
+      "file": "assets/styled/raft/1.png",
+      "sha256": "6814ba0174e5f69e5169c6b7bc60a54ebe1aa857353c9524983adb69c773ad7f",
+      "bytes": 3600
+    },
+    {
+      "file": "assets/styled/raft/2.png",
+      "sha256": "cf1ea0256c7f05bd678646b0ff3f8d4e7a8abb2598a4c2c85ae2815317888fc4",
+      "bytes": 3660
+    },
+    {
+      "file": "assets/styled/raft/3.png",
+      "sha256": "0532ac4b92eada35f365cc5d72b755c419dd420c09dc8be0151a907148408f50",
+      "bytes": 3667
+    },
+    {
+      "file": "assets/styled/raft/4.png",
+      "sha256": "cd38c3c20a7e53b7be2c4c4406064addc219bda011e64b4c60197f64bcbd3538",
+      "bytes": 3686
+    },
+    {
+      "file": "assets/styled/raft/5.png",
+      "sha256": "856f7f6c3ff11daae67919e95ad20f70d781cc8b2e786d42afb4c30ab01d542c",
+      "bytes": 3644
+    },
+    {
+      "file": "assets/styled/raft/6.png",
+      "sha256": "43e368285baf2908c9ac3ed28869d6b17c03f9b5938650b30634bea946b754ae",
+      "bytes": 3657
+    },
+    {
+      "file": "assets/styled/raft/7.png",
+      "sha256": "7434ba73b5d395b9ebf52c5777de0cf9a9d38445ebfbe052a6db3d38e463ee37",
+      "bytes": 3562
+    },
+    {
+      "file": "assets/styled/raft/base.png",
+      "sha256": "78d7d207bdfa0f8c6f41fa209b952f2a76bfde4bd55e7f8c7b2fca766166ce0e",
+      "bytes": 3302
+    },
+    {
+      "file": "assets/styled/raft/prepared/0.png",
+      "sha256": "3b114516da187e9230ce6f23f2265ee9aaaad982c626748900aee3167640f27d",
+      "bytes": 2958
+    },
+    {
+      "file": "assets/styled/raft/prepared/1.png",
+      "sha256": "32009faa40149234a6b5d5ab80ad72d9686eaade36c519fc3ee5426e52e778f6",
+      "bytes": 2885
+    },
+    {
+      "file": "assets/styled/raft/prepared/2.png",
+      "sha256": "23a66e0838979d8d617df63ee63dc7862bb9d65f122deee81602b2eba504c459",
+      "bytes": 2936
+    },
+    {
+      "file": "assets/styled/raft/prepared/3.png",
+      "sha256": "9632789a7aaa8d3107f8a3ec138ecdacec1f9ed36e3703f8692a62d29d561c40",
+      "bytes": 2965
+    },
+    {
+      "file": "assets/styled/raft/prepared/4.png",
+      "sha256": "f5034d4ec7475daa5c687a85a01b14ab76e8158b25203b4c0c5edcb8d97b134f",
+      "bytes": 2930
+    },
+    {
+      "file": "assets/styled/raft/prepared/5.png",
+      "sha256": "8c2445820c593d9a34f1eb57896c8431fe23f49e631c5172f18bcc1a3dc0739f",
+      "bytes": 2959
+    },
+    {
+      "file": "assets/styled/raft/prepared/6.png",
+      "sha256": "7116f8ec9bc98afeb575cf3072c776c93d791134da2c4e21493991dfe78859dd",
+      "bytes": 2938
+    },
+    {
+      "file": "assets/styled/raft/prepared/7.png",
+      "sha256": "411a22a4d3b1d90661a48e5ee414bec2afd57f032dcac41e3055a270c1482781",
+      "bytes": 2914
+    },
+    {
+      "file": "assets/styled/raft/prepared/base.png",
+      "sha256": "055ed7e24a01ad698eaa18443dec45b033c0905ab6b7b6826d73692615172767",
+      "bytes": 2816
+    },
+    {
+      "file": "assets/styled/slime/0.png",
+      "sha256": "78f0254ddd198df6093f2d6df7e85f28c71364a5629b7ac19e720d5bc835a3ea",
+      "bytes": 1518
+    },
+    {
+      "file": "assets/styled/slime/1.png",
+      "sha256": "6e9b852ea1d4f56de7914e169601c7b7f378ee94b093e3e2f7b1ae79ee2d53e2",
+      "bytes": 1438
+    },
+    {
+      "file": "assets/styled/slime/2.png",
+      "sha256": "988d11f8301ecafda431128f80c0bb889a2aaa20d38013bce329e671100c4a4a",
+      "bytes": 1496
+    },
+    {
+      "file": "assets/styled/slime/3.png",
+      "sha256": "dad12adcb0ee8ee219b0198d8856c61a5e2647d7abeb79e1a44e93172c6d4a1d",
+      "bytes": 1443
+    },
+    {
+      "file": "assets/styled/slime/4.png",
+      "sha256": "76c87def6fe095dc3176f64274a1202d1a60da9f84000ab35be77d765cc82974",
+      "bytes": 1461
+    },
+    {
+      "file": "assets/styled/slime/5.png",
+      "sha256": "516c9b8015cc536cf07800a7ffa48f264fedd46eef191faf0ecfb1a0cc5fb4d2",
+      "bytes": 1398
+    },
+    {
+      "file": "assets/styled/slime/6.png",
+      "sha256": "6e68a49ac28da9d3cf4face8fd642c7a518e3e1f0a3b2c2d3f5e527744edbdc2",
+      "bytes": 1442
+    },
+    {
+      "file": "assets/styled/slime/7.png",
+      "sha256": "bf9d476be9214ac2c6c348a777e8da7c979ddcd4956fdcd3decebb369afb9c0c",
+      "bytes": 1389
+    },
+    {
+      "file": "assets/styled/slime/base.png",
+      "sha256": "65a7d5bedb02820d958938e3a4dfc8babfdd1e8a4f1eab682917e410c14742d8",
+      "bytes": 1465
+    },
+    {
+      "file": "assets/styled/slime/prepared/0.png",
+      "sha256": "7f2a707b8c0e72113d3cf8bfb142d9ec676cf4fb483ef251f6763264afbe529d",
+      "bytes": 1187
+    },
+    {
+      "file": "assets/styled/slime/prepared/1.png",
+      "sha256": "13bfec6f0d41ebc6bc2d58a60bcc441e47f891117d1c75864f84fb17a66bfa9f",
+      "bytes": 1120
+    },
+    {
+      "file": "assets/styled/slime/prepared/2.png",
+      "sha256": "9a3c4f7ec45f2f141ff64c96aeca2ecb9ae250fd345a9d7889b9e76110df894d",
+      "bytes": 1182
+    },
+    {
+      "file": "assets/styled/slime/prepared/3.png",
+      "sha256": "aed8b339c27fe59af2f491857c6698796c08d3f134cc50e69331adef86ce6e00",
+      "bytes": 1165
+    },
+    {
+      "file": "assets/styled/slime/prepared/4.png",
+      "sha256": "b1c0397286b7e03cdf047d91ee20945ce6999e7e53d56e50dd43223d8c368b1f",
+      "bytes": 1133
+    },
+    {
+      "file": "assets/styled/slime/prepared/5.png",
+      "sha256": "ea8cd069b00c57d87d7e7a69fddce7b5c23589ea5d3efdc40dddf21f0bda9772",
+      "bytes": 1109
+    },
+    {
+      "file": "assets/styled/slime/prepared/6.png",
+      "sha256": "56d2e20d1a78af6db98c307885412b5c4267bbf9ec1bff7a9b10879b5142dda7",
+      "bytes": 1175
+    },
+    {
+      "file": "assets/styled/slime/prepared/7.png",
+      "sha256": "e121adacf67567f9dcc7de8e40de24479b45d94c9d8426df5b9fb74fb7b978a9",
+      "bytes": 1133
+    },
+    {
+      "file": "assets/styled/slime/prepared/base.png",
+      "sha256": "9c7b5e0c69154e513e3778197bca678594b33bb1b855948a5edc04febf7d30f5",
+      "bytes": 1251
+    },
+    {
+      "file": "assets/styled/snow/background.png",
+      "sha256": "550700053da5d5218a68d6065ee2db7289e80b478502e3dfded683f952d53925",
+      "bytes": 48910
+    },
+    {
+      "file": "assets/styled/swamp/background.png",
+      "sha256": "ef66668df703602decacbb2bc8e575c1aced97f923791f6c3fc1c61d3ec52ca5",
+      "bytes": 67716
+    },
+    {
+      "file": "assets/styled/wisp/0.png",
+      "sha256": "8ce2862d17a697229010ce478effb1d3d925e8fc1e4cfb7e8fe560bbbfc557e9",
+      "bytes": 1922
+    },
+    {
+      "file": "assets/styled/wisp/1.png",
+      "sha256": "8a3d046c38624c3f6312ad8d4c1b9109310d8f6429cc660338af839552b8f83c",
+      "bytes": 1712
+    },
+    {
+      "file": "assets/styled/wisp/2.png",
+      "sha256": "11a14ce827909cd56e4c2479ba17170cfe1883409f4a3bfbe7186a28ca06c641",
+      "bytes": 1816
+    },
+    {
+      "file": "assets/styled/wisp/3.png",
+      "sha256": "b0a66b2914f960a0a6c47e4a32ab5f5b845b4a6e433df72f490eb63f4f1ea923",
+      "bytes": 1662
+    },
+    {
+      "file": "assets/styled/wisp/4.png",
+      "sha256": "fdf996e921ea0a6528d5145aec9825caf5843c1f603e9c0f8819a77925f74271",
+      "bytes": 1774
+    },
+    {
+      "file": "assets/styled/wisp/5.png",
+      "sha256": "0b35caedfdbabfe45c5ceafd1ec13e3e7a39434a126e231244a8b1dc07973ba8",
+      "bytes": 1806
+    },
+    {
+      "file": "assets/styled/wisp/6.png",
+      "sha256": "94e2f95b75b09ebf97affba5ee8629300c580b657210250c267198faf4bda3df",
+      "bytes": 1794
+    },
+    {
+      "file": "assets/styled/wisp/7.png",
+      "sha256": "04f6c7ae58a2bb1621444b7bf919bbc25d59961537c2c4d34c06bf52d817b177",
+      "bytes": 1673
+    },
+    {
+      "file": "assets/styled/wisp/base.png",
+      "sha256": "47df144482f78bfc3a1ad27d777e153b7ffd674a90cba5bc837d8e0f88244751",
+      "bytes": 1594
+    },
+    {
+      "file": "assets/styled/wisp/prepared/0.png",
+      "sha256": "dff76688a43c29ef4956d809017d1f202b7352027075e8e0a94d088f4a9703cb",
+      "bytes": 1422
+    },
+    {
+      "file": "assets/styled/wisp/prepared/1.png",
+      "sha256": "37cc7327d43ca93d84e631a2bd080278e743ed88a074c27d2ce732b2fa38715d",
+      "bytes": 1267
+    },
+    {
+      "file": "assets/styled/wisp/prepared/2.png",
+      "sha256": "49faf63f880cf7d5e1b0e6cf999dd21123be1ee819140ab77528bd077acd7243",
+      "bytes": 1356
+    },
+    {
+      "file": "assets/styled/wisp/prepared/3.png",
+      "sha256": "37ee9d75784473b80cadedd528e7b2e8c3d6e303bffb7133362dace7524d2759",
+      "bytes": 1182
+    },
+    {
+      "file": "assets/styled/wisp/prepared/4.png",
+      "sha256": "2347251e626d8c9f7c9248bfac20b2b0b1268ccf7541fbdc729e9feae3dff95b",
+      "bytes": 1339
+    },
+    {
+      "file": "assets/styled/wisp/prepared/5.png",
+      "sha256": "98e6b038f4b2805b61dc37f216c11f07582ded3601f6c92af69bcb8c863ea448",
+      "bytes": 1290
+    },
+    {
+      "file": "assets/styled/wisp/prepared/6.png",
+      "sha256": "506f7c31dce21ad8c38acb677fd24b4bf5b63e78bba78aa74eabd46ced20c1ed",
+      "bytes": 1317
+    },
+    {
+      "file": "assets/styled/wisp/prepared/7.png",
+      "sha256": "34d7d5490739e3829888f0e4d853beb0190d61f6b6d76beb386beee30ce3667c",
+      "bytes": 1223
+    },
+    {
+      "file": "assets/styled/wisp/prepared/base.png",
+      "sha256": "aa1e7814df6d215ac3cb6be5d8542d1acb533dce6a584da597c4f9baa5445073",
+      "bytes": 1372
+    },
+    {
+      "file": "assets/styled/wyvern/0.png",
+      "sha256": "4e265629c08f281249eb0eaa88b62b5099d185e0da647000f8cbf202e071dd6b",
+      "bytes": 2249
+    },
+    {
+      "file": "assets/styled/wyvern/1.png",
+      "sha256": "86ddd41a06b4d6b76a35c4688a8180b7cc2463691cc09127a670ccf72ed2c51e",
+      "bytes": 2051
+    },
+    {
+      "file": "assets/styled/wyvern/2.png",
+      "sha256": "6b7af30f2ec414b7f59b13084c5b9ff6e5fe1600b0d1c1629fc4fbdeec28556e",
+      "bytes": 2172
+    },
+    {
+      "file": "assets/styled/wyvern/3.png",
+      "sha256": "7e92bfba01c429d91061e70ebb1a0cdf1c17a164c582c3d0a26d44ffa4810e46",
+      "bytes": 2046
+    },
+    {
+      "file": "assets/styled/wyvern/4.png",
+      "sha256": "b3aa48860b33bc913e66f89c3d8e24025e1fd5a22d7cc3b401fb1af290dfcbbb",
+      "bytes": 2246
+    },
+    {
+      "file": "assets/styled/wyvern/5.png",
+      "sha256": "e93b9f09a3daf37f237733266a492f618e421ee211738f8cc546b37d9f16341f",
+      "bytes": 2082
+    },
+    {
+      "file": "assets/styled/wyvern/6.png",
+      "sha256": "5819f2e6edf9e1f9936277b5b7f36325a721279e386dd572d3d2eed8703008e4",
+      "bytes": 2169
+    },
+    {
+      "file": "assets/styled/wyvern/7.png",
+      "sha256": "38271755c42e3e7a188025bb34d9a7276e214ebfce2e734238a5c1ada911342b",
+      "bytes": 1995
+    },
+    {
+      "file": "assets/styled/wyvern/base.png",
+      "sha256": "f1046c92a45769bfdb64bc40641b43e017e666bd2f08b08f9bb572a384bd4215",
+      "bytes": 1779
+    },
+    {
+      "file": "assets/styled/wyvern/prepared/0.png",
+      "sha256": "e6b3b0748a66ddcb2ab0a728b8245e65ce5c8952aa13b594ec640cbcdb3d10b2",
+      "bytes": 1703
+    },
+    {
+      "file": "assets/styled/wyvern/prepared/1.png",
+      "sha256": "114fa13393838153f65c23c975b01f18318034e0b0e7bf927c667627cd632fe2",
+      "bytes": 1617
+    },
+    {
+      "file": "assets/styled/wyvern/prepared/2.png",
+      "sha256": "14710074ed52cf93b2b6cfe4d92d614a1f6df998a8134a8e213159d88650ba5e",
+      "bytes": 1655
+    },
+    {
+      "file": "assets/styled/wyvern/prepared/3.png",
+      "sha256": "49a51c7e8defccfa844490d7338786488531d5586921e51d84b7fbf155d86e6a",
+      "bytes": 1611
+    },
+    {
+      "file": "assets/styled/wyvern/prepared/4.png",
+      "sha256": "9a04ef839688ac8ba7688e388877ff557bc417a5dfe4f94f6449b6306c790ed1",
+      "bytes": 1756
+    },
+    {
+      "file": "assets/styled/wyvern/prepared/5.png",
+      "sha256": "0bc350b064a145b3ebfe32c34f3870cb8bb49ed18797769a8478d5fffe282927",
+      "bytes": 1681
+    },
+    {
+      "file": "assets/styled/wyvern/prepared/6.png",
+      "sha256": "d85d46d07c0707a3e54084842a43a2af9bd78249f51a14722117153954d3daaa",
+      "bytes": 1712
+    },
+    {
+      "file": "assets/styled/wyvern/prepared/7.png",
+      "sha256": "e887c7ce77ed8bb0240b5063921fbc68d03c92abf87c25dca19d6414e904491a",
+      "bytes": 1565
+    },
+    {
+      "file": "assets/styled/wyvern/prepared/base.png",
+      "sha256": "fbc37dd1582aaa3897905c338865b5bff5ec4f4128a5aa0a7a62bcc22b4073d9",
+      "bytes": 1537
+    }
+  ],
+  "qa": "qa.json",
+  "pixelLabGenerationsConsumed": 460,
+  "endingPixelLabAllowance": 4110
+}

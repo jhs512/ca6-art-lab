@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta name="theme-color" content="#13251f" />
+        <title>CA6 · Fantasy Art Lab</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <a class="brand" href="#">CA6 <span>ART LAB</span></a>
+            <nav>
+                <a href="#stage">한 장면 비교</a><a href="#characters">10종 스프라이트</a
+                ><a href="#backgrounds">4종 배경</a><a href="#method">제작 방식</a>
+            </nav>
+            <button id="export" class="quiet">선택 내보내기 ↗</button>
+        </header>
+        <main>
+            <section class="intro">
+                <div>
+                    <p class="eyebrow">FANTASY ART DIRECTION / 2026</p>
+                    <h1>같은 모험,<br /><em>세 가지 그림.</em></h1>
+                    <p class="lead">
+                        설명이 아니라, 움직이는 그림을 보고 골라주세요.<br />같은 10종과 네 가지
+                        세계를 세 제작 방식으로 비교합니다.
+                    </p>
+                </div>
+                <aside>
+                    <span class="orb">✦</span>
+                    <p>당신이 고르는<br /><strong>다음 모험의 모습</strong></p>
+                    <small id="coverage">에셋을 불러오는 중</small>
+                </aside>
+            </section>
+            <section id="stage">
+                <div class="section-title">
+                    <div>
+                        <p class="eyebrow">01 / SIDE BY SIDE</p>
+                        <h2>한 장면에서 비교하기</h2>
+                    </div>
+                    <p>세 화면은 같은 시간·배율·방향으로 움직입니다.</p>
+                </div>
+                <div class="toolbar">
+                    <div class="segmented" id="biomes"></div>
+                    <div class="tools">
+                        <button id="play" aria-pressed="false">Ⅱ 일시 정지</button
+                        ><label
+                            >크기
+                            <select id="scale">
+                                <option value="1">인게임 1×</option>
+                                <option value="1.5">1.5×</option>
+                                <option value="2">2×</option>
+                            </select></label
+                        ><label
+                            >방향
+                            <input id="angle" type="range" min="0" max="360" value="0" /><output
+                                id="degrees"
+                                >0°</output
+                            ></label
+                        >
+                    </div>
+                </div>
+                <div id="stages" class="stages"></div>
+                <div class="scrubber">
+                    <label for="frame">프레임 직접 살펴보기</label
+                    ><input id="frame" type="range" min="0" max="7" value="0" /><output
+                        id="frame-label"
+                        >1 / 8</output
+                    ><button id="original" aria-pressed="false">기준 원화 보기</button
+                    ><button id="motion">움직임 + 이동</button
+                    ><label
+                        >배경 조합
+                        <select id="background-source">
+                            <option value="own">각 버전의 배경</option>
+                            <option value="plain">A 배경으로 통일</option>
+                            <option value="styled">B 배경으로 통일</option>
+                            <option value="painted">C 배경으로 통일</option>
+                        </select></label
+                    >
+                </div>
+            </section>
+            <section id="characters">
+                <div class="section-title">
+                    <div>
+                        <p class="eyebrow">02 / CHARACTER & ITEM LIBRARY</p>
+                        <h2>10종, 같은 역할로</h2>
+                    </div>
+                    <p>
+                        그림을 확대해 보고 마음에 드는 버전에 별을 남기세요.<br />선택과 메모는 이
+                        브라우저에만 저장됩니다.
+                    </p>
+                </div>
+                <div class="column-labels">
+                    <span>비교 대상</span><b>A · PixelLab 기본</b><b>B · PixelLab + 스킬</b
+                    ><b>C · 이미지 생성 + 프레임 파이프라인</b>
+                </div>
+                <div id="actors"></div>
+            </section>
+            <section id="backgrounds">
+                <div class="section-title">
+                    <div>
+                        <p class="eyebrow">03 / FOUR WORLDS</p>
+                        <h2>캐릭터가 살아갈 세계</h2>
+                    </div>
+                    <p>초원 · 설원 · 사막 · 늪지<br />각 제작 방식으로 별도 생성한 배경입니다.</p>
+                </div>
+                <div id="terrain"></div>
+            </section>
+            <section id="method">
+                <div class="section-title">
+                    <div>
+                        <p class="eyebrow">04 / HOW IT WAS MADE</p>
+                        <h2>무엇이 다른가요?</h2>
+                    </div>
+                </div>
+                <div class="methods">
+                    <article>
+                        <span>A / BASELINE</span>
+                        <h3>PixelLab 기본 생성</h3>
+                        <p>
+                            대상·판타지·카메라를 지정한 짧은 프롬프트. 각 대상을 독립 생성합니다.
+                            별도 스타일 이미지와 공통 팔레트를 지정하지 않습니다.
+                        </p>
+                        <p class="muted">
+                            원화: PixelLab Pro<br />동작: PixelLab animate_image · 8프레임
+                        </p>
+                    </article>
+                    <article>
+                        <span>B / STYLE LOCK</span>
+                        <h3>PixelLab + pixellab 스킬</h3>
+                        <p>
+                            긴 제작 명세, 공통 32색 팔레트, 조명과 금지 요소를 지정합니다. 모험가
+                            원화를 스타일 기준 이미지로 연결해 나머지 대상을 생성합니다.
+                        </p>
+                        <p class="muted">
+                            원화: PixelLab Pro + 스타일 참조<br />동작: PixelLab · 공통 기준점·배율
+                            검수
+                        </p>
+                    </article>
+                    <article>
+                        <span>C / PAINTED HYBRID</span>
+                        <h3>다른 생성기 + 스프라이트 절차</h3>
+                        <p>
+                            내장 이미지 생성기로 손그림풍 원화를 새로 만듭니다. generate2dsprite의
+                            크기·기준점 원칙으로 패키징하고, 동작 프레임은 PixelLab으로 생성합니다.
+                        </p>
+                        <p class="muted">
+                            원화: 내장 image_gen · 손그림풍<br />동작: PixelLab · 같은 동작 조건으로
+                            비교
+                        </p>
+                    </article>
+                </div>
+                <div class="honest">
+                    <strong>비교 범위</strong>
+                    <p>
+                        CodeMonkey의 원본 그림을 복제하지 않고, 원본의
+                        플레이어·추적·도약·밀기·비행·수집·지지 역할을 판타지 대상으로 옮긴
+                        시안입니다. 각 대상의 대표 동작 1개를 비교하며 공격·피격·모든 게임 동작을
+                        완성한 묶음은 아닙니다. C도 애니메이션에는 PixelLab을 사용합니다. 생성
+                        결과의 카메라·체형 변화와 루프 이음새는 그림을 보며 판단해 주세요.
+                    </p>
+                </div>
+                <details>
+                    <summary>출처 · 프롬프트 · 생성 기록</summary>
+                    <p>
+                        <a href="verification.json">패키지 검사</a> ·
+                        <a href="qa.json">프레임 검사</a> ·
+                        <a href="processing.json">스킬 처리 기록</a> ·
+                        <a href="provenance.json">전체 제작 명세와 공개용 생성 기록</a> ·
+                        <a href="https://api.pixellab.ai/mcp/docs">PixelLab 공식 문서</a> ·
+                        <a href="https://github.com/freema/ai-skills/tree/main/skills/pixellab"
+                            >pixellab 스킬</a
+                        >
+                        ·
+                        <a
+                            href="https://github.com/0x0funky/agent-sprite-forge/tree/main/skills/generate2dsprite"
+                            >generate2dsprite 스킬</a
+                        >
+                    </p>
+                    <p>
+                        비밀키·계정 정보는 포함하지 않습니다. 이 페이지는 정적 파일로만 동작하며
+                        생성 API를 호출하지 않습니다.
+                    </p>
+                </details>
+            </section>
+            <section class="decision">
+                <p class="eyebrow">YOUR DIRECTION</p>
+                <h2>어느 세계에서 모험하고 싶나요?</h2>
+                <p>전체 취향과 대상별 선택을 함께 저장할 수 있어요.</p>
+                <div id="votes"></div>
+                <label class="notes-label"
+                    >남기고 싶은 말<textarea
+                        id="notes"
+                        placeholder="예: B의 캐릭터에 C의 배경이 좋다. 전사는 더 작게…"
+                    ></textarea>
+                </label>
+                <p id="saved" aria-live="polite"></p>
+            </section>
+        </main>
+        <footer>
+            <span>CA6 / ART LAB</span><span>실제 게임과 분리된 미술 비교 실험</span
+            ><a href="#">맨 위로 ↑</a>
+        </footer>
+        <dialog id="detail">
+            <button id="close-detail" aria-label="확대 닫기">×</button>
+            <h2 id="detail-title"></h2>
+            <canvas id="detail-canvas" width="640" height="400"></canvas>
+            <p id="detail-meta"></p>
+        </dialog>
+        <script type="module" src="app.js"></script>
+    </body>
+</html>

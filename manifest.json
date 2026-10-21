@@ -1,0 +1,707 @@
+{
+  "id": "ca6-art-lab-2026-10-22",
+  "actors": [
+    {
+      "id": "hero",
+      "label": "모험가",
+      "original": "원숭이 / 플레이어",
+      "actionLabel": "걷기",
+      "extent": 58
+    },
+    {
+      "id": "goblin",
+      "label": "보물 고블린",
+      "original": "쥐 / 먹이 추적",
+      "actionLabel": "살금살금 걷기",
+      "extent": 28
+    },
+    {
+      "id": "slime",
+      "label": "점프 슬라임",
+      "original": "개구리 / 도약",
+      "actionLabel": "탄성 도약",
+      "extent": 27
+    },
+    {
+      "id": "orc",
+      "label": "돌진 오크",
+      "original": "염소 / 밀기",
+      "actionLabel": "달리기",
+      "extent": 51
+    },
+    {
+      "id": "ogre",
+      "label": "잠꾸러기 오거",
+      "original": "곰 / 추적·수면",
+      "actionLabel": "육중하게 걷기",
+      "extent": 67
+    },
+    {
+      "id": "wisp",
+      "label": "바람 정령",
+      "original": "박쥐 / 비행",
+      "actionLabel": "부유·꼬리 흔들기",
+      "extent": 48
+    },
+    {
+      "id": "imp",
+      "label": "불씨 임프",
+      "original": "까마귀 / 경계",
+      "actionLabel": "날갯짓",
+      "extent": 45
+    },
+    {
+      "id": "wyvern",
+      "label": "작은 와이번",
+      "original": "독수리 / 비행",
+      "actionLabel": "비행",
+      "extent": 53
+    },
+    {
+      "id": "fruit",
+      "label": "마력 열매",
+      "original": "바나나 / 수집 아이템",
+      "actionLabel": "잎 흔들기·빛 맥동",
+      "extent": 19
+    },
+    {
+      "id": "raft",
+      "label": "룬 뗏목",
+      "original": "뗏목 / 이동·지지",
+      "actionLabel": "부유·흔들림",
+      "extent": 160
+    }
+  ],
+  "biomes": [
+    {
+      "id": "grass",
+      "label": "초원"
+    },
+    {
+      "id": "snow",
+      "label": "설원"
+    },
+    {
+      "id": "desert",
+      "label": "사막"
+    },
+    {
+      "id": "swamp",
+      "label": "늪지"
+    }
+  ],
+  "packs": [
+    {
+      "id": "plain",
+      "letter": "A",
+      "label": "PixelLab 기본",
+      "subtitle": "독립 생성 · 짧은 프롬프트",
+      "actors": {
+        "hero": {
+          "base": "assets/plain/hero/base.png",
+          "frames": [
+            "assets/plain/hero/0.png",
+            "assets/plain/hero/1.png",
+            "assets/plain/hero/2.png",
+            "assets/plain/hero/3.png",
+            "assets/plain/hero/4.png",
+            "assets/plain/hero/5.png",
+            "assets/plain/hero/6.png",
+            "assets/plain/hero/7.png"
+          ],
+          "anchor": [
+            44.0,
+            47.5
+          ],
+          "referenceExtent": 65,
+          "uniqueFrames": 8
+        },
+        "goblin": {
+          "base": "assets/plain/goblin/base.png",
+          "frames": [
+            "assets/plain/goblin/0.png",
+            "assets/plain/goblin/1.png",
+            "assets/plain/goblin/2.png",
+            "assets/plain/goblin/3.png",
+            "assets/plain/goblin/4.png",
+            "assets/plain/goblin/5.png",
+            "assets/plain/goblin/6.png",
+            "assets/plain/goblin/7.png"
+          ],
+          "anchor": [
+            47.5,
+            50.0
+          ],
+          "referenceExtent": 58,
+          "uniqueFrames": 8
+        },
+        "slime": {
+          "base": "assets/plain/slime/base.png",
+          "frames": [
+            "assets/plain/slime/0.png",
+            "assets/plain/slime/1.png",
+            "assets/plain/slime/2.png",
+            "assets/plain/slime/3.png",
+            "assets/plain/slime/4.png",
+            "assets/plain/slime/5.png",
+            "assets/plain/slime/6.png",
+            "assets/plain/slime/7.png"
+          ],
+          "anchor": [
+            48.0,
+            54.5
+          ],
+          "referenceExtent": 70,
+          "uniqueFrames": 8
+        },
+        "orc": {
+          "base": "assets/plain/orc/base.png",
+          "frames": [
+            "assets/plain/orc/0.png",
+            "assets/plain/orc/1.png",
+            "assets/plain/orc/2.png",
+            "assets/plain/orc/3.png",
+            "assets/plain/orc/4.png",
+            "assets/plain/orc/5.png",
+            "assets/plain/orc/6.png",
+            "assets/plain/orc/7.png"
+          ],
+          "anchor": [
+            50.5,
+            49.0
+          ],
+          "referenceExtent": 64,
+          "uniqueFrames": 8
+        },
+        "ogre": {
+          "base": "assets/plain/ogre/base.png",
+          "frames": [
+            "assets/plain/ogre/0.png",
+            "assets/plain/ogre/1.png",
+            "assets/plain/ogre/2.png",
+            "assets/plain/ogre/3.png",
+            "assets/plain/ogre/4.png",
+            "assets/plain/ogre/5.png",
+            "assets/plain/ogre/6.png",
+            "assets/plain/ogre/7.png"
+          ],
+          "anchor": [
+            50.0,
+            48.5
+          ],
+          "referenceExtent": 73,
+          "uniqueFrames": 8
+        },
+        "wisp": {
+          "base": "assets/plain/wisp/base.png",
+          "frames": [
+            "assets/plain/wisp/0.png",
+            "assets/plain/wisp/1.png",
+            "assets/plain/wisp/2.png",
+            "assets/plain/wisp/3.png",
+            "assets/plain/wisp/4.png",
+            "assets/plain/wisp/5.png",
+            "assets/plain/wisp/6.png",
+            "assets/plain/wisp/7.png"
+          ],
+          "anchor": [
+            47.5,
+            48.5
+          ],
+          "referenceExtent": 73,
+          "uniqueFrames": 8
+        },
+        "imp": {
+          "base": "assets/plain/imp/base.png",
+          "frames": [
+            "assets/plain/imp/0.png",
+            "assets/plain/imp/1.png",
+            "assets/plain/imp/2.png",
+            "assets/plain/imp/3.png",
+            "assets/plain/imp/4.png",
+            "assets/plain/imp/5.png",
+            "assets/plain/imp/6.png",
+            "assets/plain/imp/7.png"
+          ],
+          "anchor": [
+            48.5,
+            48.5
+          ],
+          "referenceExtent": 63,
+          "uniqueFrames": 8
+        },
+        "wyvern": {
+          "base": "assets/plain/wyvern/base.png",
+          "frames": [
+            "assets/plain/wyvern/0.png",
+            "assets/plain/wyvern/1.png",
+            "assets/plain/wyvern/2.png",
+            "assets/plain/wyvern/3.png",
+            "assets/plain/wyvern/4.png",
+            "assets/plain/wyvern/5.png",
+            "assets/plain/wyvern/6.png",
+            "assets/plain/wyvern/7.png"
+          ],
+          "anchor": [
+            47.5,
+            51.0
+          ],
+          "referenceExtent": 68,
+          "uniqueFrames": 8
+        },
+        "fruit": {
+          "base": "assets/plain/fruit/base.png",
+          "frames": [
+            "assets/plain/fruit/0.png",
+            "assets/plain/fruit/1.png",
+            "assets/plain/fruit/2.png",
+            "assets/plain/fruit/3.png",
+            "assets/plain/fruit/4.png",
+            "assets/plain/fruit/5.png",
+            "assets/plain/fruit/6.png",
+            "assets/plain/fruit/7.png"
+          ],
+          "anchor": [
+            50.5,
+            48.0
+          ],
+          "referenceExtent": 82,
+          "uniqueFrames": 8
+        },
+        "raft": {
+          "base": "assets/plain/raft/base.png",
+          "frames": [
+            "assets/plain/raft/0.png",
+            "assets/plain/raft/1.png",
+            "assets/plain/raft/2.png",
+            "assets/plain/raft/3.png",
+            "assets/plain/raft/4.png",
+            "assets/plain/raft/5.png",
+            "assets/plain/raft/6.png",
+            "assets/plain/raft/7.png"
+          ],
+          "anchor": [
+            48.0,
+            48.5
+          ],
+          "referenceExtent": 76,
+          "uniqueFrames": 8
+        }
+      },
+      "backgrounds": {
+        "grass": "assets/plain/grass/background.png",
+        "snow": "assets/plain/snow/background.png",
+        "desert": "assets/plain/desert/background.png",
+        "swamp": "assets/plain/swamp/background.png"
+      }
+    },
+    {
+      "id": "styled",
+      "letter": "B",
+      "label": "PixelLab + 스킬",
+      "subtitle": "스타일 참조 · 공통 팔레트",
+      "actors": {
+        "hero": {
+          "base": "assets/styled/hero/prepared/base.png",
+          "frames": [
+            "assets/styled/hero/prepared/0.png",
+            "assets/styled/hero/prepared/1.png",
+            "assets/styled/hero/prepared/2.png",
+            "assets/styled/hero/prepared/3.png",
+            "assets/styled/hero/prepared/4.png",
+            "assets/styled/hero/prepared/5.png",
+            "assets/styled/hero/prepared/6.png",
+            "assets/styled/hero/prepared/7.png"
+          ],
+          "anchor": [
+            48.0,
+            50.5
+          ],
+          "referenceExtent": 63,
+          "uniqueFrames": 8
+        },
+        "goblin": {
+          "base": "assets/styled/goblin/prepared/base.png",
+          "frames": [
+            "assets/styled/goblin/prepared/0.png",
+            "assets/styled/goblin/prepared/1.png",
+            "assets/styled/goblin/prepared/2.png",
+            "assets/styled/goblin/prepared/3.png",
+            "assets/styled/goblin/prepared/4.png",
+            "assets/styled/goblin/prepared/5.png",
+            "assets/styled/goblin/prepared/6.png",
+            "assets/styled/goblin/prepared/7.png"
+          ],
+          "anchor": [
+            47.5,
+            48.5
+          ],
+          "referenceExtent": 61,
+          "uniqueFrames": 8
+        },
+        "slime": {
+          "base": "assets/styled/slime/prepared/base.png",
+          "frames": [
+            "assets/styled/slime/prepared/0.png",
+            "assets/styled/slime/prepared/1.png",
+            "assets/styled/slime/prepared/2.png",
+            "assets/styled/slime/prepared/3.png",
+            "assets/styled/slime/prepared/4.png",
+            "assets/styled/slime/prepared/5.png",
+            "assets/styled/slime/prepared/6.png",
+            "assets/styled/slime/prepared/7.png"
+          ],
+          "anchor": [
+            48.0,
+            48.0
+          ],
+          "referenceExtent": 58,
+          "uniqueFrames": 8
+        },
+        "orc": {
+          "base": "assets/styled/orc/prepared/base.png",
+          "frames": [
+            "assets/styled/orc/prepared/0.png",
+            "assets/styled/orc/prepared/1.png",
+            "assets/styled/orc/prepared/2.png",
+            "assets/styled/orc/prepared/3.png",
+            "assets/styled/orc/prepared/4.png",
+            "assets/styled/orc/prepared/5.png",
+            "assets/styled/orc/prepared/6.png",
+            "assets/styled/orc/prepared/7.png"
+          ],
+          "anchor": [
+            47.5,
+            48.0
+          ],
+          "referenceExtent": 62,
+          "uniqueFrames": 8
+        },
+        "ogre": {
+          "base": "assets/styled/ogre/prepared/base.png",
+          "frames": [
+            "assets/styled/ogre/prepared/0.png",
+            "assets/styled/ogre/prepared/1.png",
+            "assets/styled/ogre/prepared/2.png",
+            "assets/styled/ogre/prepared/3.png",
+            "assets/styled/ogre/prepared/4.png",
+            "assets/styled/ogre/prepared/5.png",
+            "assets/styled/ogre/prepared/6.png",
+            "assets/styled/ogre/prepared/7.png"
+          ],
+          "anchor": [
+            48.5,
+            48.5
+          ],
+          "referenceExtent": 69,
+          "uniqueFrames": 8
+        },
+        "wisp": {
+          "base": "assets/styled/wisp/prepared/base.png",
+          "frames": [
+            "assets/styled/wisp/prepared/0.png",
+            "assets/styled/wisp/prepared/1.png",
+            "assets/styled/wisp/prepared/2.png",
+            "assets/styled/wisp/prepared/3.png",
+            "assets/styled/wisp/prepared/4.png",
+            "assets/styled/wisp/prepared/5.png",
+            "assets/styled/wisp/prepared/6.png",
+            "assets/styled/wisp/prepared/7.png"
+          ],
+          "anchor": [
+            47.5,
+            49.5
+          ],
+          "referenceExtent": 65,
+          "uniqueFrames": 8
+        },
+        "imp": {
+          "base": "assets/styled/imp/prepared/base.png",
+          "frames": [
+            "assets/styled/imp/prepared/0.png",
+            "assets/styled/imp/prepared/1.png",
+            "assets/styled/imp/prepared/2.png",
+            "assets/styled/imp/prepared/3.png",
+            "assets/styled/imp/prepared/4.png",
+            "assets/styled/imp/prepared/5.png",
+            "assets/styled/imp/prepared/6.png",
+            "assets/styled/imp/prepared/7.png"
+          ],
+          "anchor": [
+            46.5,
+            50.0
+          ],
+          "referenceExtent": 58,
+          "uniqueFrames": 8
+        },
+        "wyvern": {
+          "base": "assets/styled/wyvern/prepared/base.png",
+          "frames": [
+            "assets/styled/wyvern/prepared/0.png",
+            "assets/styled/wyvern/prepared/1.png",
+            "assets/styled/wyvern/prepared/2.png",
+            "assets/styled/wyvern/prepared/3.png",
+            "assets/styled/wyvern/prepared/4.png",
+            "assets/styled/wyvern/prepared/5.png",
+            "assets/styled/wyvern/prepared/6.png",
+            "assets/styled/wyvern/prepared/7.png"
+          ],
+          "anchor": [
+            49.0,
+            49.5
+          ],
+          "referenceExtent": 70,
+          "uniqueFrames": 8
+        },
+        "fruit": {
+          "base": "assets/styled/fruit/prepared/base.png",
+          "frames": [
+            "assets/styled/fruit/prepared/0.png",
+            "assets/styled/fruit/prepared/1.png",
+            "assets/styled/fruit/prepared/2.png",
+            "assets/styled/fruit/prepared/3.png",
+            "assets/styled/fruit/prepared/4.png",
+            "assets/styled/fruit/prepared/5.png",
+            "assets/styled/fruit/prepared/6.png",
+            "assets/styled/fruit/prepared/7.png"
+          ],
+          "anchor": [
+            49.0,
+            45.0
+          ],
+          "referenceExtent": 76,
+          "uniqueFrames": 8
+        },
+        "raft": {
+          "base": "assets/styled/raft/prepared/base.png",
+          "frames": [
+            "assets/styled/raft/prepared/0.png",
+            "assets/styled/raft/prepared/1.png",
+            "assets/styled/raft/prepared/2.png",
+            "assets/styled/raft/prepared/3.png",
+            "assets/styled/raft/prepared/4.png",
+            "assets/styled/raft/prepared/5.png",
+            "assets/styled/raft/prepared/6.png",
+            "assets/styled/raft/prepared/7.png"
+          ],
+          "anchor": [
+            48.0,
+            48.0
+          ],
+          "referenceExtent": 78,
+          "uniqueFrames": 8
+        }
+      },
+      "backgrounds": {
+        "grass": "assets/styled/grass/background.png",
+        "snow": "assets/styled/snow/background.png",
+        "desert": "assets/styled/desert/background.png",
+        "swamp": "assets/styled/swamp/background.png"
+      }
+    },
+    {
+      "id": "painted",
+      "letter": "C",
+      "label": "이미지 생성 + 프레임 절차",
+      "subtitle": "손그림풍 원화 · PixelLab 동작",
+      "actors": {
+        "hero": {
+          "base": "assets/painted/hero/base.png",
+          "frames": [
+            "assets/painted/hero/0.png",
+            "assets/painted/hero/1.png",
+            "assets/painted/hero/2.png",
+            "assets/painted/hero/3.png",
+            "assets/painted/hero/4.png",
+            "assets/painted/hero/5.png",
+            "assets/painted/hero/6.png",
+            "assets/painted/hero/7.png"
+          ],
+          "anchor": [
+            63.0,
+            62.0
+          ],
+          "referenceExtent": 56,
+          "uniqueFrames": 8
+        },
+        "goblin": {
+          "base": "assets/painted/goblin/base.png",
+          "frames": [
+            "assets/painted/goblin/0.png",
+            "assets/painted/goblin/1.png",
+            "assets/painted/goblin/2.png",
+            "assets/painted/goblin/3.png",
+            "assets/painted/goblin/4.png",
+            "assets/painted/goblin/5.png",
+            "assets/painted/goblin/6.png",
+            "assets/painted/goblin/7.png"
+          ],
+          "anchor": [
+            62.5,
+            60.5
+          ],
+          "referenceExtent": 69,
+          "uniqueFrames": 8
+        },
+        "slime": {
+          "base": "assets/painted/slime/base.png",
+          "frames": [
+            "assets/painted/slime/0.png",
+            "assets/painted/slime/1.png",
+            "assets/painted/slime/2.png",
+            "assets/painted/slime/3.png",
+            "assets/painted/slime/4.png",
+            "assets/painted/slime/5.png",
+            "assets/painted/slime/6.png",
+            "assets/painted/slime/7.png"
+          ],
+          "anchor": [
+            63.0,
+            64.0
+          ],
+          "referenceExtent": 46,
+          "uniqueFrames": 8
+        },
+        "orc": {
+          "base": "assets/painted/orc/base.png",
+          "frames": [
+            "assets/painted/orc/0.png",
+            "assets/painted/orc/1.png",
+            "assets/painted/orc/2.png",
+            "assets/painted/orc/3.png",
+            "assets/painted/orc/4.png",
+            "assets/painted/orc/5.png",
+            "assets/painted/orc/6.png",
+            "assets/painted/orc/7.png"
+          ],
+          "anchor": [
+            67.0,
+            62.5
+          ],
+          "referenceExtent": 63,
+          "uniqueFrames": 8
+        },
+        "ogre": {
+          "base": "assets/painted/ogre/base.png",
+          "frames": [
+            "assets/painted/ogre/0.png",
+            "assets/painted/ogre/1.png",
+            "assets/painted/ogre/2.png",
+            "assets/painted/ogre/3.png",
+            "assets/painted/ogre/4.png",
+            "assets/painted/ogre/5.png",
+            "assets/painted/ogre/6.png",
+            "assets/painted/ogre/7.png"
+          ],
+          "anchor": [
+            64.0,
+            62.5
+          ],
+          "referenceExtent": 77,
+          "uniqueFrames": 8
+        },
+        "wisp": {
+          "base": "assets/painted/wisp/base.png",
+          "frames": [
+            "assets/painted/wisp/0.png",
+            "assets/painted/wisp/1.png",
+            "assets/painted/wisp/2.png",
+            "assets/painted/wisp/3.png",
+            "assets/painted/wisp/4.png",
+            "assets/painted/wisp/5.png",
+            "assets/painted/wisp/6.png",
+            "assets/painted/wisp/7.png"
+          ],
+          "anchor": [
+            64.5,
+            59.0
+          ],
+          "referenceExtent": 58,
+          "uniqueFrames": 8
+        },
+        "imp": {
+          "base": "assets/painted/imp/base.png",
+          "frames": [
+            "assets/painted/imp/0.png",
+            "assets/painted/imp/1.png",
+            "assets/painted/imp/2.png",
+            "assets/painted/imp/3.png",
+            "assets/painted/imp/4.png",
+            "assets/painted/imp/5.png",
+            "assets/painted/imp/6.png",
+            "assets/painted/imp/7.png"
+          ],
+          "anchor": [
+            73.0,
+            60.0
+          ],
+          "referenceExtent": 94,
+          "uniqueFrames": 8
+        },
+        "wyvern": {
+          "base": "assets/painted/wyvern/base.png",
+          "frames": [
+            "assets/painted/wyvern/0.png",
+            "assets/painted/wyvern/1.png",
+            "assets/painted/wyvern/2.png",
+            "assets/painted/wyvern/3.png",
+            "assets/painted/wyvern/4.png",
+            "assets/painted/wyvern/5.png",
+            "assets/painted/wyvern/6.png",
+            "assets/painted/wyvern/7.png"
+          ],
+          "anchor": [
+            62.5,
+            59.0
+          ],
+          "referenceExtent": 87,
+          "uniqueFrames": 8
+        },
+        "fruit": {
+          "base": "assets/painted/fruit/base.png",
+          "frames": [
+            "assets/painted/fruit/0.png",
+            "assets/painted/fruit/1.png",
+            "assets/painted/fruit/2.png",
+            "assets/painted/fruit/3.png",
+            "assets/painted/fruit/4.png",
+            "assets/painted/fruit/5.png",
+            "assets/painted/fruit/6.png",
+            "assets/painted/fruit/7.png"
+          ],
+          "anchor": [
+            64.0,
+            62.5
+          ],
+          "referenceExtent": 61,
+          "uniqueFrames": 8
+        },
+        "raft": {
+          "base": "assets/painted/raft/base.png",
+          "frames": [
+            "assets/painted/raft/0.png",
+            "assets/painted/raft/1.png",
+            "assets/painted/raft/2.png",
+            "assets/painted/raft/3.png",
+            "assets/painted/raft/4.png",
+            "assets/painted/raft/5.png",
+            "assets/painted/raft/6.png",
+            "assets/painted/raft/7.png"
+          ],
+          "anchor": [
+            64.0,
+            63.0
+          ],
+          "referenceExtent": 94,
+          "uniqueFrames": 8
+        }
+      },
+      "backgrounds": {
+        "grass": "assets/painted/grass/background.png",
+        "snow": "assets/painted/snow/background.png",
+        "desert": "assets/painted/desert/background.png",
+        "swamp": "assets/painted/swamp/background.png"
+      }
+    }
+  ]
+}

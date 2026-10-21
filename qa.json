@@ -1,0 +1,3366 @@
+{
+  "frames": 240,
+  "edgeWarnings": [],
+  "checks": [
+    {
+      "file": "assets/plain/hero/0.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        17,
+        17,
+        67,
+        81
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/hero/1.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        16,
+        16,
+        69,
+        81
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/hero/2.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        13,
+        15,
+        72,
+        81
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/hero/3.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        13,
+        14,
+        75,
+        81
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/hero/4.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        15,
+        15,
+        79,
+        81
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/hero/5.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        15,
+        17,
+        80,
+        81
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/hero/6.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        13,
+        16,
+        76,
+        80
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/hero/7.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        15,
+        15,
+        72,
+        80
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/goblin/0.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        22,
+        20,
+        74,
+        78
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/goblin/1.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        27,
+        19,
+        75,
+        77
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/goblin/2.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        30,
+        17,
+        75,
+        77
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/goblin/3.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        30,
+        18,
+        74,
+        78
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/goblin/4.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        29,
+        20,
+        73,
+        79
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/goblin/5.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        28,
+        21,
+        72,
+        79
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/goblin/6.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        30,
+        18,
+        73,
+        79
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/goblin/7.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        30,
+        16,
+        73,
+        79
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/slime/0.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        14,
+        28,
+        82,
+        80
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/slime/1.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        18,
+        25,
+        79,
+        80
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/slime/2.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        19,
+        22,
+        77,
+        79
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/slime/3.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        18,
+        13,
+        75,
+        78
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/slime/4.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        18,
+        13,
+        76,
+        71
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/slime/5.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        16,
+        16,
+        79,
+        73
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/slime/6.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        15,
+        24,
+        80,
+        80
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/slime/7.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        14,
+        28,
+        82,
+        80
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/orc/0.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        20,
+        16,
+        79,
+        81
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/orc/1.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        23,
+        15,
+        79,
+        80
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/orc/2.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        22,
+        13,
+        76,
+        80
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/orc/3.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        21,
+        15,
+        74,
+        80
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/orc/4.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        20,
+        17,
+        72,
+        82
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/orc/5.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        21,
+        17,
+        71,
+        82
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/orc/6.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        22,
+        15,
+        73,
+        82
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/orc/7.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        23,
+        13,
+        76,
+        82
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/ogre/0.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        12,
+        13,
+        86,
+        85
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/ogre/1.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        16,
+        11,
+        86,
+        85
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/ogre/2.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        19,
+        10,
+        86,
+        85
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/ogre/3.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        18,
+        10,
+        79,
+        84
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/ogre/4.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        16,
+        12,
+        72,
+        85
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/ogre/5.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        15,
+        13,
+        68,
+        86
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/ogre/6.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        17,
+        11,
+        69,
+        86
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/ogre/7.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        18,
+        10,
+        73,
+        86
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/wisp/0.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        11,
+        17,
+        84,
+        79
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/wisp/1.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        11,
+        16,
+        84,
+        78
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/wisp/2.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        11,
+        15,
+        84,
+        77
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/wisp/3.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        11,
+        14,
+        84,
+        76
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/wisp/4.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        11,
+        14,
+        84,
+        75
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/wisp/5.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        11,
+        15,
+        85,
+        76
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/wisp/6.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        11,
+        16,
+        84,
+        77
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/wisp/7.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        11,
+        17,
+        84,
+        78
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/imp/0.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        18,
+        18,
+        77,
+        80
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/imp/1.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        11,
+        19,
+        76,
+        80
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/imp/2.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        10,
+        20,
+        81,
+        80
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/imp/3.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        10,
+        19,
+        81,
+        80
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/imp/4.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        14,
+        15,
+        76,
+        80
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/imp/5.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        12,
+        16,
+        76,
+        80
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/imp/6.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        8,
+        19,
+        83,
+        80
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/imp/7.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        12,
+        17,
+        77,
+        80
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/wyvern/0.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        13,
+        17,
+        81,
+        84
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/wyvern/1.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        10,
+        18,
+        81,
+        85
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/wyvern/2.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        9,
+        20,
+        81,
+        86
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/wyvern/3.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        12,
+        10,
+        81,
+        87
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/wyvern/4.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        12,
+        9,
+        81,
+        86
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/wyvern/5.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        14,
+        12,
+        81,
+        85
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/wyvern/6.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        9,
+        20,
+        81,
+        87
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/wyvern/7.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        11,
+        18,
+        81,
+        87
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/fruit/0.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        14,
+        7,
+        88,
+        89
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/fruit/1.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        14,
+        7,
+        88,
+        89
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/fruit/2.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        14,
+        7,
+        87,
+        89
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/fruit/3.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        14,
+        7,
+        87,
+        89
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/fruit/4.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        14,
+        7,
+        88,
+        89
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/fruit/5.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        14,
+        7,
+        88,
+        89
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/fruit/6.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        5,
+        7,
+        87,
+        89
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/fruit/7.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        14,
+        7,
+        87,
+        89
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/raft/0.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        10,
+        25,
+        86,
+        70
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/raft/1.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        10,
+        24,
+        86,
+        71
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/raft/2.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        10,
+        24,
+        86,
+        71
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/raft/3.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        10,
+        24,
+        86,
+        70
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/raft/4.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        10,
+        23,
+        86,
+        70
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/raft/5.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        10,
+        23,
+        86,
+        71
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/raft/6.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        10,
+        23,
+        86,
+        71
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/plain/raft/7.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        10,
+        24,
+        86,
+        72
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/hero/prepared/0.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        28,
+        17,
+        70,
+        82
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/hero/prepared/1.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        26,
+        16,
+        74,
+        82
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/hero/prepared/2.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        24,
+        16,
+        74,
+        80
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/hero/prepared/3.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        22,
+        17,
+        68,
+        79
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/hero/prepared/4.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        21,
+        15,
+        67,
+        80
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/hero/prepared/5.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        22,
+        13,
+        68,
+        79
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/hero/prepared/6.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        25,
+        14,
+        69,
+        80
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/hero/prepared/7.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        27,
+        17,
+        70,
+        82
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/goblin/prepared/0.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        28,
+        17,
+        68,
+        81
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/goblin/prepared/1.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        28,
+        16,
+        70,
+        82
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/goblin/prepared/2.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        27,
+        16,
+        70,
+        82
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/goblin/prepared/3.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        27,
+        17,
+        68,
+        81
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/goblin/prepared/4.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        26,
+        18,
+        66,
+        79
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/goblin/prepared/5.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        26,
+        16,
+        66,
+        77
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/goblin/prepared/6.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        28,
+        15,
+        67,
+        76
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/goblin/prepared/7.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        29,
+        16,
+        68,
+        76
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/slime/prepared/0.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        18,
+        24,
+        78,
+        74
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/slime/prepared/1.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        19,
+        23,
+        77,
+        74
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/slime/prepared/2.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        20,
+        20,
+        76,
+        74
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/slime/prepared/3.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        21,
+        19,
+        75,
+        74
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/slime/prepared/4.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        20,
+        17,
+        75,
+        73
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/slime/prepared/5.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        20,
+        17,
+        76,
+        72
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/slime/prepared/6.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        20,
+        19,
+        76,
+        73
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/slime/prepared/7.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        20,
+        21,
+        76,
+        75
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/orc/prepared/0.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        31,
+        16,
+        67,
+        79
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/orc/prepared/1.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        26,
+        15,
+        67,
+        77
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/orc/prepared/2.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        27,
+        17,
+        68,
+        74
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/orc/prepared/3.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        30,
+        18,
+        68,
+        78
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/orc/prepared/4.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        30,
+        17,
+        68,
+        75
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/orc/prepared/5.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        30,
+        17,
+        68,
+        76
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/orc/prepared/6.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        26,
+        15,
+        67,
+        75
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/orc/prepared/7.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        26,
+        16,
+        67,
+        80
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/ogre/prepared/0.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        26,
+        13,
+        71,
+        83
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/ogre/prepared/1.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        26,
+        12,
+        70,
+        83
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/ogre/prepared/2.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        26,
+        13,
+        70,
+        83
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/ogre/prepared/3.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        26,
+        14,
+        72,
+        83
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/ogre/prepared/4.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        26,
+        13,
+        70,
+        81
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/ogre/prepared/5.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        27,
+        12,
+        70,
+        80
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/ogre/prepared/6.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        27,
+        11,
+        70,
+        80
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/ogre/prepared/7.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        26,
+        13,
+        71,
+        81
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/wisp/prepared/0.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        15,
+        30,
+        80,
+        74
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/wisp/prepared/1.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        15,
+        29,
+        80,
+        74
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/wisp/prepared/2.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        14,
+        29,
+        80,
+        73
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/wisp/prepared/3.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        15,
+        28,
+        80,
+        73
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/wisp/prepared/4.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        14,
+        28,
+        80,
+        71
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/wisp/prepared/5.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        14,
+        29,
+        80,
+        70
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/wisp/prepared/6.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        14,
+        30,
+        80,
+        71
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/wisp/prepared/7.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        15,
+        30,
+        80,
+        72
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/imp/prepared/0.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        22,
+        20,
+        67,
+        81
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/imp/prepared/1.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        17,
+        19,
+        70,
+        82
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/imp/prepared/2.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        15,
+        19,
+        77,
+        81
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/imp/prepared/3.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        17,
+        16,
+        77,
+        80
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/imp/prepared/4.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        24,
+        11,
+        71,
+        80
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/imp/prepared/5.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        20,
+        20,
+        74,
+        81
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/imp/prepared/6.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        14,
+        20,
+        79,
+        83
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/imp/prepared/7.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        29,
+        19,
+        67,
+        82
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/wyvern/prepared/0.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        13,
+        28,
+        84,
+        70
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/wyvern/prepared/1.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        13,
+        26,
+        84,
+        68
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/wyvern/prepared/2.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        13,
+        24,
+        84,
+        68
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/wyvern/prepared/3.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        12,
+        22,
+        84,
+        70
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/wyvern/prepared/4.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        12,
+        18,
+        84,
+        75
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/wyvern/prepared/5.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        9,
+        18,
+        84,
+        77
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/wyvern/prepared/6.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        10,
+        21,
+        84,
+        74
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/wyvern/prepared/7.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        12,
+        25,
+        84,
+        71
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/fruit/prepared/0.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        11,
+        19,
+        87,
+        73
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/fruit/prepared/1.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        10,
+        19,
+        86,
+        73
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/fruit/prepared/2.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        9,
+        18,
+        85,
+        72
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/fruit/prepared/3.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        9,
+        17,
+        85,
+        71
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/fruit/prepared/4.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        9,
+        17,
+        85,
+        75
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/fruit/prepared/5.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        9,
+        16,
+        85,
+        78
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/fruit/prepared/6.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        10,
+        17,
+        88,
+        82
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/fruit/prepared/7.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        10,
+        17,
+        86,
+        71
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/raft/prepared/0.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        9,
+        20,
+        87,
+        76
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/raft/prepared/1.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        9,
+        20,
+        87,
+        76
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/raft/prepared/2.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        9,
+        20,
+        87,
+        76
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/raft/prepared/3.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        9,
+        19,
+        87,
+        76
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/raft/prepared/4.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        9,
+        19,
+        87,
+        76
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/raft/prepared/5.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        9,
+        19,
+        87,
+        76
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/raft/prepared/6.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        9,
+        19,
+        87,
+        76
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/styled/raft/prepared/7.png",
+      "size": [
+        96,
+        96
+      ],
+      "alphaBounds": [
+        9,
+        19,
+        87,
+        75
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/hero/0.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        40,
+        34,
+        86,
+        87
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/hero/1.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        38,
+        36,
+        85,
+        88
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/hero/2.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        38,
+        36,
+        88,
+        87
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/hero/3.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        40,
+        35,
+        84,
+        86
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/hero/4.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        41,
+        33,
+        84,
+        82
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/hero/5.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        41,
+        34,
+        83,
+        85
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/hero/6.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        37,
+        35,
+        83,
+        87
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/hero/7.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        37,
+        36,
+        83,
+        89
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/goblin/0.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        35,
+        28,
+        91,
+        100
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/goblin/1.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        35,
+        30,
+        87,
+        98
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/goblin/2.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        35,
+        29,
+        86,
+        95
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/goblin/3.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        34,
+        26,
+        86,
+        91
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/goblin/4.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        34,
+        26,
+        89,
+        90
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/goblin/5.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        35,
+        29,
+        87,
+        91
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/goblin/6.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        35,
+        30,
+        86,
+        91
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/goblin/7.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        35,
+        28,
+        87,
+        96
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/slime/0.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        40,
+        44,
+        87,
+        90
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/slime/1.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        31,
+        47,
+        90,
+        92
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/slime/2.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        22,
+        33,
+        101,
+        94
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/slime/3.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        18,
+        30,
+        108,
+        97
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/slime/4.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        34,
+        41,
+        81,
+        85
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/slime/5.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        38,
+        39,
+        84,
+        84
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/slime/6.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        39,
+        41,
+        86,
+        86
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/slime/7.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        39,
+        42,
+        86,
+        87
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/orc/0.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        46,
+        31,
+        97,
+        91
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/orc/1.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        45,
+        33,
+        99,
+        88
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/orc/2.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        41,
+        33,
+        94,
+        85
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/orc/3.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        43,
+        31,
+        86,
+        85
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/orc/4.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        44,
+        29,
+        91,
+        85
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/orc/5.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        41,
+        30,
+        96,
+        89
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/orc/6.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        37,
+        31,
+        99,
+        93
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/orc/7.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        33,
+        33,
+        100,
+        98
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/ogre/0.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        33,
+        25,
+        98,
+        97
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/ogre/1.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        36,
+        26,
+        97,
+        93
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/ogre/2.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        36,
+        27,
+        93,
+        93
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/ogre/3.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        37,
+        25,
+        88,
+        91
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/ogre/4.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        36,
+        23,
+        88,
+        96
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/ogre/5.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        34,
+        23,
+        94,
+        101
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/ogre/6.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        29,
+        25,
+        101,
+        105
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/ogre/7.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        25,
+        27,
+        102,
+        109
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/wisp/0.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        44,
+        35,
+        86,
+        88
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/wisp/1.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        44,
+        36,
+        86,
+        89
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/wisp/2.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        42,
+        35,
+        87,
+        89
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/wisp/3.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        41,
+        35,
+        87,
+        89
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/wisp/4.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        39,
+        34,
+        87,
+        88
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/wisp/5.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        41,
+        34,
+        87,
+        87
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/wisp/6.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        42,
+        31,
+        87,
+        87
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/wisp/7.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        39,
+        28,
+        87,
+        87
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/imp/0.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        25,
+        24,
+        116,
+        93
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/imp/1.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        23,
+        23,
+        112,
+        94
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/imp/2.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        20,
+        24,
+        109,
+        92
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/imp/3.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        15,
+        32,
+        105,
+        90
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/imp/4.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        9,
+        35,
+        106,
+        89
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/imp/5.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        10,
+        35,
+        108,
+        90
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/imp/6.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        14,
+        34,
+        108,
+        87
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/imp/7.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        14,
+        34,
+        108,
+        88
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/wyvern/0.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        19,
+        21,
+        106,
+        101
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/wyvern/1.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        18,
+        19,
+        106,
+        106
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/wyvern/2.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        18,
+        31,
+        106,
+        109
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/wyvern/3.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        17,
+        37,
+        106,
+        110
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/wyvern/4.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        17,
+        36,
+        106,
+        110
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/wyvern/5.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        18,
+        28,
+        106,
+        110
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/wyvern/6.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        19,
+        18,
+        106,
+        108
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/wyvern/7.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        19,
+        22,
+        106,
+        96
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/fruit/0.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        42,
+        32,
+        88,
+        93
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/fruit/1.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        41,
+        32,
+        87,
+        94
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/fruit/2.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        41,
+        31,
+        86,
+        95
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/fruit/3.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        40,
+        30,
+        85,
+        95
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/fruit/4.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        39,
+        29,
+        96,
+        93
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/fruit/5.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        40,
+        31,
+        99,
+        93
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/fruit/6.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        40,
+        31,
+        99,
+        92
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/fruit/7.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        41,
+        31,
+        96,
+        92
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/raft/0.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        17,
+        38,
+        111,
+        87
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/raft/1.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        17,
+        37,
+        111,
+        87
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/raft/2.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        17,
+        34,
+        111,
+        91
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/raft/3.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        17,
+        30,
+        111,
+        95
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/raft/4.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        17,
+        28,
+        111,
+        96
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/raft/5.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        17,
+        30,
+        111,
+        95
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/raft/6.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        17,
+        33,
+        111,
+        93
+      ],
+      "edgeContact": false
+    },
+    {
+      "file": "assets/painted/raft/7.png",
+      "size": [
+        128,
+        128
+      ],
+      "alphaBounds": [
+        17,
+        35,
+        111,
+        90
+      ],
+      "edgeContact": false
+    }
+  ]
+}

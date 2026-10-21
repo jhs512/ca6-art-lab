@@ -1,0 +1,160 @@
+{
+  "groups": 3,
+  "actorsPerGroup": 10,
+  "backgroundsPerGroup": 4,
+  "motionFrames": 240,
+  "uniqueFrames": [
+    {
+      "group": "plain",
+      "actor": "hero",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "plain",
+      "actor": "goblin",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "plain",
+      "actor": "slime",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "plain",
+      "actor": "orc",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "plain",
+      "actor": "ogre",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "plain",
+      "actor": "wisp",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "plain",
+      "actor": "imp",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "plain",
+      "actor": "wyvern",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "plain",
+      "actor": "fruit",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "plain",
+      "actor": "raft",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "styled",
+      "actor": "hero",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "styled",
+      "actor": "goblin",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "styled",
+      "actor": "slime",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "styled",
+      "actor": "orc",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "styled",
+      "actor": "ogre",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "styled",
+      "actor": "wisp",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "styled",
+      "actor": "imp",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "styled",
+      "actor": "wyvern",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "styled",
+      "actor": "fruit",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "styled",
+      "actor": "raft",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "painted",
+      "actor": "hero",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "painted",
+      "actor": "goblin",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "painted",
+      "actor": "slime",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "painted",
+      "actor": "orc",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "painted",
+      "actor": "ogre",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "painted",
+      "actor": "wisp",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "painted",
+      "actor": "imp",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "painted",
+      "actor": "wyvern",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "painted",
+      "actor": "fruit",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "painted",
+      "actor": "raft",
+      "uniqueFrames": 8
+    }
+  ],
+  "errors": [],
+  "scope": "Actual package integrity, transparency, identical per-clip canvas and B shared palette; not an automated approval of anatomy or motion quality."
+}

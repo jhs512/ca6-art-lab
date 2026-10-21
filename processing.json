@@ -1,0 +1,3564 @@
+{
+  "checks": [
+    {
+      "group": "styled",
+      "actor": "hero",
+      "tool": "generate2dsprite/palette_tool.py",
+      "status": "pass",
+      "checks": [
+        {
+          "id": "output_off_palette_px",
+          "status": "pass",
+          "value": 0,
+          "threshold": 0
+        },
+        {
+          "id": "output_partial_alpha_px",
+          "status": "pass",
+          "value": 0,
+          "threshold": 0
+        },
+        {
+          "id": "max_delta_e",
+          "status": "skipped",
+          "value": 0.079698,
+          "threshold": null
+        }
+      ],
+      "notProven": [
+        "Visual quality after snapping: compare an output with its input.",
+        "Indexed PNGs are engine exports; they are not checked by builders.",
+        "No --max-delta-e gate was set."
+      ]
+    },
+    {
+      "group": "styled",
+      "actor": "goblin",
+      "tool": "generate2dsprite/palette_tool.py",
+      "status": "pass",
+      "checks": [
+        {
+          "id": "output_off_palette_px",
+          "status": "pass",
+          "value": 0,
+          "threshold": 0
+        },
+        {
+          "id": "output_partial_alpha_px",
+          "status": "pass",
+          "value": 0,
+          "threshold": 0
+        },
+        {
+          "id": "max_delta_e",
+          "status": "skipped",
+          "value": 0.086208,
+          "threshold": null
+        }
+      ],
+      "notProven": [
+        "Visual quality after snapping: compare an output with its input.",
+        "Indexed PNGs are engine exports; they are not checked by builders.",
+        "No --max-delta-e gate was set."
+      ]
+    },
+    {
+      "group": "styled",
+      "actor": "slime",
+      "tool": "generate2dsprite/palette_tool.py",
+      "status": "pass",
+      "checks": [
+        {
+          "id": "output_off_palette_px",
+          "status": "pass",
+          "value": 0,
+          "threshold": 0
+        },
+        {
+          "id": "output_partial_alpha_px",
+          "status": "pass",
+          "value": 0,
+          "threshold": 0
+        },
+        {
+          "id": "max_delta_e",
+          "status": "skipped",
+          "value": 0.078958,
+          "threshold": null
+        }
+      ],
+      "notProven": [
+        "Visual quality after snapping: compare an output with its input.",
+        "Indexed PNGs are engine exports; they are not checked by builders.",
+        "No --max-delta-e gate was set."
+      ]
+    },
+    {
+      "group": "styled",
+      "actor": "orc",
+      "tool": "generate2dsprite/palette_tool.py",
+      "status": "pass",
+      "checks": [
+        {
+          "id": "output_off_palette_px",
+          "status": "pass",
+          "value": 0,
+          "threshold": 0
+        },
+        {
+          "id": "output_partial_alpha_px",
+          "status": "pass",
+          "value": 0,
+          "threshold": 0
+        },
+        {
+          "id": "max_delta_e",
+          "status": "skipped",
+          "value": 0.081985,
+          "threshold": null
+        }
+      ],
+      "notProven": [
+        "Visual quality after snapping: compare an output with its input.",
+        "Indexed PNGs are engine exports; they are not checked by builders.",
+        "No --max-delta-e gate was set."
+      ]
+    },
+    {
+      "group": "styled",
+      "actor": "ogre",
+      "tool": "generate2dsprite/palette_tool.py",
+      "status": "pass",
+      "checks": [
+        {
+          "id": "output_off_palette_px",
+          "status": "pass",
+          "value": 0,
+          "threshold": 0
+        },
+        {
+          "id": "output_partial_alpha_px",
+          "status": "pass",
+          "value": 0,
+          "threshold": 0
+        },
+        {
+          "id": "max_delta_e",
+          "status": "skipped",
+          "value": 0.081998,
+          "threshold": null
+        }
+      ],
+      "notProven": [
+        "Visual quality after snapping: compare an output with its input.",
+        "Indexed PNGs are engine exports; they are not checked by builders.",
+        "No --max-delta-e gate was set."
+      ]
+    },
+    {
+      "group": "styled",
+      "actor": "wisp",
+      "tool": "generate2dsprite/palette_tool.py",
+      "status": "pass",
+      "checks": [
+        {
+          "id": "output_off_palette_px",
+          "status": "pass",
+          "value": 0,
+          "threshold": 0
+        },
+        {
+          "id": "output_partial_alpha_px",
+          "status": "pass",
+          "value": 0,
+          "threshold": 0
+        },
+        {
+          "id": "max_delta_e",
+          "status": "skipped",
+          "value": 0.070808,
+          "threshold": null
+        }
+      ],
+      "notProven": [
+        "Visual quality after snapping: compare an output with its input.",
+        "Indexed PNGs are engine exports; they are not checked by builders.",
+        "No --max-delta-e gate was set."
+      ]
+    },
+    {
+      "group": "styled",
+      "actor": "imp",
+      "tool": "generate2dsprite/palette_tool.py",
+      "status": "pass",
+      "checks": [
+        {
+          "id": "output_off_palette_px",
+          "status": "pass",
+          "value": 0,
+          "threshold": 0
+        },
+        {
+          "id": "output_partial_alpha_px",
+          "status": "pass",
+          "value": 0,
+          "threshold": 0
+        },
+        {
+          "id": "max_delta_e",
+          "status": "skipped",
+          "value": 0.082898,
+          "threshold": null
+        }
+      ],
+      "notProven": [
+        "Visual quality after snapping: compare an output with its input.",
+        "Indexed PNGs are engine exports; they are not checked by builders.",
+        "No --max-delta-e gate was set."
+      ]
+    },
+    {
+      "group": "styled",
+      "actor": "wyvern",
+      "tool": "generate2dsprite/palette_tool.py",
+      "status": "pass",
+      "checks": [
+        {
+          "id": "output_off_palette_px",
+          "status": "pass",
+          "value": 0,
+          "threshold": 0
+        },
+        {
+          "id": "output_partial_alpha_px",
+          "status": "pass",
+          "value": 0,
+          "threshold": 0
+        },
+        {
+          "id": "max_delta_e",
+          "status": "skipped",
+          "value": 0.080414,
+          "threshold": null
+        }
+      ],
+      "notProven": [
+        "Visual quality after snapping: compare an output with its input.",
+        "Indexed PNGs are engine exports; they are not checked by builders.",
+        "No --max-delta-e gate was set."
+      ]
+    },
+    {
+      "group": "styled",
+      "actor": "fruit",
+      "tool": "generate2dsprite/palette_tool.py",
+      "status": "pass",
+      "checks": [
+        {
+          "id": "output_off_palette_px",
+          "status": "pass",
+          "value": 0,
+          "threshold": 0
+        },
+        {
+          "id": "output_partial_alpha_px",
+          "status": "pass",
+          "value": 0,
+          "threshold": 0
+        },
+        {
+          "id": "max_delta_e",
+          "status": "skipped",
+          "value": 0.10639,
+          "threshold": null
+        }
+      ],
+      "notProven": [
+        "Visual quality after snapping: compare an output with its input.",
+        "Indexed PNGs are engine exports; they are not checked by builders.",
+        "No --max-delta-e gate was set."
+      ]
+    },
+    {
+      "group": "styled",
+      "actor": "raft",
+      "tool": "generate2dsprite/palette_tool.py",
+      "status": "pass",
+      "checks": [
+        {
+          "id": "output_off_palette_px",
+          "status": "pass",
+          "value": 0,
+          "threshold": 0
+        },
+        {
+          "id": "output_partial_alpha_px",
+          "status": "pass",
+          "value": 0,
+          "threshold": 0
+        },
+        {
+          "id": "max_delta_e",
+          "status": "skipped",
+          "value": 0.074052,
+          "threshold": null
+        }
+      ],
+      "notProven": [
+        "Visual quality after snapping: compare an output with its input.",
+        "Indexed PNGs are engine exports; they are not checked by builders.",
+        "No --max-delta-e gate was set."
+      ]
+    },
+    {
+      "group": "painted",
+      "actor": "hero",
+      "tool": "generate2dsprite/scale_frames.py",
+      "usage": "Registration/scale check; displayed frames retain original full canvas and shared master anchor.",
+      "scale": 1.0,
+      "canvas": [
+        55,
+        60
+      ],
+      "frameTransforms": [
+        {
+          "source": {
+            "path": "../../site/assets/painted/hero/0.png",
+            "sha256": "e23854c758f6e3f57384ac8b40bb97bd43472ee3bdd8ff23ccfc9006b2634877",
+            "bytes": 3832
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/0.png",
+            "sha256": "2633e1d2af5234bcdfda54080f1bc0bf5a3a3ceecc4812cda16b18d8ca7c2cff",
+            "bytes": 3182
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            5,
+            3,
+            51,
+            56
+          ],
+          "turn_slide_px": 2.0,
+          "turn_slide_output_px": 2.0,
+          "measure": {
+            "bbox": [
+              40,
+              34,
+              86,
+              87
+            ],
+            "ground": 87,
+            "body_height": 53,
+            "stance_x": 64.0,
+            "torso_x": 59.04,
+            "centroid_x": 63.06,
+            "hip_x": 61.5
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/hero/1.png",
+            "sha256": "b33a0ec6a4c83a2d88969675567e93fe285770b1c6bed2f0cbf4f58baa47a877",
+            "bytes": 3788
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/1.png",
+            "sha256": "d4eaaa3cb9b82f7c2dc8359d7de33750a29563d1aa461e94cf9cb8a52de07e41",
+            "bytes": 3149
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            3,
+            5,
+            50,
+            57
+          ],
+          "turn_slide_px": 3.0,
+          "turn_slide_output_px": 3.0,
+          "measure": {
+            "bbox": [
+              38,
+              36,
+              85,
+              88
+            ],
+            "ground": 88,
+            "body_height": 52,
+            "stance_x": 64.5,
+            "torso_x": 58.64,
+            "centroid_x": 62.25,
+            "hip_x": 60.5
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/hero/2.png",
+            "sha256": "536df4de8283af3b2cde718590888fc3ac00fdcc93af8aec868a45b172998a9c",
+            "bytes": 3696
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/2.png",
+            "sha256": "e961725900136c04129fc32cfdd26a64ed2e163d70c4e548988965eac592c016",
+            "bytes": 3057
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            3,
+            5,
+            53,
+            56
+          ],
+          "turn_slide_px": 12.0,
+          "turn_slide_output_px": 12.0,
+          "measure": {
+            "bbox": [
+              38,
+              36,
+              88,
+              87
+            ],
+            "ground": 87,
+            "body_height": 51,
+            "stance_x": 69.0,
+            "torso_x": 61.46,
+            "centroid_x": 62.88,
+            "hip_x": 60.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/hero/3.png",
+            "sha256": "ede230e706451d07dbc69e5596ef149d2a6735233389df65658499f3f6646346",
+            "bytes": 3564
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/3.png",
+            "sha256": "542591e697e2584a8e23501792d61fb20eaa3a01cd9d678de99c10567af45c0b",
+            "bytes": 2986
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            5,
+            4,
+            49,
+            55
+          ],
+          "turn_slide_px": 17.0,
+          "turn_slide_output_px": 17.0,
+          "measure": {
+            "bbox": [
+              40,
+              35,
+              84,
+              86
+            ],
+            "ground": 86,
+            "body_height": 51,
+            "stance_x": 71.5,
+            "torso_x": 61.71,
+            "centroid_x": 63.14,
+            "hip_x": 60.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/hero/4.png",
+            "sha256": "be369652e3fc366dcb77c7083c3b317bb1da0b7da7667231b55fa9e8c88fa04f",
+            "bytes": 3527
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/4.png",
+            "sha256": "38747998930081df14e837427893117a3604e26fe0003d0300333fb2be40a85e",
+            "bytes": 2927
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            6,
+            2,
+            49,
+            51
+          ],
+          "turn_slide_px": 14.0,
+          "turn_slide_output_px": 14.0,
+          "measure": {
+            "bbox": [
+              41,
+              33,
+              84,
+              82
+            ],
+            "ground": 82,
+            "body_height": 49,
+            "stance_x": 70.0,
+            "torso_x": 65.05,
+            "centroid_x": 63.21,
+            "hip_x": 59.75
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/hero/5.png",
+            "sha256": "d446e6e284eb48470772602b70cfe3a7e1ed937de2a59b07da840625eff852ad",
+            "bytes": 3572
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/5.png",
+            "sha256": "c682bd8a694624a902dab194e74e784b0acdfad961c9da9a2015431e82220b9d",
+            "bytes": 2962
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            6,
+            3,
+            48,
+            54
+          ],
+          "turn_slide_px": 14.0,
+          "turn_slide_output_px": 14.0,
+          "measure": {
+            "bbox": [
+              41,
+              34,
+              83,
+              85
+            ],
+            "ground": 85,
+            "body_height": 51,
+            "stance_x": 70.0,
+            "torso_x": 63.17,
+            "centroid_x": 62.43,
+            "hip_x": 59.5
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/hero/6.png",
+            "sha256": "1537739f37ce8a0ef59962b337469ff127de520af29e4a449d4b3305ae560a0d",
+            "bytes": 3775
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/6.png",
+            "sha256": "99a9672d652258c476fb675a0fa22b4c2b20377cf16c30cc227bdb73d3702e9a",
+            "bytes": 3131
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            2,
+            4,
+            48,
+            56
+          ],
+          "turn_slide_px": 7.0,
+          "turn_slide_output_px": 7.0,
+          "measure": {
+            "bbox": [
+              37,
+              35,
+              83,
+              87
+            ],
+            "ground": 87,
+            "body_height": 52,
+            "stance_x": 66.5,
+            "torso_x": 58.4,
+            "centroid_x": 61.0,
+            "hip_x": 58.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/hero/7.png",
+            "sha256": "20c7cdc1d15bbae02a87d477e9951bc6a763209730c9691d45ecdbb03b226b49",
+            "bytes": 3887
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/7.png",
+            "sha256": "aaa4a6fe8367c230cb134cce9994df1877796e0fcada08e4565ca5002670dfc6",
+            "bytes": 3207
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            2,
+            5,
+            48,
+            58
+          ],
+          "turn_slide_px": 15.0,
+          "turn_slide_output_px": 15.0,
+          "measure": {
+            "bbox": [
+              37,
+              36,
+              83,
+              89
+            ],
+            "ground": 89,
+            "body_height": 53,
+            "stance_x": 70.5,
+            "torso_x": 58.04,
+            "centroid_x": 61.76,
+            "hip_x": 57.5
+          }
+        }
+      ]
+    },
+    {
+      "group": "painted",
+      "actor": "goblin",
+      "tool": "generate2dsprite/scale_frames.py",
+      "usage": "Registration/scale check; displayed frames retain original full canvas and shared master anchor.",
+      "scale": 1.0,
+      "canvas": [
+        61,
+        78
+      ],
+      "frameTransforms": [
+        {
+          "source": {
+            "path": "../../site/assets/painted/goblin/0.png",
+            "sha256": "949cdac1067cdb4e5added6ed987c15e40e6852cc7651d314c11db7590c7c924",
+            "bytes": 5469
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/0.png",
+            "sha256": "f0134cb99bd86114fd71a4f7564ea434127bb4e0e7c405a6eb918a13f693da85",
+            "bytes": 4743
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            3,
+            4,
+            59,
+            76
+          ],
+          "turn_slide_px": 21.0,
+          "turn_slide_output_px": 21.0,
+          "measure": {
+            "bbox": [
+              35,
+              28,
+              91,
+              100
+            ],
+            "ground": 100,
+            "body_height": 72,
+            "stance_x": 73.5,
+            "torso_x": 65.1,
+            "centroid_x": 65.72,
+            "hip_x": 65.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/goblin/1.png",
+            "sha256": "277ab79556aee979b8dee9a78a55535ba16a973d01cd2b31b8e999cff3d83c92",
+            "bytes": 5122
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/1.png",
+            "sha256": "cb2bfb5a973a303498e3590280a71684168755cfdb25e7ab67e132f87349e4a1",
+            "bytes": 4454
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            3,
+            6,
+            55,
+            74
+          ],
+          "turn_slide_px": 12.0,
+          "turn_slide_output_px": 12.0,
+          "measure": {
+            "bbox": [
+              35,
+              30,
+              87,
+              98
+            ],
+            "ground": 98,
+            "body_height": 68,
+            "stance_x": 69.0,
+            "torso_x": 67.06,
+            "centroid_x": 65.88,
+            "hip_x": 65.5
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/goblin/2.png",
+            "sha256": "0786af24857fb305451268dbe0ecb201707249add6e6175a99ab14e5e2456729",
+            "bytes": 4954
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/2.png",
+            "sha256": "88cfae83d0d9033e597a144e1957f5b061ff32440f99f04aa7d191d62dc0f792",
+            "bytes": 4333
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            3,
+            5,
+            54,
+            71
+          ],
+          "turn_slide_px": 2.0,
+          "turn_slide_output_px": 2.0,
+          "measure": {
+            "bbox": [
+              35,
+              29,
+              86,
+              95
+            ],
+            "ground": 95,
+            "body_height": 66,
+            "stance_x": 64.0,
+            "torso_x": 69.43,
+            "centroid_x": 66.37,
+            "hip_x": 68.25
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/goblin/3.png",
+            "sha256": "4c0ae4d223cfe3a5d2be223b59e282219a1ee22e860317131ead7452c950aa79",
+            "bytes": 5058
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/3.png",
+            "sha256": "8fe88a31530eebaebc4a994193c8e69bde8a61fd48204683c6fab11df588539e",
+            "bytes": 4387
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            2,
+            2,
+            54,
+            67
+          ],
+          "turn_slide_px": 9.0,
+          "turn_slide_output_px": 9.0,
+          "measure": {
+            "bbox": [
+              34,
+              26,
+              86,
+              91
+            ],
+            "ground": 91,
+            "body_height": 65,
+            "stance_x": 58.5,
+            "torso_x": 66.19,
+            "centroid_x": 66.19,
+            "hip_x": 68.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/goblin/4.png",
+            "sha256": "317ec632a5a43330dd279e80c582c3c5a4d67c528b214baf61b545665d5e1733",
+            "bytes": 5155
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/4.png",
+            "sha256": "1c37b594e750fb92f55889ff685fc42837c254cb2bd3c96f7b803849dd1b43b8",
+            "bytes": 4537
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            2,
+            2,
+            57,
+            66
+          ],
+          "turn_slide_px": 13.0,
+          "turn_slide_output_px": 13.0,
+          "measure": {
+            "bbox": [
+              34,
+              26,
+              89,
+              90
+            ],
+            "ground": 90,
+            "body_height": 64,
+            "stance_x": 69.5,
+            "torso_x": 66.06,
+            "centroid_x": 66.67,
+            "hip_x": 68.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/goblin/5.png",
+            "sha256": "455f289a29d57920ca808dd275e09499273ec19cf295415affdfff64bdc38a1a",
+            "bytes": 4968
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/5.png",
+            "sha256": "a912c8d7737e45a11c8b4f25c147651856e3b7ce62da3c39ef93f75848b548d0",
+            "bytes": 4350
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            3,
+            5,
+            55,
+            67
+          ],
+          "turn_slide_px": 41.0,
+          "turn_slide_output_px": 39.0,
+          "measure": {
+            "bbox": [
+              35,
+              29,
+              87,
+              91
+            ],
+            "ground": 91,
+            "body_height": 62,
+            "stance_x": 83.5,
+            "torso_x": 65.15,
+            "centroid_x": 66.48,
+            "hip_x": 67.5
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/goblin/6.png",
+            "sha256": "44f53d3c3587f9578acb81437f9b0e6e51316586d1da79f0097934a55608b37f",
+            "bytes": 5008
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/6.png",
+            "sha256": "e953d0e2adc52c856d49065088e762aba8e66ad2185c0319da6515cec5643292",
+            "bytes": 4456
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            3,
+            6,
+            54,
+            67
+          ],
+          "turn_slide_px": 12.0,
+          "turn_slide_output_px": 12.0,
+          "measure": {
+            "bbox": [
+              35,
+              30,
+              86,
+              91
+            ],
+            "ground": 91,
+            "body_height": 61,
+            "stance_x": 69.0,
+            "torso_x": 66.17,
+            "centroid_x": 66.49,
+            "hip_x": 67.5
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/goblin/7.png",
+            "sha256": "16a4ae67e3d571af539dd5fd59fab581826ac516631440d7f64fae6a65a32699",
+            "bytes": 5229
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/7.png",
+            "sha256": "814136687bc7a9bccbb944df6cf0b9dcc3122ab7a5d5d9a0b78a22fe0ad9df66",
+            "bytes": 4576
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            3,
+            4,
+            55,
+            72
+          ],
+          "turn_slide_px": 6.0,
+          "turn_slide_output_px": 6.0,
+          "measure": {
+            "bbox": [
+              35,
+              28,
+              87,
+              96
+            ],
+            "ground": 96,
+            "body_height": 68,
+            "stance_x": 66.0,
+            "torso_x": 66.0,
+            "centroid_x": 66.14,
+            "hip_x": 65.5
+          }
+        }
+      ]
+    },
+    {
+      "group": "painted",
+      "actor": "slime",
+      "tool": "generate2dsprite/scale_frames.py",
+      "usage": "Registration/scale check; displayed frames retain original full canvas and shared master anchor.",
+      "scale": 1.0,
+      "canvas": [
+        99,
+        71
+      ],
+      "frameTransforms": [
+        {
+          "source": {
+            "path": "../../site/assets/painted/slime/0.png",
+            "sha256": "f4d4fc3a6d08b5bce411f0fcfb5842e0e29584dc8633551070ecf3da5670fd9f",
+            "bytes": 4271
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/0.png",
+            "sha256": "e3115a2fb7c54defddc6607435165d7016d05155dc3308e9f292bb7ff545bf2e",
+            "bytes": 5752
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            24,
+            16,
+            76,
+            62
+          ],
+          "turn_slide_px": 2.0,
+          "turn_slide_output_px": 2.0,
+          "measure": {
+            "bbox": [
+              40,
+              44,
+              87,
+              90
+            ],
+            "ground": 90,
+            "body_height": 46,
+            "stance_x": 64.5,
+            "torso_x": 63.0,
+            "centroid_x": 63.0,
+            "hip_x": 63.5
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/slime/1.png",
+            "sha256": "a045ad0961ed4dd3a4f387fb8d848682d523f4a72f44b280ae038f83fb6a9f84",
+            "bytes": 2995
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/1.png",
+            "sha256": "09acd1ac9fbc53b28279877574c1a5b07affaa10db2b232768b60e16a4b93cd8",
+            "bytes": 4788
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            15,
+            19,
+            79,
+            64
+          ],
+          "turn_slide_px": 5.0,
+          "turn_slide_output_px": 5.0,
+          "measure": {
+            "bbox": [
+              31,
+              47,
+              90,
+              92
+            ],
+            "ground": 92,
+            "body_height": 45,
+            "stance_x": 61.0,
+            "torso_x": 61.11,
+            "centroid_x": 60.91,
+            "hip_x": 60.5
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/slime/2.png",
+            "sha256": "398483bfe01cbde1a4aaa20fe06d556c076114a242056235bac0d8e5306065ce",
+            "bytes": 5919
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/2.png",
+            "sha256": "ce75243e686d0142519d638e26af6c19358fa95a8d4ea7edf95954cfcef52c93",
+            "bytes": 9357
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            6,
+            5,
+            90,
+            66
+          ],
+          "turn_slide_px": 10.0,
+          "turn_slide_output_px": 10.0,
+          "measure": {
+            "bbox": [
+              22,
+              33,
+              101,
+              94
+            ],
+            "ground": 94,
+            "body_height": 61,
+            "stance_x": 58.5,
+            "torso_x": 53.54,
+            "centroid_x": 58.58,
+            "hip_x": 55.25
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/slime/3.png",
+            "sha256": "afceb0d5a7add90afb95d2f4a217c1ea6425627a4dce00da85bcde62740f7247",
+            "bytes": 5179
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/3.png",
+            "sha256": "e1a8a1c9560f3c60efc10832537ee3d733745a732dace120b270aa5c0bc4ecce",
+            "bytes": 8005
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            2,
+            2,
+            97,
+            69
+          ],
+          "turn_slide_px": 8.0,
+          "turn_slide_output_px": 6.0,
+          "measure": {
+            "bbox": [
+              18,
+              30,
+              108,
+              97
+            ],
+            "ground": 97,
+            "body_height": 67,
+            "stance_x": 59.5,
+            "torso_x": 55.0,
+            "centroid_x": 57.75,
+            "hip_x": 55.5
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/slime/4.png",
+            "sha256": "948549427159a1025955f4c9c688f3c0f0433b665257c4e520bbc9348057321e",
+            "bytes": 4107
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/4.png",
+            "sha256": "9edc31c3d5e42bcf3997d51d98151233f49a5f5aaffc1407de6b91dfde4fdb8a",
+            "bytes": 5514
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            18,
+            13,
+            70,
+            57
+          ],
+          "turn_slide_px": 15.0,
+          "turn_slide_output_px": 15.0,
+          "measure": {
+            "bbox": [
+              34,
+              41,
+              81,
+              85
+            ],
+            "ground": 85,
+            "body_height": 44,
+            "stance_x": 56.0,
+            "torso_x": 57.5,
+            "centroid_x": 56.89,
+            "hip_x": 57.5
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/slime/5.png",
+            "sha256": "21afa6bdc21328718541f85469edacfb23835b12b49e0da3ab1cd91bfa682797",
+            "bytes": 4125
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/5.png",
+            "sha256": "1ba6e93fd13eb796934b7f1b2e3b4113d83815780638ee7ad3bc56bc0823a0df",
+            "bytes": 5597
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            22,
+            11,
+            73,
+            56
+          ],
+          "turn_slide_px": 10.0,
+          "turn_slide_output_px": 10.0,
+          "measure": {
+            "bbox": [
+              38,
+              39,
+              84,
+              84
+            ],
+            "ground": 84,
+            "body_height": 45,
+            "stance_x": 58.5,
+            "torso_x": 60.5,
+            "centroid_x": 60.17,
+            "hip_x": 60.5
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/slime/6.png",
+            "sha256": "b28c477dae81fa1caad38391ff892492f8c250d608f1e517891af424609c4b05",
+            "bytes": 4246
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/6.png",
+            "sha256": "20df80e20dc5ee6e4466980c1c44ef411268a9f10c3fb2829c5a0793e3519718",
+            "bytes": 5756
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            23,
+            13,
+            75,
+            58
+          ],
+          "turn_slide_px": 5.0,
+          "turn_slide_output_px": 5.0,
+          "measure": {
+            "bbox": [
+              39,
+              41,
+              86,
+              86
+            ],
+            "ground": 86,
+            "body_height": 45,
+            "stance_x": 61.0,
+            "torso_x": 62.0,
+            "centroid_x": 61.53,
+            "hip_x": 62.5
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/slime/7.png",
+            "sha256": "7e5a60c12908d619256feb129f4e6dd70695d4dd9677b4ced9376016acde13b8",
+            "bytes": 4214
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/7.png",
+            "sha256": "e3f203fd79540501cc22fff5fd095d5928e4cbaafc9caf523c3d41d71f836bc4",
+            "bytes": 5748
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            23,
+            14,
+            75,
+            59
+          ],
+          "turn_slide_px": 5.0,
+          "turn_slide_output_px": 5.0,
+          "measure": {
+            "bbox": [
+              39,
+              42,
+              86,
+              87
+            ],
+            "ground": 87,
+            "body_height": 45,
+            "stance_x": 61.0,
+            "torso_x": 62.0,
+            "centroid_x": 61.66,
+            "hip_x": 62.5
+          }
+        }
+      ]
+    },
+    {
+      "group": "painted",
+      "actor": "orc",
+      "tool": "generate2dsprite/scale_frames.py",
+      "usage": "Registration/scale check; displayed frames retain original full canvas and shared master anchor.",
+      "scale": 1.0,
+      "canvas": [
+        76,
+        73
+      ],
+      "frameTransforms": [
+        {
+          "source": {
+            "path": "../../site/assets/painted/orc/0.png",
+            "sha256": "c86e445a9ce330983d84904666a54b0ae0f19b034ae4c790de4d59026871f637",
+            "bytes": 4699
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/0.png",
+            "sha256": "c5f97e6c94cad068ccd129d2be893c9ef463fe97f299ad49545d97d4d2531462",
+            "bytes": 6259
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            15,
+            4,
+            71,
+            64
+          ],
+          "turn_slide_px": 29.0,
+          "turn_slide_output_px": 29.0,
+          "measure": {
+            "bbox": [
+              46,
+              31,
+              97,
+              91
+            ],
+            "ground": 91,
+            "body_height": 60,
+            "stance_x": 57.0,
+            "torso_x": 66.08,
+            "centroid_x": 66.95,
+            "hip_x": 66.75
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/orc/1.png",
+            "sha256": "9a9e933ab24bc0d54cdb33048668911dcd46d063ba60cc9a528a493b91f2fe81",
+            "bytes": 4730
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/1.png",
+            "sha256": "a572b9e72c2b5ebe98e48c2778fb33d8d281eecff8d0269f694a3f491d0aa89b",
+            "bytes": 6169
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            14,
+            6,
+            73,
+            61
+          ],
+          "turn_slide_px": 30.0,
+          "turn_slide_output_px": 30.0,
+          "measure": {
+            "bbox": [
+              45,
+              33,
+              99,
+              88
+            ],
+            "ground": 88,
+            "body_height": 55,
+            "stance_x": 56.5,
+            "torso_x": 64.0,
+            "centroid_x": 66.59,
+            "hip_x": 64.5
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/orc/2.png",
+            "sha256": "bbbb8fd6b1fd69487e6d6ba69e627c25cd0587f72d6e0c7820b340de8fe91e62",
+            "bytes": 4643
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/2.png",
+            "sha256": "2c5ce775c0a2b073688a2e8be5b629f9bb46c698aaaf293090ae88477d131900",
+            "bytes": 6033
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            10,
+            6,
+            68,
+            58
+          ],
+          "turn_slide_px": 29.0,
+          "turn_slide_output_px": 29.0,
+          "measure": {
+            "bbox": [
+              41,
+              33,
+              94,
+              85
+            ],
+            "ground": 85,
+            "body_height": 52,
+            "stance_x": 57.0,
+            "torso_x": 64.5,
+            "centroid_x": 66.03,
+            "hip_x": 64.5
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/orc/3.png",
+            "sha256": "d67ca9a253aee6f763f5bbcd70983f6fda53b3371f6b011c72c189b2618a6aa5",
+            "bytes": 4552
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/3.png",
+            "sha256": "99b9637fe067651afd1b4b31f3f89022f2bd5a3afaab438883959ad75e93fe48",
+            "bytes": 5985
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            12,
+            4,
+            60,
+            58
+          ],
+          "turn_slide_px": 21.0,
+          "turn_slide_output_px": 21.0,
+          "measure": {
+            "bbox": [
+              43,
+              31,
+              86,
+              85
+            ],
+            "ground": 85,
+            "body_height": 54,
+            "stance_x": 61.0,
+            "torso_x": 64.45,
+            "centroid_x": 64.87,
+            "hip_x": 64.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/orc/4.png",
+            "sha256": "c97f3d75c01712bf66719d678d9f551b18d2f167c8e17cf08122b0d7906b5747",
+            "bytes": 4741
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/4.png",
+            "sha256": "edd147a51d6988fe3ec6065f51895ad82108c3f3f3acbc5291107c74365be040",
+            "bytes": 6220
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            13,
+            2,
+            65,
+            58
+          ],
+          "turn_slide_px": 30.0,
+          "turn_slide_output_px": 30.0,
+          "measure": {
+            "bbox": [
+              44,
+              29,
+              91,
+              85
+            ],
+            "ground": 85,
+            "body_height": 56,
+            "stance_x": 56.5,
+            "torso_x": 64.0,
+            "centroid_x": 65.26,
+            "hip_x": 62.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/orc/5.png",
+            "sha256": "5dc42fbf77c9927522694fcbed3c7e50ab49e02993d6c821a2c5d137c390a91b",
+            "bytes": 5094
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/5.png",
+            "sha256": "3d9170133c1f893cfd918dc82808a78c7f6e627bf4478cfb0a48be8f9acb1d70",
+            "bytes": 6864
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            10,
+            3,
+            70,
+            62
+          ],
+          "turn_slide_px": 13.0,
+          "turn_slide_output_px": 13.0,
+          "measure": {
+            "bbox": [
+              41,
+              30,
+              96,
+              89
+            ],
+            "ground": 89,
+            "body_height": 59,
+            "stance_x": 65.0,
+            "torso_x": 61.54,
+            "centroid_x": 65.11,
+            "hip_x": 61.5
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/orc/6.png",
+            "sha256": "1ea4aa1582f4dadd6c7e7a654afc472561725538edf75eb1cd60993665d861ee",
+            "bytes": 5453
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/6.png",
+            "sha256": "a0858822d7deee8668af7debb1c6493e502a1b618179b7325ac20f25a8e2e478",
+            "bytes": 7373
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            6,
+            4,
+            73,
+            66
+          ],
+          "turn_slide_px": 9.0,
+          "turn_slide_output_px": 9.0,
+          "measure": {
+            "bbox": [
+              37,
+              31,
+              99,
+              93
+            ],
+            "ground": 93,
+            "body_height": 62,
+            "stance_x": 76.0,
+            "torso_x": 61.06,
+            "centroid_x": 66.01,
+            "hip_x": 63.25
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/orc/7.png",
+            "sha256": "5bfb6471257694d5213aa33ee94f7df06f1f7f328b19f28a3b01afcf39118c18",
+            "bytes": 5638
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/7.png",
+            "sha256": "55dec380057aa28d16a771409045593c004de518a5c1762e97058348e35bf25d",
+            "bytes": 7544
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            2,
+            6,
+            74,
+            71
+          ],
+          "turn_slide_px": 11.0,
+          "turn_slide_output_px": 11.0,
+          "measure": {
+            "bbox": [
+              33,
+              33,
+              100,
+              98
+            ],
+            "ground": 98,
+            "body_height": 65,
+            "stance_x": 77.0,
+            "torso_x": 60.81,
+            "centroid_x": 66.29,
+            "hip_x": 61.25
+          }
+        }
+      ]
+    },
+    {
+      "group": "painted",
+      "actor": "ogre",
+      "tool": "generate2dsprite/scale_frames.py",
+      "usage": "Registration/scale check; displayed frames retain original full canvas and shared master anchor.",
+      "scale": 1.0,
+      "canvas": [
+        86,
+        90
+      ],
+      "frameTransforms": [
+        {
+          "source": {
+            "path": "../../site/assets/painted/ogre/0.png",
+            "sha256": "7c35911a6b1c92e45e6df9c5ef5da9ba1175291e845821707a7849fcd1248c42",
+            "bytes": 7464
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/0.png",
+            "sha256": "1f0304b31e4f99c390fe679600fd0865d045f79b37f8d45195e8dbe6811dfac4",
+            "bytes": 10180
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            10,
+            4,
+            80,
+            76
+          ],
+          "turn_slide_px": 25.0,
+          "turn_slide_output_px": 25.0,
+          "measure": {
+            "bbox": [
+              33,
+              25,
+              98,
+              97
+            ],
+            "ground": 97,
+            "body_height": 72,
+            "stance_x": 53.0,
+            "torso_x": 61.9,
+            "centroid_x": 63.19,
+            "hip_x": 61.5
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/ogre/1.png",
+            "sha256": "e03084acc3b6b9795804b776c646fb77f9d407d8a77a724ae7aa48b0d8ba026e",
+            "bytes": 6750
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/1.png",
+            "sha256": "33ba00d3b2edd3446101baed7b3e5c27146809ac9841d5a7ddcb0e2b789852dc",
+            "bytes": 9237
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            13,
+            5,
+            79,
+            72
+          ],
+          "turn_slide_px": 3.0,
+          "turn_slide_output_px": 3.0,
+          "measure": {
+            "bbox": [
+              36,
+              26,
+              97,
+              93
+            ],
+            "ground": 93,
+            "body_height": 67,
+            "stance_x": 67.0,
+            "torso_x": 61.5,
+            "centroid_x": 63.72,
+            "hip_x": 62.5
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/ogre/2.png",
+            "sha256": "10da6b66208fa15a33abb0d3655d62e46adcd68919bd84982caa67050f5492c4",
+            "bytes": 6521
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/2.png",
+            "sha256": "b392dfbe15a30be1ffb2437c87983ff0d165a08d1a75e33b094ed5ef270427aa",
+            "bytes": 8892
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            13,
+            6,
+            75,
+            72
+          ],
+          "turn_slide_px": 6.0,
+          "turn_slide_output_px": 6.0,
+          "measure": {
+            "bbox": [
+              36,
+              27,
+              93,
+              93
+            ],
+            "ground": 93,
+            "body_height": 66,
+            "stance_x": 68.5,
+            "torso_x": 62.0,
+            "centroid_x": 63.75,
+            "hip_x": 63.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/ogre/3.png",
+            "sha256": "5996b1d1a290ae32af571be1beba892d2e991d149afca8a9a005be72dced80cb",
+            "bytes": 6516
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/3.png",
+            "sha256": "de6051903a54a64ad5d3fefe17bb89fb649d5b461de4547c580e392b8b2d95b8",
+            "bytes": 8829
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            14,
+            4,
+            70,
+            70
+          ],
+          "turn_slide_px": 27.0,
+          "turn_slide_output_px": 27.0,
+          "measure": {
+            "bbox": [
+              37,
+              25,
+              88,
+              91
+            ],
+            "ground": 91,
+            "body_height": 66,
+            "stance_x": 52.0,
+            "torso_x": 61.57,
+            "centroid_x": 62.8,
+            "hip_x": 61.5
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/ogre/4.png",
+            "sha256": "4b339aaaa82ee96dffb72723f15f722765a0484cd4498feb8c4a2d38c0be129c",
+            "bytes": 6759
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/4.png",
+            "sha256": "ef8afc878465d6db5661bb39355e79b44c635e78e058a28b0ee85e2b02f5e885",
+            "bytes": 9217
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            13,
+            2,
+            70,
+            75
+          ],
+          "turn_slide_px": 20.0,
+          "turn_slide_output_px": 20.0,
+          "measure": {
+            "bbox": [
+              36,
+              23,
+              88,
+              96
+            ],
+            "ground": 96,
+            "body_height": 73,
+            "stance_x": 55.5,
+            "torso_x": 60.9,
+            "centroid_x": 61.81,
+            "hip_x": 60.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/ogre/5.png",
+            "sha256": "acd3ee8f695901ce55d82b88bfb4ed302dd7911aba57d1c50f1b27407d2415c5",
+            "bytes": 7262
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/5.png",
+            "sha256": "a368b93ec69cd06154f8001422f2c2041ce651dbc99bf2dfeaa4ea14859b66f3",
+            "bytes": 9968
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            11,
+            2,
+            76,
+            80
+          ],
+          "turn_slide_px": 1.0,
+          "turn_slide_output_px": 1.0,
+          "measure": {
+            "bbox": [
+              34,
+              23,
+              94,
+              101
+            ],
+            "ground": 101,
+            "body_height": 78,
+            "stance_x": 65.0,
+            "torso_x": 58.39,
+            "centroid_x": 61.79,
+            "hip_x": 58.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/ogre/6.png",
+            "sha256": "84b0bd3a5c589cfbd98488bbd9e079687e0a98e3aa9a79dd1c230a535dcd8ab2",
+            "bytes": 7791
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/6.png",
+            "sha256": "b1b2d29a9145b42b4bf06fdaba31b6ec43404b860afe1accdcabfa2f2f412f25",
+            "bytes": 10885
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            6,
+            4,
+            83,
+            84
+          ],
+          "turn_slide_px": 10.0,
+          "turn_slide_output_px": 10.0,
+          "measure": {
+            "bbox": [
+              29,
+              25,
+              101,
+              105
+            ],
+            "ground": 105,
+            "body_height": 80,
+            "stance_x": 70.5,
+            "torso_x": 57.02,
+            "centroid_x": 62.85,
+            "hip_x": 60.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/ogre/7.png",
+            "sha256": "b8ba53acd87efeb2ea41c8c7832c28472e45851253487b446fdeee74b49fd175",
+            "bytes": 7812
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/7.png",
+            "sha256": "096b9600b75781ddd60fbe0b172d7f957eed74d0baf7a62acc97d698bf681989",
+            "bytes": 10983
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            2,
+            6,
+            84,
+            88
+          ],
+          "turn_slide_px": 6.0,
+          "turn_slide_output_px": 6.0,
+          "measure": {
+            "bbox": [
+              25,
+              27,
+              102,
+              109
+            ],
+            "ground": 109,
+            "body_height": 82,
+            "stance_x": 68.5,
+            "torso_x": 63.29,
+            "centroid_x": 62.8,
+            "hip_x": 58.25
+          }
+        }
+      ]
+    },
+    {
+      "group": "painted",
+      "actor": "wisp",
+      "tool": "generate2dsprite/scale_frames.py",
+      "usage": "Registration/scale check; displayed frames retain original full canvas and shared master anchor.",
+      "scale": 1.0,
+      "canvas": [
+        52,
+        65
+      ],
+      "frameTransforms": [
+        {
+          "source": {
+            "path": "../../site/assets/painted/wisp/0.png",
+            "sha256": "565b91f59a55163e065d85468590b11a513acba1e61da9edc8aeab1cf71d3005",
+            "bytes": 4088
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/0.png",
+            "sha256": "5a18c94adef77bb2df6274323070fc14d68742602a3f76c130399176b80fad3b",
+            "bytes": 3529
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            7,
+            9,
+            49,
+            62
+          ],
+          "turn_slide_px": 3.0,
+          "turn_slide_output_px": 3.0,
+          "measure": {
+            "bbox": [
+              44,
+              35,
+              86,
+              88
+            ],
+            "ground": 88,
+            "body_height": 53,
+            "stance_x": 66.5,
+            "torso_x": 68.08,
+            "centroid_x": 65.27,
+            "hip_x": 67.25
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/wisp/1.png",
+            "sha256": "1b46331d0068aa45c638e4942a7128bef4b1cee5279ddca9a6ced1768805c6ca",
+            "bytes": 4138
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/1.png",
+            "sha256": "32aa8fc046d52cbfcd6729de3cefca14ce2b48dc8233574656cbbae92370843a",
+            "bytes": 3532
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            7,
+            10,
+            49,
+            63
+          ],
+          "turn_slide_px": 1.0,
+          "turn_slide_output_px": 1.0,
+          "measure": {
+            "bbox": [
+              44,
+              36,
+              86,
+              89
+            ],
+            "ground": 89,
+            "body_height": 53,
+            "stance_x": 65.5,
+            "torso_x": 67.04,
+            "centroid_x": 64.93,
+            "hip_x": 66.75
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/wisp/2.png",
+            "sha256": "ec34fe6af9b5243bf5fe966c0655059c812720e4fbe05c7cca2216c710d62adf",
+            "bytes": 4779
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/2.png",
+            "sha256": "eeefecd2de69bd863dc6028cef7485e466cf40433eac37c9d6aa088a77feccdf",
+            "bytes": 4280
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            5,
+            9,
+            50,
+            63
+          ],
+          "turn_slide_px": 2.0,
+          "turn_slide_output_px": 2.0,
+          "measure": {
+            "bbox": [
+              42,
+              35,
+              87,
+              89
+            ],
+            "ground": 89,
+            "body_height": 54,
+            "stance_x": 66.0,
+            "torso_x": 67.14,
+            "centroid_x": 64.57,
+            "hip_x": 66.25
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/wisp/3.png",
+            "sha256": "8b2955bfd022ae28d065ca8f9bd315959ff3401c85b53cc42988275e16eb5d6f",
+            "bytes": 4609
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/3.png",
+            "sha256": "006033517c163385461e6e3eae1fcfdee811187c12f0ffc2fc6d7cc6fb9820ce",
+            "bytes": 4081
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            4,
+            9,
+            50,
+            63
+          ],
+          "turn_slide_px": 2.0,
+          "turn_slide_output_px": 2.0,
+          "measure": {
+            "bbox": [
+              41,
+              35,
+              87,
+              89
+            ],
+            "ground": 89,
+            "body_height": 54,
+            "stance_x": 66.0,
+            "torso_x": 66.72,
+            "centroid_x": 64.69,
+            "hip_x": 67.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/wisp/4.png",
+            "sha256": "45303f05323c782589ef283f699d1285b8c33f884b1f8d358c227e949630cf28",
+            "bytes": 4938
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/4.png",
+            "sha256": "399e27d296643b13c62a52cbb9c8c799618e7d8c96b36e67c1eecc385bb88b9e",
+            "bytes": 4382
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            2,
+            8,
+            50,
+            62
+          ],
+          "turn_slide_px": 0.0,
+          "turn_slide_output_px": 0.0,
+          "measure": {
+            "bbox": [
+              39,
+              34,
+              87,
+              88
+            ],
+            "ground": 88,
+            "body_height": 54,
+            "stance_x": 65.0,
+            "torso_x": 65.82,
+            "centroid_x": 64.4,
+            "hip_x": 68.5
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/wisp/5.png",
+            "sha256": "fb428c4111f60b9fe1e2a2f27f5b1e0da612876d9448ea3de36f5dd945db1144",
+            "bytes": 4788
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/5.png",
+            "sha256": "a5c0b5009d066e1e8887971bb9a559a761bd0ba6da7c54ce1ea34c23c756240c",
+            "bytes": 4251
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            4,
+            8,
+            50,
+            61
+          ],
+          "turn_slide_px": 3.0,
+          "turn_slide_output_px": 3.0,
+          "measure": {
+            "bbox": [
+              41,
+              34,
+              87,
+              87
+            ],
+            "ground": 87,
+            "body_height": 53,
+            "stance_x": 63.5,
+            "torso_x": 68.21,
+            "centroid_x": 65.28,
+            "hip_x": 69.5
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/wisp/6.png",
+            "sha256": "5463c0e3047320fe9b180892656ff1d45982892d3cb3ffe758b2eddc96759459",
+            "bytes": 4884
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/6.png",
+            "sha256": "8d6929b8103ad3514b7e27b7329d3cb5077dbc1f9c5b5196fb1c49fd25eb71b4",
+            "bytes": 4258
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            5,
+            5,
+            50,
+            61
+          ],
+          "turn_slide_px": 4.0,
+          "turn_slide_output_px": 4.0,
+          "measure": {
+            "bbox": [
+              42,
+              31,
+              87,
+              87
+            ],
+            "ground": 87,
+            "body_height": 56,
+            "stance_x": 67.0,
+            "torso_x": 68.0,
+            "centroid_x": 64.83,
+            "hip_x": 69.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/wisp/7.png",
+            "sha256": "8f7f85d615e8420cc2341f3f1d75a6c59fa7a56ac541b882fe9ddb7b74f71757",
+            "bytes": 4930
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/7.png",
+            "sha256": "29c9a80628576aeba30009c8fe8602ddeb51883c4108249b7311838fcfab5f9c",
+            "bytes": 4285
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            2,
+            2,
+            50,
+            61
+          ],
+          "turn_slide_px": 17.0,
+          "turn_slide_output_px": 17.0,
+          "measure": {
+            "bbox": [
+              39,
+              28,
+              87,
+              87
+            ],
+            "ground": 87,
+            "body_height": 59,
+            "stance_x": 56.5,
+            "torso_x": 67.0,
+            "centroid_x": 64.77,
+            "hip_x": 69.0
+          }
+        }
+      ]
+    },
+    {
+      "group": "painted",
+      "actor": "imp",
+      "tool": "generate2dsprite/scale_frames.py",
+      "usage": "Registration/scale check; displayed frames retain original full canvas and shared master anchor.",
+      "scale": 1.0,
+      "canvas": [
+        116,
+        75
+      ],
+      "frameTransforms": [
+        {
+          "source": {
+            "path": "../../site/assets/painted/imp/0.png",
+            "sha256": "567246b3dfac82c33775580371c7d5acb51b111dee8384ac2dac5adcdba3c9b0",
+            "bytes": 6695
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/0.png",
+            "sha256": "1109a9040275287bd528394716e5906343143fb91b01e815d86ec3a943fd68db",
+            "bytes": 9554
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            18,
+            3,
+            114,
+            72
+          ],
+          "turn_slide_px": 9.0,
+          "turn_slide_output_px": 9.0,
+          "measure": {
+            "bbox": [
+              25,
+              24,
+              116,
+              93
+            ],
+            "ground": 93,
+            "body_height": 69,
+            "stance_x": 66.0,
+            "torso_x": 76.42,
+            "centroid_x": 68.94,
+            "hip_x": 72.25
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/imp/1.png",
+            "sha256": "b5ebd519925c8cae87c85c5be44fed518741fd304518db244372a7d7d6470412",
+            "bytes": 6592
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/1.png",
+            "sha256": "a8c70da6cfc77454da67e5dc81b8965e5ded29a4c253f1c9bf81b4d782662354",
+            "bytes": 9135
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            16,
+            2,
+            110,
+            73
+          ],
+          "turn_slide_px": 15.0,
+          "turn_slide_output_px": 15.0,
+          "measure": {
+            "bbox": [
+              23,
+              23,
+              112,
+              94
+            ],
+            "ground": 94,
+            "body_height": 71,
+            "stance_x": 63.0,
+            "torso_x": 74.34,
+            "centroid_x": 67.45,
+            "hip_x": 71.25
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/imp/2.png",
+            "sha256": "13fbdf657154b9605de8b24e792881876103aaf1f17de9c32e4418a529eba2b8",
+            "bytes": 6475
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/2.png",
+            "sha256": "f553409a3fc91de28041bf4ec55cbc54c4f2346d8ff43b776fd83e8979cb4ca6",
+            "bytes": 9091
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            13,
+            3,
+            107,
+            71
+          ],
+          "turn_slide_px": 19.0,
+          "turn_slide_output_px": 19.0,
+          "measure": {
+            "bbox": [
+              20,
+              24,
+              109,
+              92
+            ],
+            "ground": 92,
+            "body_height": 68,
+            "stance_x": 61.0,
+            "torso_x": 69.31,
+            "centroid_x": 65.17,
+            "hip_x": 69.5
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/imp/3.png",
+            "sha256": "7b5831e6c681d11ed66c5b11547efad0c6086a0bdd7a1504137bc91223abbf89",
+            "bytes": 6441
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/3.png",
+            "sha256": "22da6893dc2088ef5588377b2e7275036e1f33e83b347b5fdbf7315d438adcf1",
+            "bytes": 8969
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            8,
+            11,
+            103,
+            69
+          ],
+          "turn_slide_px": 21.0,
+          "turn_slide_output_px": 21.0,
+          "measure": {
+            "bbox": [
+              15,
+              32,
+              105,
+              90
+            ],
+            "ground": 90,
+            "body_height": 58,
+            "stance_x": 60.0,
+            "torso_x": 69.73,
+            "centroid_x": 61.06,
+            "hip_x": 65.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/imp/4.png",
+            "sha256": "6f19a345dcc912c88c9de3962e2c470e5f75001585ee190ca7acc55370528d45",
+            "bytes": 6274
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/4.png",
+            "sha256": "b12a64f3bcd9f048927b72969dfbf3b3af967f8c99195c354013ee692a9cb635",
+            "bytes": 8697
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            2,
+            14,
+            104,
+            68
+          ],
+          "turn_slide_px": 53.0,
+          "turn_slide_output_px": 52.0,
+          "measure": {
+            "bbox": [
+              9,
+              35,
+              106,
+              89
+            ],
+            "ground": 89,
+            "body_height": 54,
+            "stance_x": 44.0,
+            "torso_x": 63.0,
+            "centroid_x": 59.26,
+            "hip_x": 63.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/imp/5.png",
+            "sha256": "84a84b49a38c82f7f29afbd4fc0a9c4acd7dca4d60f0f93326fef8900f58a839",
+            "bytes": 6456
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/5.png",
+            "sha256": "cf02bdcdb23499979486aa3662d6272942c051a065fa6caffba385ebcdb5b409",
+            "bytes": 9039
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            3,
+            14,
+            106,
+            69
+          ],
+          "turn_slide_px": 76.0,
+          "turn_slide_output_px": 76.0,
+          "measure": {
+            "bbox": [
+              10,
+              35,
+              108,
+              90
+            ],
+            "ground": 90,
+            "body_height": 55,
+            "stance_x": 32.5,
+            "torso_x": 71.04,
+            "centroid_x": 60.31,
+            "hip_x": 65.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/imp/6.png",
+            "sha256": "302cc1fe57b3aac273a1ebfac12f05cc73f3200e3b68e7b0bf75dc456605559d",
+            "bytes": 6487
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/6.png",
+            "sha256": "d1c4eb78725880b3262f12a77215c25895cbb3a72cf596f3c0ba692e045911bd",
+            "bytes": 9229
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            7,
+            13,
+            106,
+            66
+          ],
+          "turn_slide_px": 47.0,
+          "turn_slide_output_px": 28.0,
+          "measure": {
+            "bbox": [
+              14,
+              34,
+              108,
+              87
+            ],
+            "ground": 87,
+            "body_height": 53,
+            "stance_x": 47.0,
+            "torso_x": 69.75,
+            "centroid_x": 61.58,
+            "hip_x": 65.75
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/imp/7.png",
+            "sha256": "6e6854deb82f388d002b8ffeeadc13b72bfdc6cb53590c25d3908cf364d74a3b",
+            "bytes": 6670
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/7.png",
+            "sha256": "52f39f2c6a037a4cb0104db71f5716f4480ba7da2f861779938205c8881070a8",
+            "bytes": 9505
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            7,
+            13,
+            106,
+            67
+          ],
+          "turn_slide_px": 21.0,
+          "turn_slide_output_px": 4.0,
+          "measure": {
+            "bbox": [
+              14,
+              34,
+              108,
+              88
+            ],
+            "ground": 88,
+            "body_height": 54,
+            "stance_x": 60.0,
+            "torso_x": 63.79,
+            "centroid_x": 61.61,
+            "hip_x": 63.5
+          }
+        }
+      ]
+    },
+    {
+      "group": "painted",
+      "actor": "wyvern",
+      "tool": "generate2dsprite/scale_frames.py",
+      "usage": "Registration/scale check; displayed frames retain original full canvas and shared master anchor.",
+      "scale": 1.0,
+      "canvas": [
+        98,
+        96
+      ],
+      "frameTransforms": [
+        {
+          "source": {
+            "path": "../../site/assets/painted/wyvern/0.png",
+            "sha256": "bafccb1918530cbf15d3a866ad06e7d5d7de7d4373d6de09fbfbdbcf68198154",
+            "bytes": 7831
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/0.png",
+            "sha256": "790855c9e820b44b5177cc74e6ea3ea7fa4b1b0089e342a9589e39f39ee6d87c",
+            "bytes": 11201
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            4,
+            5,
+            96,
+            85
+          ],
+          "turn_slide_px": 40.0,
+          "turn_slide_output_px": 40.0,
+          "measure": {
+            "bbox": [
+              19,
+              21,
+              106,
+              101
+            ],
+            "ground": 101,
+            "body_height": 80,
+            "stance_x": 42.5,
+            "torso_x": 78.6,
+            "centroid_x": 65.6,
+            "hip_x": 72.5
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/wyvern/1.png",
+            "sha256": "4047741de21ded1dd8c527fb5aa957b53c13506ada48d83355b30f24be7b89b1",
+            "bytes": 7392
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/1.png",
+            "sha256": "82e5ac5b3637d9c399722ef7d20242cdd6cce1a5247b7c6f5bb2ee840ef7ed1b",
+            "bytes": 10823
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            3,
+            3,
+            96,
+            90
+          ],
+          "turn_slide_px": 25.0,
+          "turn_slide_output_px": 25.0,
+          "measure": {
+            "bbox": [
+              18,
+              19,
+              106,
+              106
+            ],
+            "ground": 106,
+            "body_height": 87,
+            "stance_x": 50.0,
+            "torso_x": 75.34,
+            "centroid_x": 67.47,
+            "hip_x": 72.75
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/wyvern/2.png",
+            "sha256": "c1649f5ceeee84a8032347e27ca63f00967f7e9c2946552d1a843b24e6ff9b2c",
+            "bytes": 6107
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/2.png",
+            "sha256": "0f844710ea3f8cb9f422421841425e380d7fe0e156390710caad4c3dc6a0548e",
+            "bytes": 9009
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            3,
+            15,
+            96,
+            93
+          ],
+          "turn_slide_px": 0.0,
+          "turn_slide_output_px": 0.0,
+          "measure": {
+            "bbox": [
+              18,
+              31,
+              106,
+              109
+            ],
+            "ground": 109,
+            "body_height": 78,
+            "stance_x": 62.5,
+            "torso_x": 71.03,
+            "centroid_x": 69.73,
+            "hip_x": 72.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/wyvern/3.png",
+            "sha256": "39ce1a6e48c11ce41d2bd79a529f60a0a045e068afa0541a7fedc2d4888cb8b9",
+            "bytes": 5789
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/3.png",
+            "sha256": "b54359ea363598127d5ed3f925e4473003ec93c699b1eac7f7ed6061a9fdb488",
+            "bytes": 8233
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            2,
+            21,
+            96,
+            94
+          ],
+          "turn_slide_px": 31.0,
+          "turn_slide_output_px": 31.0,
+          "measure": {
+            "bbox": [
+              17,
+              37,
+              106,
+              110
+            ],
+            "ground": 110,
+            "body_height": 73,
+            "stance_x": 78.0,
+            "torso_x": 72.12,
+            "centroid_x": 70.4,
+            "hip_x": 72.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/wyvern/4.png",
+            "sha256": "4438b2819f457b3d3130f957952cd5efa8c946af59161e17aecae878e7fbc567",
+            "bytes": 6046
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/4.png",
+            "sha256": "a2c89c2744545b7d9d3a0864eddddbbd0a2ac529e4cb1e8356b4e4f53c92766d",
+            "bytes": 8644
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            2,
+            20,
+            96,
+            94
+          ],
+          "turn_slide_px": 25.0,
+          "turn_slide_output_px": 25.0,
+          "measure": {
+            "bbox": [
+              17,
+              36,
+              106,
+              110
+            ],
+            "ground": 110,
+            "body_height": 74,
+            "stance_x": 75.0,
+            "torso_x": 71.63,
+            "centroid_x": 69.7,
+            "hip_x": 71.5
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/wyvern/5.png",
+            "sha256": "b879292a799ef1b68b4aeef9e5133f328b379f73bd6610134e74519f28a3188e",
+            "bytes": 7158
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/5.png",
+            "sha256": "d89a4b47364c149e965e291cf030e6863dee1bf224d8439f86e2b14bf9278c80",
+            "bytes": 10021
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            3,
+            12,
+            96,
+            94
+          ],
+          "turn_slide_px": 2.0,
+          "turn_slide_output_px": 2.0,
+          "measure": {
+            "bbox": [
+              18,
+              28,
+              106,
+              110
+            ],
+            "ground": 110,
+            "body_height": 82,
+            "stance_x": 61.5,
+            "torso_x": 71.38,
+            "centroid_x": 68.02,
+            "hip_x": 72.5
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/wyvern/6.png",
+            "sha256": "07aa93e246f373fc70db13a92af14b099258bc9c8d86d33f45d0f2c068fbc0eb",
+            "bytes": 7449
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/6.png",
+            "sha256": "31c231212e0f99fd4084ca512c4c7a959a73010c809dba577de04744c179eea7",
+            "bytes": 10958
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            4,
+            2,
+            96,
+            92
+          ],
+          "turn_slide_px": 26.0,
+          "turn_slide_output_px": 28.0,
+          "measure": {
+            "bbox": [
+              19,
+              18,
+              106,
+              108
+            ],
+            "ground": 108,
+            "body_height": 90,
+            "stance_x": 49.5,
+            "torso_x": 79.18,
+            "centroid_x": 66.54,
+            "hip_x": 74.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/wyvern/7.png",
+            "sha256": "8e56cda993bc70eacb7c571104a78bc4412d9e41721792f0987e548ddf4f2b84",
+            "bytes": 7710
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/7.png",
+            "sha256": "f3d26a96ef8314884fcb14fc8d1a71dfdef3b932f8449d9dcad0e8e5bf98a7f8",
+            "bytes": 11522
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            4,
+            6,
+            96,
+            80
+          ],
+          "turn_slide_px": 49.0,
+          "turn_slide_output_px": 49.0,
+          "measure": {
+            "bbox": [
+              19,
+              22,
+              106,
+              96
+            ],
+            "ground": 96,
+            "body_height": 74,
+            "stance_x": 38.0,
+            "torso_x": 81.21,
+            "centroid_x": 63.07,
+            "hip_x": 71.75
+          }
+        }
+      ]
+    },
+    {
+      "group": "painted",
+      "actor": "fruit",
+      "tool": "generate2dsprite/scale_frames.py",
+      "usage": "Registration/scale check; displayed frames retain original full canvas and shared master anchor.",
+      "scale": 1.0,
+      "canvas": [
+        64,
+        70
+      ],
+      "frameTransforms": [
+        {
+          "source": {
+            "path": "../../site/assets/painted/fruit/0.png",
+            "sha256": "5ed879062cf2bf5ccbb07e7ad24b7548a6663cffde67a2382ee96121ed74b720",
+            "bytes": 4366
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/0.png",
+            "sha256": "cffaaa22867ba04261bbac8ceaeb96583e0c1b9b92c14b95d6828056da73daef",
+            "bytes": 3876
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            5,
+            5,
+            51,
+            66
+          ],
+          "turn_slide_px": 0.0,
+          "turn_slide_output_px": 0.0,
+          "measure": {
+            "bbox": [
+              42,
+              32,
+              88,
+              93
+            ],
+            "ground": 93,
+            "body_height": 61,
+            "stance_x": 65.0,
+            "torso_x": 65.04,
+            "centroid_x": 65.26,
+            "hip_x": 63.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/fruit/1.png",
+            "sha256": "70614ee29a02cf66b793dc7b3376067b1b73d5c3d133d5d01654f56619d9a8da",
+            "bytes": 4245
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/1.png",
+            "sha256": "1f078d6112dc6496bad7f7c35d8d4c8cb52ef92f4c1888953b3526bccd5e4a42",
+            "bytes": 3721
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            4,
+            5,
+            50,
+            67
+          ],
+          "turn_slide_px": 1.0,
+          "turn_slide_output_px": 1.0,
+          "measure": {
+            "bbox": [
+              41,
+              32,
+              87,
+              94
+            ],
+            "ground": 94,
+            "body_height": 62,
+            "stance_x": 64.5,
+            "torso_x": 64.12,
+            "centroid_x": 64.58,
+            "hip_x": 62.5
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/fruit/2.png",
+            "sha256": "44c6cd2bce96c50e65d8f2aee0c3c31801f4da58d212203d5c45a8fee496902b",
+            "bytes": 4684
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/2.png",
+            "sha256": "6cad2eafd05bc6732c4d2e483c6721c098c322d90e00f1f5600fc6c1fda12949",
+            "bytes": 4136
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            4,
+            4,
+            49,
+            68
+          ],
+          "turn_slide_px": 1.0,
+          "turn_slide_output_px": 1.0,
+          "measure": {
+            "bbox": [
+              41,
+              31,
+              86,
+              95
+            ],
+            "ground": 95,
+            "body_height": 64,
+            "stance_x": 64.5,
+            "torso_x": 64.16,
+            "centroid_x": 64.48,
+            "hip_x": 62.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/fruit/3.png",
+            "sha256": "7ba25dbaa10bea0ff9c10498680125cb9710495709d835d102da49445f3debd0",
+            "bytes": 4606
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/3.png",
+            "sha256": "63d530e02d55900530dd9fef80312ad8595654651cd734a5ad5d414169c8d35c",
+            "bytes": 3996
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            3,
+            3,
+            48,
+            68
+          ],
+          "turn_slide_px": 5.0,
+          "turn_slide_output_px": 5.0,
+          "measure": {
+            "bbox": [
+              40,
+              30,
+              85,
+              95
+            ],
+            "ground": 95,
+            "body_height": 65,
+            "stance_x": 62.5,
+            "torso_x": 63.71,
+            "centroid_x": 63.52,
+            "hip_x": 61.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/fruit/4.png",
+            "sha256": "53ce90f86e1c8230ac88167597a935d8397a1fefc28f36ac33af9ef6c8216507",
+            "bytes": 4575
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/4.png",
+            "sha256": "0e025a83ee6dfb73836ff52ab75530693935980e2fcdb022900b809f7481ee6b",
+            "bytes": 4004
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            2,
+            2,
+            59,
+            66
+          ],
+          "turn_slide_px": 6.0,
+          "turn_slide_output_px": 6.0,
+          "measure": {
+            "bbox": [
+              39,
+              29,
+              96,
+              93
+            ],
+            "ground": 93,
+            "body_height": 64,
+            "stance_x": 62.0,
+            "torso_x": 62.16,
+            "centroid_x": 64.44,
+            "hip_x": 60.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/fruit/5.png",
+            "sha256": "89614388e11fc525d3c958f1d7154be2bb6155ff83f34d1f3ee5e3f2ac35a94f",
+            "bytes": 4746
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/5.png",
+            "sha256": "95115bd230c54e7e082b7e5c7937c21146f6135ba4e904f5d86b923552667b8a",
+            "bytes": 4117
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            3,
+            4,
+            62,
+            66
+          ],
+          "turn_slide_px": 4.0,
+          "turn_slide_output_px": 4.0,
+          "measure": {
+            "bbox": [
+              40,
+              31,
+              99,
+              93
+            ],
+            "ground": 93,
+            "body_height": 62,
+            "stance_x": 63.0,
+            "torso_x": 62.62,
+            "centroid_x": 65.54,
+            "hip_x": 61.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/fruit/6.png",
+            "sha256": "2607911ceadcb677debb78b48c10281f6700bbf57a7a077755d78af53c92cdd2",
+            "bytes": 4670
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/6.png",
+            "sha256": "b9b365d8f25fc67a4e6a272f4d9944c5dc99f66e549f8d8bfec826ca1359e2d3",
+            "bytes": 4064
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            3,
+            4,
+            62,
+            65
+          ],
+          "turn_slide_px": 4.0,
+          "turn_slide_output_px": 4.0,
+          "measure": {
+            "bbox": [
+              40,
+              31,
+              99,
+              92
+            ],
+            "ground": 92,
+            "body_height": 61,
+            "stance_x": 63.0,
+            "torso_x": 62.61,
+            "centroid_x": 64.91,
+            "hip_x": 61.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/fruit/7.png",
+            "sha256": "5e991ab110d8d00bc4bf79c97fdfbf01b36ad3850f7dd541b47f4111812434ba",
+            "bytes": 4709
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/7.png",
+            "sha256": "0911c8c6f93d15d28ff9e4907987ccd1fe886bbb09195dd9593a2aa372b4e681",
+            "bytes": 4115
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            4,
+            4,
+            59,
+            65
+          ],
+          "turn_slide_px": 2.0,
+          "turn_slide_output_px": 2.0,
+          "measure": {
+            "bbox": [
+              41,
+              31,
+              96,
+              92
+            ],
+            "ground": 92,
+            "body_height": 61,
+            "stance_x": 64.0,
+            "torso_x": 63.61,
+            "centroid_x": 64.47,
+            "hip_x": 62.0
+          }
+        }
+      ]
+    },
+    {
+      "group": "painted",
+      "actor": "raft",
+      "tool": "generate2dsprite/scale_frames.py",
+      "usage": "Registration/scale check; displayed frames retain original full canvas and shared master anchor.",
+      "scale": 1.0,
+      "canvas": [
+        98,
+        72
+      ],
+      "frameTransforms": [
+        {
+          "source": {
+            "path": "../../site/assets/painted/raft/0.png",
+            "sha256": "adf5e7d559761f9dfc999c46072fb652ad531c8cc1e4c5bfce5df8e3729e7532",
+            "bytes": 8171
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/0.png",
+            "sha256": "8440c4c866402ca3dfcf6b5a1fbccc173f9337f2aea56d5dcc0ac57f44b8f367",
+            "bytes": 7315
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            2,
+            12,
+            96,
+            61
+          ],
+          "turn_slide_px": 2.0,
+          "turn_slide_output_px": 2.0,
+          "measure": {
+            "bbox": [
+              17,
+              38,
+              111,
+              87
+            ],
+            "ground": 87,
+            "body_height": 49,
+            "stance_x": 65.0,
+            "torso_x": 63.94,
+            "centroid_x": 63.84,
+            "hip_x": 64.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/raft/1.png",
+            "sha256": "c462695b7fc3b2ae68db54e74a879bf433bde492b5e7cba0c903e69cf670c40a",
+            "bytes": 8422
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/1.png",
+            "sha256": "c9d4d180f2f4de9691b2ba0d86c7866ac65a41745afb9f9acf52284736ba80d3",
+            "bytes": 7468
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            2,
+            11,
+            96,
+            61
+          ],
+          "turn_slide_px": 2.0,
+          "turn_slide_output_px": 2.0,
+          "measure": {
+            "bbox": [
+              17,
+              37,
+              111,
+              87
+            ],
+            "ground": 87,
+            "body_height": 50,
+            "stance_x": 63.0,
+            "torso_x": 63.95,
+            "centroid_x": 63.76,
+            "hip_x": 64.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/raft/2.png",
+            "sha256": "98fcbc8b6fa29dc5742d8104fbf484ce026b3ece7a3a8f60ac195ec2b525841c",
+            "bytes": 9415
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/2.png",
+            "sha256": "c2eb96be73d24139b7631f8f9939cf87acf64d3add49b0c758ec0568c1b638d8",
+            "bytes": 8399
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            2,
+            8,
+            96,
+            65
+          ],
+          "turn_slide_px": 0.0,
+          "turn_slide_output_px": 0.0,
+          "measure": {
+            "bbox": [
+              17,
+              34,
+              111,
+              91
+            ],
+            "ground": 91,
+            "body_height": 57,
+            "stance_x": 64.0,
+            "torso_x": 63.95,
+            "centroid_x": 63.82,
+            "hip_x": 64.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/raft/3.png",
+            "sha256": "29eca427887d1bd5dbd62647ea1aefbde1c5b6f3e4c942d60e7b985f161bf7d9",
+            "bytes": 9709
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/3.png",
+            "sha256": "2c3ebad686ed353c7c300fea89bdbd43319917eff15c47935344b2b33818e709",
+            "bytes": 8637
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            2,
+            4,
+            96,
+            69
+          ],
+          "turn_slide_px": 2.0,
+          "turn_slide_output_px": 2.0,
+          "measure": {
+            "bbox": [
+              17,
+              30,
+              111,
+              95
+            ],
+            "ground": 95,
+            "body_height": 65,
+            "stance_x": 63.0,
+            "torso_x": 63.61,
+            "centroid_x": 63.66,
+            "hip_x": 64.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/raft/4.png",
+            "sha256": "573b44390b8f48db99bdd156efe462c64652f57e7a99bbf7b3320fe0c225dc83",
+            "bytes": 9616
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/4.png",
+            "sha256": "8a217636b54667aafb77b3ae79c723424a58012416371602489cd4252c43b7f2",
+            "bytes": 8511
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            2,
+            2,
+            96,
+            70
+          ],
+          "turn_slide_px": 2.0,
+          "turn_slide_output_px": 2.0,
+          "measure": {
+            "bbox": [
+              17,
+              28,
+              111,
+              96
+            ],
+            "ground": 96,
+            "body_height": 68,
+            "stance_x": 63.0,
+            "torso_x": 64.1,
+            "centroid_x": 63.82,
+            "hip_x": 64.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/raft/5.png",
+            "sha256": "46f14ef7f6d1242383fc7e65e943cf6e9a76a3b111f513ee76f214edfd68302e",
+            "bytes": 9083
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/5.png",
+            "sha256": "300e8fc82debeaefb6f91411b1eb2ebeafc5c10e420103e507a61c42370e805d",
+            "bytes": 8088
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            2,
+            4,
+            96,
+            69
+          ],
+          "turn_slide_px": 2.0,
+          "turn_slide_output_px": 2.0,
+          "measure": {
+            "bbox": [
+              17,
+              30,
+              111,
+              95
+            ],
+            "ground": 95,
+            "body_height": 65,
+            "stance_x": 63.0,
+            "torso_x": 64.22,
+            "centroid_x": 63.72,
+            "hip_x": 64.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/raft/6.png",
+            "sha256": "19d707c147d24bc51ef430d2b64153af90228a1d2b82139de1c8a563af7b1409",
+            "bytes": 8912
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/6.png",
+            "sha256": "92260af87b787c674fa0d4c6b7ae0463303712898b5622b2431847c19bf0270c",
+            "bytes": 7966
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            2,
+            7,
+            96,
+            67
+          ],
+          "turn_slide_px": 1.0,
+          "turn_slide_output_px": 1.0,
+          "measure": {
+            "bbox": [
+              17,
+              33,
+              111,
+              93
+            ],
+            "ground": 93,
+            "body_height": 60,
+            "stance_x": 63.5,
+            "torso_x": 64.69,
+            "centroid_x": 63.74,
+            "hip_x": 64.0
+          }
+        },
+        {
+          "source": {
+            "path": "../../site/assets/painted/raft/7.png",
+            "sha256": "a80a7162d4e2e5a31109c62a2c26ccd3a1758f2303af3aefbb2137b9f77377a3",
+            "bytes": 8645
+          },
+          "cell": null,
+          "output": {
+            "path": "frames/7.png",
+            "sha256": "41d4d590d9179734b76e4f01e9e29002a0f88812eeb5bfe82010cbb6a01aaa14",
+            "bytes": 7694
+          },
+          "shift": [
+            0,
+            0
+          ],
+          "output_bbox": [
+            2,
+            9,
+            96,
+            64
+          ],
+          "turn_slide_px": 1.0,
+          "turn_slide_output_px": 1.0,
+          "measure": {
+            "bbox": [
+              17,
+              35,
+              111,
+              90
+            ],
+            "ground": 90,
+            "body_height": 55,
+            "stance_x": 63.5,
+            "torso_x": 64.13,
+            "centroid_x": 63.77,
+            "hip_x": 64.0
+          }
+        }
+      ]
+    }
+  ]
+}
