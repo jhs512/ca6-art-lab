@@ -53,9 +53,34 @@ const completed = packs.reduce(
     0,
 );
 loaded.then(() => {
+    const clips = packs.reduce((n,p)=>n+actors.filter(a=>{
+        const entry=p.actors[a.id];
+        return entry?.frames.length===8 && [entry.base,...entry.frames].every(f=>images.get(f)?.naturalWidth>0);
+    }).length,0);
+    const backgrounds=packs.reduce((n,p)=>n+Object.values(p.backgrounds).filter(f=>images.get(f)?.naturalWidth>0).length,0);
+    $("coverage").dataset.loadedClips=clips;
+    $("coverage").dataset.loadedBackgrounds=backgrounds;
     $("coverage").textContent =
-        `${completed} / 30 대표 동작 · ${packs.reduce((n, p) => n + Object.keys(p.backgrounds).length, 0)} / 12 배경`;
+        `${clips} / ${packs.length * actors.length} 대표 동작 · ${backgrounds} / ${packs.length * biomes.length} 배경 구성`;
 });
+const visiblePacks = new Set(packs.map(p => p.id));
+for (const pack of packs) {
+    const label = document.createElement('label'), input = document.createElement('input');
+    input.type='checkbox'; input.checked=true; input.value=pack.id;
+    input.onchange=()=>{
+        if (!input.checked && visiblePacks.size===1) { input.checked=true; return; }
+        if (input.checked) visiblePacks.add(pack.id); else visiblePacks.delete(pack.id);
+        document.querySelectorAll('[data-pack]').forEach(el=>el.hidden=!visiblePacks.has(el.dataset.pack));
+        document.documentElement.style.setProperty('--compare-count',visiblePacks.size);
+    };
+    label.append(input,`${pack.letter} · ${pack.label}`); $('pack-filters').append(label);
+    const option=document.createElement('option'); option.value=pack.id; option.textContent=`${pack.letter} 배경으로 통일`;
+    if (!['plain','styled','painted'].includes(pack.id)) $('background-source').append(option);
+}
+document.documentElement.style.setProperty('--compare-count',packs.length);
+const labels=document.querySelector('.column-labels'); labels.replaceChildren();
+labels.append(Object.assign(document.createElement('span'),{textContent:'비교 대상'}));
+for (const pack of packs) { const label=document.createElement('b');label.textContent=`${pack.letter} · ${pack.label}`;label.dataset.pack=pack.id;labels.append(label); }
 for (const b of biomes) {
     const button = document.createElement("button");
     button.textContent = b.label;
@@ -72,7 +97,8 @@ const stageViews = [],
 for (const pack of packs) {
     const card = document.createElement("article");
     card.className = "pack";
-    card.innerHTML = `<div class="pack-head"><span class="letter">${pack.letter}</span><div><h3>${pack.label}</h3><small>${pack.subtitle}</small></div></div><canvas class="stage-canvas" width="1024" height="640" aria-label="${pack.label} 10종 대표 동작"></canvas><div class="pack-foot"><span>동일한 월드 크기 · 대표 동작</span><span>8프레임 / 10fps</span></div>`;
+    card.dataset.pack = pack.id;
+    card.innerHTML = `<div class="pack-head"><span class="letter">${pack.letter}</span><div><h3>${pack.label}</h3><small>${pack.subtitle}</small><small class="view-note">시점 · ${pack.viewNote}</small></div></div><canvas class="stage-canvas" width="1024" height="640" aria-label="${pack.label} 10종 대표 동작"></canvas><div class="pack-foot"><span>동일한 월드 크기 · 대표 동작</span><span>8프레임 / 10fps</span></div>`;
     $("stages").append(card);
     stageViews.push({ canvas: card.querySelector("canvas"), pack });
     const button = document.createElement("button");
@@ -97,6 +123,7 @@ for (const actor of actors) {
         const entry = pack.actors[actor.id],
             card = document.createElement("div");
         card.className = "asset";
+        card.dataset.pack = pack.id;
         const canvas = document.createElement("canvas");
         canvas.width = 360;
         canvas.height = 310;
@@ -106,7 +133,7 @@ for (const actor of actors) {
         info.className = "asset-info";
         const label = document.createElement("span");
         label.textContent = entry?.frames.length
-            ? `${entry.frames.length}프레임 · ${entry.uniqueFrames}장 고유 이미지`
+            ? `${pack.letter} · ${entry.frames.length}프레임 · ${entry.uniqueFrames}장 고유 이미지`
             : "동작 미완료";
         const button = document.createElement("button");
         button.className = "star";
@@ -152,6 +179,7 @@ for (const b of biomes) {
     for (const p of packs) {
         const card = document.createElement("figure");
         card.className = "terrain-card";
+        card.dataset.pack = p.id;
         const image = document.createElement("img");
         image.src = p.backgrounds[b.id] || "";
         image.alt = `${p.letter} ${b.label} 배경`;
@@ -246,7 +274,7 @@ function drawActor(ctx, pack, actor, x, y, frame, zoom = 1, rotation = angle) {
     ctx.save();
     ctx.translate(x, y);
     ctx.rotate((rotation * Math.PI) / 180);
-    ctx.imageSmoothingEnabled = pack.id === "painted";
+    ctx.imageSmoothingEnabled = pack.id === "painted" || !!pack.smoothing;
     ctx.drawImage(
         image,
         -entry.anchor[0] * factor,
@@ -281,6 +309,7 @@ function paint(now) {
         lastFrame = frame;
     }
     for (const { canvas, pack } of stageViews) {
+        if (!visiblePacks.has(pack.id)) continue;
         const ctx = canvas.getContext("2d");
         ctx.setTransform(2, 0, 0, 2, 0, 0);
         ctx.clearRect(0, 0, 512, 320);
@@ -309,6 +338,7 @@ function paint(now) {
         }
     }
     for (const view of assetViews) {
+        if (!visiblePacks.has(view.pack.id)) continue;
         const ctx = view.canvas.getContext("2d");
         ctx.clearRect(0, 0, 360, 310);
         const extent = view.actor.id === "raft" ? 1.3 : 2.6;

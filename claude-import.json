@@ -1,0 +1,1521 @@
+{
+  "source": "Claude Code independent art experiment",
+  "importedGroups": [
+    "D",
+    "E",
+    "F",
+    "G"
+  ],
+  "originalCodexGroupsReusedByClaude": [
+    "A",
+    "B",
+    "C"
+  ],
+  "note": "D/E use code-drawn art and rig poses; F uses D masters with PixelLab motion; G uses PixelLab repaint and motion, reusing D backgrounds. This merge uses existing assets; no generation requests.",
+  "files": [
+    {
+      "file": "assets/claude-pixel/wisp/2.png",
+      "sha256": "841bf87a7e2c9a5b8342012d4288fa0e85648a6e00240b8aff1d1338f6582e26"
+    },
+    {
+      "file": "assets/claude-pixel/wyvern/7.png",
+      "sha256": "0508a021ee993f59bce7100f3440b80d1e4a3492b491865ac23ce13dbab0014b"
+    },
+    {
+      "file": "assets/claude-pixel/ogre/3.png",
+      "sha256": "ccf086c51cdb0d100e4f05b3d319c87913f6c615575f807183161e695199a7b5"
+    },
+    {
+      "file": "assets/claude-pixel/goblin/base.png",
+      "sha256": "c44ebce4a4ded31825f953f054b8d607a8e1f4c0b5bccba23919f5fb76c1d54a"
+    },
+    {
+      "file": "assets/claude-pixel/wisp/4.png",
+      "sha256": "9627f8a6c7bac30fe57d2134abb0412d0699e11d458f27e51b6d5f945f8e7054"
+    },
+    {
+      "file": "assets/claude-pixel/raft/6.png",
+      "sha256": "b13941458df0922d3f5fdc24393e72cb1b2f7cbf253dfc9bf13a1fca0d85ed34"
+    },
+    {
+      "file": "assets/claude-pixel/goblin/6.png",
+      "sha256": "734f83bcbce6fdb13c892f4544e4588412d7b4089969ab805396c184d919091f"
+    },
+    {
+      "file": "assets/claude-pixel/fruit/2.png",
+      "sha256": "63d6666b72e8ba4b932571469256eb4cf2018a0a70c1fba715ae87e88ec4171d"
+    },
+    {
+      "file": "assets/claude-pixel/wisp/base.png",
+      "sha256": "bbdf0d094d56ac8b7f48707dc3eaf657a96e76409b94b79d97e275de7ac89026"
+    },
+    {
+      "file": "assets/claude-pixel/goblin/2.png",
+      "sha256": "4b0842b08f545505661884f0fa43f295df1e23215f49ca7ac9e5c2a7685e3232"
+    },
+    {
+      "file": "assets/claude-pixel/raft/7.png",
+      "sha256": "9bf089351e65b0b15164c88bc10a0ad4a2ffedf41888e07f0ca2065334b8910f"
+    },
+    {
+      "file": "assets/claude-pixel/slime/2.png",
+      "sha256": "02f22172767cab2169748697d1df5c911b4d08b9cb2ab25a9e82db27665a3ca9"
+    },
+    {
+      "file": "assets/claude-pixel/orc/0.png",
+      "sha256": "fe99d407f28ac8ae680f26d843532b94cd6950ccab9fec7b2208686fb566a428"
+    },
+    {
+      "file": "assets/claude-pixel/slime/4.png",
+      "sha256": "9702fe2f66aee109d3f52d0185a10022cd1c2a1d02ff476be516fb60e8d7f580"
+    },
+    {
+      "file": "assets/claude-pixel/imp/3.png",
+      "sha256": "a68cff95e8bc7d7aee1d5e17654a85c366e5317f0f1d3d8b5bffc8e2e532ec15"
+    },
+    {
+      "file": "assets/claude-pixel/goblin/3.png",
+      "sha256": "8eee2512823a816e5234cb4d2599a76db000111652bc9e55d9841a66362bf45b"
+    },
+    {
+      "file": "assets/claude-pixel/wisp/1.png",
+      "sha256": "ba845ee954681f0f7562210adfa13f136a3f7ede752bb62e7a53ef1516bd50d3"
+    },
+    {
+      "file": "assets/claude-pixel/hero/base.png",
+      "sha256": "68841298f44c824feff110d41075565905d880b475febbbd74fdf314ac42eab2"
+    },
+    {
+      "file": "assets/claude-pixel/ogre/1.png",
+      "sha256": "b015b4a8a20c01225420d27b2339d8fed9ef39f3bcabf9df675d5c9c8c76fb77"
+    },
+    {
+      "file": "assets/claude-pixel/slime/1.png",
+      "sha256": "42b5cc167a20996b848a58b4f0dbe5a79a56ae9f5cdff9cf15a765975796b261"
+    },
+    {
+      "file": "assets/claude-pixel/fruit/1.png",
+      "sha256": "5e58beb1e7d3edde820b92242c37ee1e9ad18fbc20522ded13cec0419a3f573a"
+    },
+    {
+      "file": "assets/claude-pixel/hero/1.png",
+      "sha256": "6dccee19fd328cf5c6778d07430e240e0a666e154f1f3242c048a5532d1a58f2"
+    },
+    {
+      "file": "assets/claude-pixel/ogre/7.png",
+      "sha256": "244db0363ac2af17b91df3d774328b055e4c006330910267ddb08fb0b0cf6408"
+    },
+    {
+      "file": "assets/claude-pixel/raft/2.png",
+      "sha256": "a37edad11367c275bb25087e5c8697f51771f1e2b1a20e94bd18b26495ce10df"
+    },
+    {
+      "file": "assets/claude-pixel/imp/6.png",
+      "sha256": "5b83f7d6feed0b16248b076f064be2d17eb46e5bf39b7e1a87a001ddd0527e55"
+    },
+    {
+      "file": "assets/claude-pixel/goblin/5.png",
+      "sha256": "4d3c938b301f819181c70e62bc60aa8cae544e1507866e528c1a127042762a56"
+    },
+    {
+      "file": "assets/claude-pixel/wyvern/3.png",
+      "sha256": "160276a003d377308748da5b160dc74d5c3247a2772227662d7e4d70726c7452"
+    },
+    {
+      "file": "assets/claude-pixel/orc/7.png",
+      "sha256": "721b4ea1e05484267af2455e1882ebafb8f837e7841c58d3ab8fedd0ef805e84"
+    },
+    {
+      "file": "assets/claude-pixel/wyvern/4.png",
+      "sha256": "4743aa5674fc44a0c854437ae7c342e261dd75bd04f40cc7f54d3b320c427c11"
+    },
+    {
+      "file": "assets/claude-pixel/wyvern/1.png",
+      "sha256": "454957ea04456d897a4fd1a7437b72a63855c6cff5596b67dbf0a4bdaee03148"
+    },
+    {
+      "file": "assets/claude-pixel/orc/5.png",
+      "sha256": "452d447525a39d171fbeaf07fb884eb479b098bbe853d530f876f0f7bf9d9139"
+    },
+    {
+      "file": "assets/claude-pixel/orc/1.png",
+      "sha256": "7904e5be2fa472dc9ef38431093728305664b3753dc76ef0360ac12904e8535e"
+    },
+    {
+      "file": "assets/claude-pixel/orc/6.png",
+      "sha256": "614ec5ea3e5fbdd7cdac9ec6bd37822736d5667f9024a301f3529122c9297078"
+    },
+    {
+      "file": "assets/claude-pixel/imp/base.png",
+      "sha256": "e91e83ddf7fb5e2f647d60c4b1b33d911ce4550e91cf0ab99c2cd6e933956170"
+    },
+    {
+      "file": "assets/claude-pixel/orc/4.png",
+      "sha256": "c0ba0e65759bb4f0f29af17a1b6ba73537bee925820b5ad40faf5b1b90735e25"
+    },
+    {
+      "file": "assets/claude-pixel/fruit/3.png",
+      "sha256": "2ee1b100a8c09b2d269b05aff1f7441dd6d081a08ae63b92d0a101cd33972231"
+    },
+    {
+      "file": "assets/claude-pixel/imp/1.png",
+      "sha256": "0f29bc8b0172fc2b888638a2e611f9b46c5dc057bd67d0c307a6c180e6239c60"
+    },
+    {
+      "file": "assets/claude-pixel/raft/base.png",
+      "sha256": "a5eb845c190310edc31e8ffb8807eec023043bb87c46af7fa2f14c62140b3e69"
+    },
+    {
+      "file": "assets/claude-pixel/ogre/0.png",
+      "sha256": "a8e1cb2896ccb1e1461bf64692c0441dd7bb85aab62bf117c78defaed722f8f2"
+    },
+    {
+      "file": "assets/claude-pixel/ogre/2.png",
+      "sha256": "97ff6ecdb119d885a62384d6c0fa4c8d8f90a7946df7cec5fab748d53c10a94a"
+    },
+    {
+      "file": "assets/claude-pixel/orc/2.png",
+      "sha256": "caf7c69a702debee077b3a39e4d0cc5acef66752e23cead2dd78bf4748ad4e1a"
+    },
+    {
+      "file": "assets/claude-pixel/fruit/7.png",
+      "sha256": "c165a5bdfab8a9673a352ce3f923f2abcc0e26713db45a8eff9caf8be0627848"
+    },
+    {
+      "file": "assets/claude-pixel/ogre/base.png",
+      "sha256": "a8e1cb2896ccb1e1461bf64692c0441dd7bb85aab62bf117c78defaed722f8f2"
+    },
+    {
+      "file": "assets/claude-pixel/slime/5.png",
+      "sha256": "7b7188827ff2e6d68fcd2581f1c4d63112ed56ab924a47effea69cb27097f192"
+    },
+    {
+      "file": "assets/claude-pixel/swamp/background.png",
+      "sha256": "d42ddd8dd7fcfc6ec9ecd6ed3085e5fa86e66eec3c98f37e90fe7f05c4c7b10e"
+    },
+    {
+      "file": "assets/claude-pixel/ogre/5.png",
+      "sha256": "737902c4846e63974d3544dcfd84dd187349767535dde2c029143f5ea58bdb3b"
+    },
+    {
+      "file": "assets/claude-pixel/slime/3.png",
+      "sha256": "beee87fb5a134df10ee7ff9437d98452d4600fbd378ea8abcb1322fe707650b2"
+    },
+    {
+      "file": "assets/claude-pixel/raft/3.png",
+      "sha256": "f2556ca63474d897c3e6003266885f1ef0d094978c0372bc7b16118254655567"
+    },
+    {
+      "file": "assets/claude-pixel/ogre/4.png",
+      "sha256": "87c8bf8e67812834129d1ff7d2f0d1f7d2e9c76ea6389778aa94cd8ab4d9c322"
+    },
+    {
+      "file": "assets/claude-pixel/wisp/0.png",
+      "sha256": "bbdf0d094d56ac8b7f48707dc3eaf657a96e76409b94b79d97e275de7ac89026"
+    },
+    {
+      "file": "assets/claude-pixel/wisp/6.png",
+      "sha256": "c123705c3631801d8dfaeece5152e6226ce8ba0a233176bd7282d59b29c4e8d0"
+    },
+    {
+      "file": "assets/claude-pixel/imp/0.png",
+      "sha256": "e91e83ddf7fb5e2f647d60c4b1b33d911ce4550e91cf0ab99c2cd6e933956170"
+    },
+    {
+      "file": "assets/claude-pixel/slime/base.png",
+      "sha256": "6fc32e2c8d3f2a7bcde6435b0d59b7c049affa4e4f7db65b244e35b6269d54dd"
+    },
+    {
+      "file": "assets/claude-pixel/orc/3.png",
+      "sha256": "e5502d25b6c1dcbb222851671c0e83933f7dc8f2522e1dd86c45c6a3a728fb58"
+    },
+    {
+      "file": "assets/claude-pixel/goblin/1.png",
+      "sha256": "1c50aaf43ee141b311205d6fdf99a170d49e50abe5b5b87e1b8ac5f18814eadd"
+    },
+    {
+      "file": "assets/claude-pixel/hero/5.png",
+      "sha256": "a9df2a48f8dee93a3d0f0cc22f27232a69683bcdcc1def27efe97a4f80e0b193"
+    },
+    {
+      "file": "assets/claude-pixel/fruit/5.png",
+      "sha256": "644fde584fe2a4e3bc299efd6fac8cf2cbcd229ce71e377e3b9bd84892db40df"
+    },
+    {
+      "file": "assets/claude-pixel/raft/0.png",
+      "sha256": "a5eb845c190310edc31e8ffb8807eec023043bb87c46af7fa2f14c62140b3e69"
+    },
+    {
+      "file": "assets/claude-pixel/slime/7.png",
+      "sha256": "74ab08a2f4c7f4996aa65b63af2217606f1d488cd1d2b43f57b63b44f8d16c51"
+    },
+    {
+      "file": "assets/claude-pixel/wyvern/base.png",
+      "sha256": "0efadcb73a1b9e3a32187ffea43e4b60f1445a8c9b300b7575783fb075c1fe1e"
+    },
+    {
+      "file": "assets/claude-pixel/fruit/base.png",
+      "sha256": "3f7d03eb5b050de30d2cdb01ba006829db93f609a19621518c21ca180569d87f"
+    },
+    {
+      "file": "assets/claude-pixel/goblin/0.png",
+      "sha256": "c44ebce4a4ded31825f953f054b8d607a8e1f4c0b5bccba23919f5fb76c1d54a"
+    },
+    {
+      "file": "assets/claude-pixel/raft/4.png",
+      "sha256": "45940d68bb1f4fd6d1802affb1a7d70cf21a42c1bc6beea28724cc02cc3a3c13"
+    },
+    {
+      "file": "assets/claude-pixel/raft/5.png",
+      "sha256": "f413e56377f3bbca8d76d80c2c297c689313f762e5ff0b3b377bdf84b7f9f5bf"
+    },
+    {
+      "file": "assets/claude-pixel/wisp/3.png",
+      "sha256": "1fc32b5165e6e124bb33d32a8215f74710a29b5abeceaa4494f77f60334cd1d7"
+    },
+    {
+      "file": "assets/claude-pixel/desert/background.png",
+      "sha256": "5de725a559433e1d6ca6751a1562c184e984bb6f9c0db7b3dc8e2cbca0acc357"
+    },
+    {
+      "file": "assets/claude-pixel/wyvern/0.png",
+      "sha256": "0efadcb73a1b9e3a32187ffea43e4b60f1445a8c9b300b7575783fb075c1fe1e"
+    },
+    {
+      "file": "assets/claude-pixel/goblin/7.png",
+      "sha256": "4fb3b818b66b5331fa01a14b6cfbf44415702b6a2b643cdf1a61eca763b77104"
+    },
+    {
+      "file": "assets/claude-pixel/fruit/4.png",
+      "sha256": "7e129acae16f57f4203d82c482e3e638bcd1c0b8358a9e0f8acac954fb0a6b87"
+    },
+    {
+      "file": "assets/claude-pixel/imp/2.png",
+      "sha256": "666858d3cdafbe465ec62afa846845ab5e12402169bb851627bd574dd4c81219"
+    },
+    {
+      "file": "assets/claude-pixel/imp/5.png",
+      "sha256": "4ffd6618a37bb3687da7127fc8eff7b1c1d75134860446dee066ed79fe248536"
+    },
+    {
+      "file": "assets/claude-pixel/fruit/0.png",
+      "sha256": "3f7d03eb5b050de30d2cdb01ba006829db93f609a19621518c21ca180569d87f"
+    },
+    {
+      "file": "assets/claude-pixel/hero/0.png",
+      "sha256": "68841298f44c824feff110d41075565905d880b475febbbd74fdf314ac42eab2"
+    },
+    {
+      "file": "assets/claude-pixel/wyvern/2.png",
+      "sha256": "3bb437401baee7cf12a0f456bc87a11a36b1e297de764f44b3e75a76fa0b5653"
+    },
+    {
+      "file": "assets/claude-pixel/fruit/6.png",
+      "sha256": "280c7c13af76e4ca1800a7870bb1279dbc7cf9612a47fba42c2c18dd548b646a"
+    },
+    {
+      "file": "assets/claude-pixel/imp/7.png",
+      "sha256": "a850e5c87e6d63a293fda44298f1dc8bcff809ea245f69dcba3ee384e8242905"
+    },
+    {
+      "file": "assets/claude-pixel/snow/background.png",
+      "sha256": "fbd532e9a336e108319990d2bd4ffb8bee178c8ea2693a97fd30ab25f69c34af"
+    },
+    {
+      "file": "assets/claude-pixel/wyvern/5.png",
+      "sha256": "07f8157c24d2a98e02fc91745f7ebd6d6c7c5a4635056fb9f2fe828b57664557"
+    },
+    {
+      "file": "assets/claude-pixel/hero/3.png",
+      "sha256": "dc59466cd21b6c9d9cc77ac3c244ac29407958e7437bbd1a339012d365f88b3e"
+    },
+    {
+      "file": "assets/claude-pixel/hero/2.png",
+      "sha256": "7b80fdf6e36233cdbaf3aec37513d9179688e8dedf43c8bd572335485d763af9"
+    },
+    {
+      "file": "assets/claude-pixel/grass/background.png",
+      "sha256": "5854b7a464461e7ef7885ffe2190ffb2b10418e112fc0b8509e7f9ef5158b80a"
+    },
+    {
+      "file": "assets/claude-pixel/slime/0.png",
+      "sha256": "6fc32e2c8d3f2a7bcde6435b0d59b7c049affa4e4f7db65b244e35b6269d54dd"
+    },
+    {
+      "file": "assets/claude-pixel/goblin/4.png",
+      "sha256": "cf086986d98e22ef76c5352b366a2c9527b90e349eb84aa36b38edd2a3ef7fe1"
+    },
+    {
+      "file": "assets/claude-pixel/imp/4.png",
+      "sha256": "534363898a80581e38f5686f86446802fe7f8b4f0739dbec3bf3c146d41eccb0"
+    },
+    {
+      "file": "assets/claude-pixel/ogre/6.png",
+      "sha256": "61cf065e84861f8ff83e9c71cf78c0726becc80dc3d1ece0fa49aa87fe2be8d7"
+    },
+    {
+      "file": "assets/claude-pixel/orc/base.png",
+      "sha256": "fe99d407f28ac8ae680f26d843532b94cd6950ccab9fec7b2208686fb566a428"
+    },
+    {
+      "file": "assets/claude-pixel/slime/6.png",
+      "sha256": "9458520c4e68406fd372d42b7403062fbe7fc6a97e38b81e974eb5cf55f206eb"
+    },
+    {
+      "file": "assets/claude-pixel/hero/7.png",
+      "sha256": "c521421fd48e54583352a836a448597ea4e143f46936ee671b39ea6a82c650f6"
+    },
+    {
+      "file": "assets/claude-pixel/hero/4.png",
+      "sha256": "e407db1af6f2c39fc450936dd5c53066a81f4811e94f4d006906e97dad49581a"
+    },
+    {
+      "file": "assets/claude-pixel/wisp/5.png",
+      "sha256": "e4cdcdb0e56b59305b9c8b252a1087b50172efcd245cee0be7514ff015c48ea8"
+    },
+    {
+      "file": "assets/claude-pixel/wisp/7.png",
+      "sha256": "e744bde36a2576299c641607de455929d6145083106cdbc0576a6d460fc06f16"
+    },
+    {
+      "file": "assets/claude-pixel/raft/1.png",
+      "sha256": "f3b26a74b7d219bc50f6d88557c3c07f21f20dc9c8583c2631bd7bbab09277ea"
+    },
+    {
+      "file": "assets/claude-pixel/hero/6.png",
+      "sha256": "f45360cc36b47141ab1790bdbfcec984d44433a20e62bb6b364749dcc54fb53e"
+    },
+    {
+      "file": "assets/claude-pixel/wyvern/6.png",
+      "sha256": "8c4f790c39ab02fda3217190a1fc32e74e6f45b4fb02e85e5b1744b9889fdde0"
+    },
+    {
+      "file": "assets/claude-vector/goblin/3.svg",
+      "sha256": "b79a858cc2c5182775029215490542b07b853e811dba13ad8a6438d2e24ecd70"
+    },
+    {
+      "file": "assets/claude-vector/fruit/3.svg",
+      "sha256": "f1f1a5490f468f6a22de5905be6f026b4a607b4de28d42f1c4f5252952964db7"
+    },
+    {
+      "file": "assets/claude-vector/slime/0.svg",
+      "sha256": "f8d5a8eb37daec5f75f4aa3700262f62eb1372d7d5aee77eb1f3dcea3f034cd7"
+    },
+    {
+      "file": "assets/claude-vector/hero/1.svg",
+      "sha256": "d3b401bebb18cccd97e10afae9aeed9600af32b6df8066057ddfd3160a59ff07"
+    },
+    {
+      "file": "assets/claude-vector/slime/1.svg",
+      "sha256": "758610a2053659a0dc3c0b1072dd85867cba1aaa28562be94d9fba21c4e93a17"
+    },
+    {
+      "file": "assets/claude-vector/slime/7.svg",
+      "sha256": "9d87ea1f7b06a50efcc1a9e652b79514e8ebf53ec2e3c9e01cd7bc9e3645280f"
+    },
+    {
+      "file": "assets/claude-vector/wisp/0.svg",
+      "sha256": "77c8c68d7f721c60f8e2f14b0cc7a41e22e64e5ed6a71a58bc94e477201b7ab7"
+    },
+    {
+      "file": "assets/claude-vector/ogre/7.svg",
+      "sha256": "a4f3d1146f306a3609a18e21c6655eccd443c870681438c4fe7fda5adbb6ce52"
+    },
+    {
+      "file": "assets/claude-vector/fruit/1.svg",
+      "sha256": "d8174a6c9148292be6d7b7526e7e786e38251406fe85b8e02b6d2fdac3f73faf"
+    },
+    {
+      "file": "assets/claude-vector/raft/4.svg",
+      "sha256": "9203e1218bc79cdfac11f9176ffc4bdb4e6dcb134acdddcab416473dd62a7825"
+    },
+    {
+      "file": "assets/claude-vector/fruit/2.svg",
+      "sha256": "9c4ae60a54fc2da788597d9440237b76827bc81f7cab881d90290c167841355a"
+    },
+    {
+      "file": "assets/claude-vector/wisp/5.svg",
+      "sha256": "efbf5ea532013918f79fa6f4300b0428fa49b2fd101ffae91beea52a2597432b"
+    },
+    {
+      "file": "assets/claude-vector/wyvern/7.svg",
+      "sha256": "63e2e0627fbc988265e2d832934182b50be7577d3248ab363b661b6a6097989c"
+    },
+    {
+      "file": "assets/claude-vector/raft/2.svg",
+      "sha256": "fed623f5f96d75ae6ecdf77ab4e236753546aa873d7cb18a96afd45699db8d46"
+    },
+    {
+      "file": "assets/claude-vector/imp/3.svg",
+      "sha256": "b7783fe50619755ab8368fb52b76b538bcae56e3ff8e6bf94f80f894cc91810d"
+    },
+    {
+      "file": "assets/claude-vector/wisp/2.svg",
+      "sha256": "423db35828449851eef4e3953abbb9a26a96b54aab785118b70303f736a059a1"
+    },
+    {
+      "file": "assets/claude-vector/wyvern/0.svg",
+      "sha256": "902cdf25e27be0cd0f295efcf04297414d947bff7b98b65be0b1cc46e2665b3c"
+    },
+    {
+      "file": "assets/claude-vector/wyvern/3.svg",
+      "sha256": "ea27704201883fbe3d044c69c113fb3b476be6fac175995b5f42cbcb60f50df8"
+    },
+    {
+      "file": "assets/claude-vector/wyvern/1.svg",
+      "sha256": "580c6870e8e4206ef70e9721d0112515864849760e3fb33c4fc4fd7f3bd35be6"
+    },
+    {
+      "file": "assets/claude-vector/slime/5.svg",
+      "sha256": "ef4f93ea9c3b1deadf3cdb804171219a0eee0a9bf8415ba4605da9a37f139452"
+    },
+    {
+      "file": "assets/claude-vector/orc/5.svg",
+      "sha256": "47270ece061bfb7dc61eb687d98bb0b7743828bdfa8e4357a4c1c72d4908e357"
+    },
+    {
+      "file": "assets/claude-vector/goblin/0.svg",
+      "sha256": "b2d548bb9bbe0642dc48f6987dac631a471cd550ee37cb656713905bf1d78620"
+    },
+    {
+      "file": "assets/claude-vector/ogre/6.svg",
+      "sha256": "7a7d941789419249bf4cc1c29e406bf267bd5dce60b9bd76bfaea29ba0159efc"
+    },
+    {
+      "file": "assets/claude-vector/wyvern/4.svg",
+      "sha256": "aadfea76c5c14c274b5cabc1b3f3e0632be5e077fe459314088c47267912e712"
+    },
+    {
+      "file": "assets/claude-vector/fruit/0.svg",
+      "sha256": "7bdf40ea6becb05d0c3809c9ec530d4bdb9145ed50490352d48687c33cf2dc07"
+    },
+    {
+      "file": "assets/claude-vector/raft/1.svg",
+      "sha256": "54fcf4bf2fcf022b01f855e237dd5e4d8f89bb3be5a4529bd65405c9c1782b2d"
+    },
+    {
+      "file": "assets/claude-vector/hero/7.svg",
+      "sha256": "a4fd2be533113e74ec11b0f1ec30dc88151d39a3b78e98182415e3a58204041c"
+    },
+    {
+      "file": "assets/claude-vector/wyvern/base.svg",
+      "sha256": "902cdf25e27be0cd0f295efcf04297414d947bff7b98b65be0b1cc46e2665b3c"
+    },
+    {
+      "file": "assets/claude-vector/orc/4.svg",
+      "sha256": "448b15efc16ac4b493291732b510c9eeb6449835659c98b09a4a14c5fba0bd56"
+    },
+    {
+      "file": "assets/claude-vector/orc/6.svg",
+      "sha256": "38c79b8eba7efd47a10e8af362432f5adc0baa2f666063db5fa8074bf4118452"
+    },
+    {
+      "file": "assets/claude-vector/wyvern/2.svg",
+      "sha256": "4284eb41877874558d6d19e788ac5319b4b6673a32030d5a0afb6da52445792d"
+    },
+    {
+      "file": "assets/claude-vector/ogre/2.svg",
+      "sha256": "f04ca6d2c18aa96ac6f2f36fab70268571b84ba1079db4bba9180af962f19eae"
+    },
+    {
+      "file": "assets/claude-vector/orc/2.svg",
+      "sha256": "f7353a15d8d5e9cf80bf3ec29ddf065c0617a72a81a7013526579a119af1c596"
+    },
+    {
+      "file": "assets/claude-vector/hero/5.svg",
+      "sha256": "b442d1ca0c72a271c66750bb513718c7881329477af769c400d198523324c8e1"
+    },
+    {
+      "file": "assets/claude-vector/slime/4.svg",
+      "sha256": "31dbe75eca9be40eed74a97dc65ce0529fbd1da871b395f8eab80d4afd500f54"
+    },
+    {
+      "file": "assets/claude-vector/orc/1.svg",
+      "sha256": "68f5006404def8e978854581342e782c6ec9747db80e5491c83c795c72a75dfe"
+    },
+    {
+      "file": "assets/claude-vector/raft/5.svg",
+      "sha256": "9f53271254a8bb18c0306a75894b76ff4d0c5d646a2dfe32312c4f36a67a9410"
+    },
+    {
+      "file": "assets/claude-vector/goblin/5.svg",
+      "sha256": "93ad271f79d0312557fa60e99586dc030466b6d72d14aaeb4d124d67ba27f1dc"
+    },
+    {
+      "file": "assets/claude-vector/snow/background.svg",
+      "sha256": "38866b851d4303110bebb8a073bbec341aa0bad8041085de5ad16619fd4e363c"
+    },
+    {
+      "file": "assets/claude-vector/hero/base.svg",
+      "sha256": "024a054ccbd688a0738647c11dd7c69ba9c11e339cb515c9fff3585421d0d835"
+    },
+    {
+      "file": "assets/claude-vector/imp/0.svg",
+      "sha256": "7aedf80d115257660c7a0e5a3992ab3e7442784e824c73b12275831e913c685a"
+    },
+    {
+      "file": "assets/claude-vector/orc/3.svg",
+      "sha256": "273b9f884b1b21833401cb4c5185f470f39784a1d3c88e32b041480667d5b1ff"
+    },
+    {
+      "file": "assets/claude-vector/raft/6.svg",
+      "sha256": "5649978e31a4d164d6a0387ee01c0e221b547cf32683956e7fee04e33ff79c9c"
+    },
+    {
+      "file": "assets/claude-vector/desert/background.svg",
+      "sha256": "f139fd9b83e567426eba240fad4e84b20bf41c1c1f642817048fa7e3efbe10cf"
+    },
+    {
+      "file": "assets/claude-vector/raft/0.svg",
+      "sha256": "eee7539fc6a914044dfd43274c8533ea5e18e0eda009adf8a78b226d40161424"
+    },
+    {
+      "file": "assets/claude-vector/goblin/7.svg",
+      "sha256": "883a1578e27a2cb21d1815e35b607e01a2f0e710ad4fce05eb0710a35a0654ee"
+    },
+    {
+      "file": "assets/claude-vector/imp/5.svg",
+      "sha256": "36ba4eb73b1f0472367eea00ac6b8d6ba0a23fbaea319f85cf34aabe184cfd49"
+    },
+    {
+      "file": "assets/claude-vector/raft/7.svg",
+      "sha256": "5013e90ca8e99db5bba406964a7e57ebd8aa648d9e51ae3a466ab18532c2d796"
+    },
+    {
+      "file": "assets/claude-vector/wisp/3.svg",
+      "sha256": "3ccc5bac7822400be89642dd85cef137ef03de2633f6d5d6cee24553a1297817"
+    },
+    {
+      "file": "assets/claude-vector/hero/2.svg",
+      "sha256": "61f021a33bfc12f3c981d33d3a5717b48be143eed1a28a78379271a8d1603456"
+    },
+    {
+      "file": "assets/claude-vector/ogre/0.svg",
+      "sha256": "5dd9856266cb0704e2001ebe004eb9a69a3fe24b9bfc4905ab56ab81e519ddda"
+    },
+    {
+      "file": "assets/claude-vector/wisp/6.svg",
+      "sha256": "411ed7e14bd059cac97c8cb5e69c8f711155012924fe29d409d85b6a135244ce"
+    },
+    {
+      "file": "assets/claude-vector/hero/3.svg",
+      "sha256": "46a5153b7b0b54ff03d386f4c0470acd949b73368cef442d937de1eb36adef97"
+    },
+    {
+      "file": "assets/claude-vector/hero/0.svg",
+      "sha256": "024a054ccbd688a0738647c11dd7c69ba9c11e339cb515c9fff3585421d0d835"
+    },
+    {
+      "file": "assets/claude-vector/raft/3.svg",
+      "sha256": "5605c9c25a5e57595009f79e6d388a22d04b2e2964f671409c4fb0f96a34f297"
+    },
+    {
+      "file": "assets/claude-vector/ogre/4.svg",
+      "sha256": "6366a1a513b859429f45486e294f3a44e27ae2cfc606ef91d37438b5ea6a4138"
+    },
+    {
+      "file": "assets/claude-vector/fruit/7.svg",
+      "sha256": "107f552c8cb67783af6336c4ad0731d10632ba14bd2582dd9bf1be72a1c4652c"
+    },
+    {
+      "file": "assets/claude-vector/imp/4.svg",
+      "sha256": "84d5589894171a94ef39e2c2d541f2de2fc6af4b2b716de81a2f9f952fe2e348"
+    },
+    {
+      "file": "assets/claude-vector/ogre/1.svg",
+      "sha256": "ade3d368e9f4856d7f1967dfc0e6abc9501c2c0886f242409baf6f461f057a93"
+    },
+    {
+      "file": "assets/claude-vector/imp/7.svg",
+      "sha256": "0b597ecaaedf73868fff667a749911cb9ccf46ac1cf5d422680d196a8e63a537"
+    },
+    {
+      "file": "assets/claude-vector/goblin/1.svg",
+      "sha256": "b56b216bba4d66cc39932b79f34d7741b2eeda9202a794be2485f35b0a68ca67"
+    },
+    {
+      "file": "assets/claude-vector/slime/2.svg",
+      "sha256": "f3eeaf9e138ae643a0af1e79b5c97cd5abfc699f2d8848bf43c87f894c0c336a"
+    },
+    {
+      "file": "assets/claude-vector/imp/1.svg",
+      "sha256": "45ad1bcc760c6d77eecb0a68c86a18cf32beb3c8515fc523dc8cc3ac2e4475a3"
+    },
+    {
+      "file": "assets/claude-vector/hero/4.svg",
+      "sha256": "c623ee8bdf6fd584756471daf47e696ed355257346810086e4ccb2880c7a0145"
+    },
+    {
+      "file": "assets/claude-vector/wisp/1.svg",
+      "sha256": "e70b96c387b1f4589bda00bb4c4fc12c2227d757139663306481fbd9b30e9325"
+    },
+    {
+      "file": "assets/claude-vector/goblin/base.svg",
+      "sha256": "b2d548bb9bbe0642dc48f6987dac631a471cd550ee37cb656713905bf1d78620"
+    },
+    {
+      "file": "assets/claude-vector/orc/base.svg",
+      "sha256": "2603a490b2e28cc376a7dfbb56f6d427e818d08927dbbcb633de3aa1e1ec9faf"
+    },
+    {
+      "file": "assets/claude-vector/grass/background.svg",
+      "sha256": "e4b060d61895ac8070ebc05227136e5a84d5142b0ee8ba6b72e415f3a1529f6a"
+    },
+    {
+      "file": "assets/claude-vector/imp/2.svg",
+      "sha256": "868703488ec5b2a5c7f0ef415be2a73d3a43f5c766559ddfde9114cf45f6543e"
+    },
+    {
+      "file": "assets/claude-vector/ogre/5.svg",
+      "sha256": "9578e80e6a8dc11d923725636d84039cbd07b48eea64fa90ba0d79b0f8d09509"
+    },
+    {
+      "file": "assets/claude-vector/goblin/2.svg",
+      "sha256": "8d41f460942f8fe54cf5f597d70f53e2613a098b40900524f5e63b9a4dea52ab"
+    },
+    {
+      "file": "assets/claude-vector/slime/3.svg",
+      "sha256": "25db8cf2f3025140c6e9a7415cf682adb2719df44b3e68dec30125743c4d9ed6"
+    },
+    {
+      "file": "assets/claude-vector/slime/6.svg",
+      "sha256": "13024fbf488c89c2aaf91b379f046f181e399a47ad9c43f1d7da916c5e79ca45"
+    },
+    {
+      "file": "assets/claude-vector/ogre/3.svg",
+      "sha256": "41ab180757efddb9b84b17630cf4cde2888c064755355c579efdf8e063a74d26"
+    },
+    {
+      "file": "assets/claude-vector/hero/6.svg",
+      "sha256": "a663e9820b4adf68878a8253ad5e84d3cb584cdd6c2dbbf877af60a4158fdb8e"
+    },
+    {
+      "file": "assets/claude-vector/fruit/5.svg",
+      "sha256": "3516c88361c57b658ce1de02ee97ed4904a9169dd61cfbceb1cc6dbd4464437c"
+    },
+    {
+      "file": "assets/claude-vector/raft/base.svg",
+      "sha256": "eee7539fc6a914044dfd43274c8533ea5e18e0eda009adf8a78b226d40161424"
+    },
+    {
+      "file": "assets/claude-vector/goblin/4.svg",
+      "sha256": "b2c1cb0393cb82da6d173923d6c6665185afa9fa65677ac43c6de4f8e1d5611f"
+    },
+    {
+      "file": "assets/claude-vector/imp/base.svg",
+      "sha256": "7aedf80d115257660c7a0e5a3992ab3e7442784e824c73b12275831e913c685a"
+    },
+    {
+      "file": "assets/claude-vector/wisp/7.svg",
+      "sha256": "8f68ac1727e8da909e3d5bb4576eee70f170db3a5e3c58a01b285504eab12e21"
+    },
+    {
+      "file": "assets/claude-vector/fruit/base.svg",
+      "sha256": "7bdf40ea6becb05d0c3809c9ec530d4bdb9145ed50490352d48687c33cf2dc07"
+    },
+    {
+      "file": "assets/claude-vector/orc/0.svg",
+      "sha256": "2603a490b2e28cc376a7dfbb56f6d427e818d08927dbbcb633de3aa1e1ec9faf"
+    },
+    {
+      "file": "assets/claude-vector/ogre/base.svg",
+      "sha256": "5dd9856266cb0704e2001ebe004eb9a69a3fe24b9bfc4905ab56ab81e519ddda"
+    },
+    {
+      "file": "assets/claude-vector/fruit/6.svg",
+      "sha256": "75538deb651ada7d1012b5b73d35aa5b8f9aefb5fdfe214686000968f7ce8c13"
+    },
+    {
+      "file": "assets/claude-vector/slime/base.svg",
+      "sha256": "f8d5a8eb37daec5f75f4aa3700262f62eb1372d7d5aee77eb1f3dcea3f034cd7"
+    },
+    {
+      "file": "assets/claude-vector/wisp/4.svg",
+      "sha256": "b014d94e77ed4df12192ff2e8be18771c8e63bbb11ef724ed380094374853f28"
+    },
+    {
+      "file": "assets/claude-vector/imp/6.svg",
+      "sha256": "c2624d54fc5f8905380ff77df5ec76e89f838abae2633839f1e25ba7c3aae4dc"
+    },
+    {
+      "file": "assets/claude-vector/goblin/6.svg",
+      "sha256": "756af902d5e862a29aef5737a6a752d44d3571595c0e413855f7c72f287991b5"
+    },
+    {
+      "file": "assets/claude-vector/wyvern/5.svg",
+      "sha256": "03905ab9182f07681205c2faa9621330b8f47a774e8e4d65dc8acd0a5b765075"
+    },
+    {
+      "file": "assets/claude-vector/fruit/4.svg",
+      "sha256": "7a4ed65143f9658e45f4347b0ab89a5a4fcc9133a4b46da43776f9f093fc857e"
+    },
+    {
+      "file": "assets/claude-vector/swamp/background.svg",
+      "sha256": "e83f614169a121949a315a85d1f61b0b8d1edf21b92b09be0331499438cd2413"
+    },
+    {
+      "file": "assets/claude-vector/orc/7.svg",
+      "sha256": "bb44a7ed4bc9296dab7afcf323a378938f90d8a6c9c54471c2f5fab14f24f5dd"
+    },
+    {
+      "file": "assets/claude-vector/wyvern/6.svg",
+      "sha256": "1aa54db4150c255536de1c4371e2f2a00b36787785584740e644b9d07acb2c37"
+    },
+    {
+      "file": "assets/claude-vector/wisp/base.svg",
+      "sha256": "77c8c68d7f721c60f8e2f14b0cc7a41e22e64e5ed6a71a58bc94e477201b7ab7"
+    },
+    {
+      "file": "assets/claude-pl-anim/slime/7.png",
+      "sha256": "1a89e1cb58d1bbcd1f1349debb08608c0e9613ece067a8792a00febb50b38559"
+    },
+    {
+      "file": "assets/claude-pl-anim/imp/base.png",
+      "sha256": "610d724564af00a933a6b219c433a5421372fe419efce3713defb8644688c600"
+    },
+    {
+      "file": "assets/claude-pl-anim/swamp/background.png",
+      "sha256": "266f0d44c5dfef033cf3009264edddef9c9178333db00b79b049fa07b47077f3"
+    },
+    {
+      "file": "assets/claude-pl-anim/ogre/base.png",
+      "sha256": "b1cd16fbf45e82c29be86614a89639f3146c1546917377bea5fe407b6551e340"
+    },
+    {
+      "file": "assets/claude-pl-anim/hero/1.png",
+      "sha256": "0fd70b9a893683b0e53797769060e4be9800285acaa0816fecf74fd01650c122"
+    },
+    {
+      "file": "assets/claude-pl-anim/wisp/7.png",
+      "sha256": "3bc902fe6350b0a53cb6b6d8ce6040d2f87a8f9310ae4682856d3392407db81e"
+    },
+    {
+      "file": "assets/claude-pl-anim/wisp/0.png",
+      "sha256": "7962aca3c9b20d6213285452330db504271e57759c89be41ba0c4d00d2059945"
+    },
+    {
+      "file": "assets/claude-pl-anim/raft/6.png",
+      "sha256": "5ca520e785c84bd5f00b1ead21c6e836caf2b8bb19c0e991f6039a84db4ee2c9"
+    },
+    {
+      "file": "assets/claude-pl-anim/fruit/7.png",
+      "sha256": "2a2dd49cc177e2af4b11fce686fb55df8171a23f19021f52e2a5ee55a51c8621"
+    },
+    {
+      "file": "assets/claude-pl-anim/ogre/5.png",
+      "sha256": "935848a297bcc4c82663381b0c1a810606e4511a6d116fbc9fbdbd07d780250a"
+    },
+    {
+      "file": "assets/claude-pl-anim/wisp/6.png",
+      "sha256": "5e9f90d6736ebd409cdae749adda4611e0b2b9e22fa992031cf50371cd4fd20a"
+    },
+    {
+      "file": "assets/claude-pl-anim/slime/3.png",
+      "sha256": "1e758aff0c1b61459d2a8fddce544b45dd2cd23ae647cf482a2ffb31b28e5f59"
+    },
+    {
+      "file": "assets/claude-pl-anim/raft/7.png",
+      "sha256": "d4a3379bb77b9148cd56052abb19fae1e87360ea5a89832d613559b65bf1c931"
+    },
+    {
+      "file": "assets/claude-pl-anim/ogre/6.png",
+      "sha256": "905307e721b1a18ea386ee00075f2ac70e8485308485ce6a1750f8337b718026"
+    },
+    {
+      "file": "assets/claude-pl-anim/imp/1.png",
+      "sha256": "8e8dd5905ae50b784f119edc8ba7e97be92381ecff21ecaade5e476818b9c69b"
+    },
+    {
+      "file": "assets/claude-pl-anim/hero/3.png",
+      "sha256": "eb5a431e080f792f4d0d52742dafd38bed0016278feda9aee251b9dce7f34fe2"
+    },
+    {
+      "file": "assets/claude-pl-anim/fruit/1.png",
+      "sha256": "6490bc9c3866b80b3ecf8f1d8e1b9c067c538f49c284aa092e4c592b70e30a4b"
+    },
+    {
+      "file": "assets/claude-pl-anim/goblin/base.png",
+      "sha256": "496955fdd2c7496044a15e2e566812e337d966562d225708bb16566e723ccd7c"
+    },
+    {
+      "file": "assets/claude-pl-anim/wyvern/4.png",
+      "sha256": "b05c2e59239367e24837dda1915b84c2793a1e9f393775c2a857dc7fe46446ab"
+    },
+    {
+      "file": "assets/claude-pl-anim/goblin/7.png",
+      "sha256": "3d6fd607020511ba9d96c3fdf691afb8d46b155f1844b51946fa21d3b7c8eea2"
+    },
+    {
+      "file": "assets/claude-pl-anim/slime/base.png",
+      "sha256": "846682666afe7c4c2541644f2d1ae8871ab732d44f36ee9038a2ea3089f323c8"
+    },
+    {
+      "file": "assets/claude-pl-anim/orc/7.png",
+      "sha256": "390a34bf5585ebf42b6b99e44115a1e4208e82cf490078b6f074232dbb111121"
+    },
+    {
+      "file": "assets/claude-pl-anim/slime/1.png",
+      "sha256": "4668b6ba95d3e35c0c433cd97b46b90420fbc49b843dc1cb42851cb2954f5ab0"
+    },
+    {
+      "file": "assets/claude-pl-anim/goblin/1.png",
+      "sha256": "606abd84fa18c4eafc7ff5831f2458cf9dc81fce7c486bb1bd965ca729f051a9"
+    },
+    {
+      "file": "assets/claude-pl-anim/fruit/5.png",
+      "sha256": "6ec9f3c99a7b9e665a130da96fd31e86be9646630bc9b027600e9ab9abc62f38"
+    },
+    {
+      "file": "assets/claude-pl-anim/imp/7.png",
+      "sha256": "a2f1af4bc06d7bf680fc6b886e89ce67d703afc27d1f3856cd47c8a6d6d7fd8d"
+    },
+    {
+      "file": "assets/claude-pl-anim/imp/6.png",
+      "sha256": "a10c3962c679a42140094e724cb56cae3b4bf31aae11190b90602fb24c6a8f06"
+    },
+    {
+      "file": "assets/claude-pl-anim/wisp/base.png",
+      "sha256": "20fc464470d4895db2069d19af3f0d47125056a619cb6df716d0b71dc7787cb4"
+    },
+    {
+      "file": "assets/claude-pl-anim/orc/5.png",
+      "sha256": "14ae4487bb1d04262d5da5d0ab4dd48a2d34e14e47ae43e10ed4ade227f8e288"
+    },
+    {
+      "file": "assets/claude-pl-anim/ogre/3.png",
+      "sha256": "bddfbe1f65139f622728ae996bb87bdc009fe6e3811ba41cde3df380c6aeb463"
+    },
+    {
+      "file": "assets/claude-pl-anim/goblin/5.png",
+      "sha256": "a3d497f00812438311813a8704974be0492f70207d3518602ef48c5a0e066c20"
+    },
+    {
+      "file": "assets/claude-pl-anim/hero/5.png",
+      "sha256": "099957b5ed4cd3ba3cb3dcad1bdf9e8d4c77e4112e79ea5e1eb2520c453916d3"
+    },
+    {
+      "file": "assets/claude-pl-anim/imp/5.png",
+      "sha256": "b16d8d3ff52a2aca18044499aab0847f2849b70bf8491ab8890c6f15adc4fd03"
+    },
+    {
+      "file": "assets/claude-pl-anim/raft/3.png",
+      "sha256": "0d4a8c8f559e71dd73bdc3afb6849ca6032fa2558a25d0aa846dda23cb5b4f28"
+    },
+    {
+      "file": "assets/claude-pl-anim/wyvern/base.png",
+      "sha256": "1ae47637378c8723c8e771d106b9932d001018adae05cc2a3be2d176412bc4c6"
+    },
+    {
+      "file": "assets/claude-pl-anim/wyvern/5.png",
+      "sha256": "8bab395a24e643773f98a3724123a05757e8caedeaabc0ad8c0cae403960880f"
+    },
+    {
+      "file": "assets/claude-pl-anim/fruit/3.png",
+      "sha256": "2335bf33af521611ab4c715698d7a8999d5f4313c5821bd1ae0475c955a48625"
+    },
+    {
+      "file": "assets/claude-pl-anim/wyvern/2.png",
+      "sha256": "cdf5196b44eaed7da2c50dce38fe817728ed92fdd97791dadebd17e25aea45ef"
+    },
+    {
+      "file": "assets/claude-pl-anim/imp/0.png",
+      "sha256": "a3e95287d8594f83dd5931994c58c3c9d2a557a57ef9a84a6c9252cac5dd4eaa"
+    },
+    {
+      "file": "assets/claude-pl-anim/hero/4.png",
+      "sha256": "0b8a76d934946eda84cab03d74531adf7969e928f92a5c5882fd8f8bfd30951d"
+    },
+    {
+      "file": "assets/claude-pl-anim/fruit/base.png",
+      "sha256": "fe13e7d391f9f468d30b18ddc7defefc7021c0e5ffab3cfe9fdde808d791758d"
+    },
+    {
+      "file": "assets/claude-pl-anim/goblin/0.png",
+      "sha256": "6898dbe619c4d59319a6e6936b836e6c863c5df2eb29a61ea3723c9865266be9"
+    },
+    {
+      "file": "assets/claude-pl-anim/hero/base.png",
+      "sha256": "71e24ab0613be2a4942bf696bff7dddd4f3786dc1d346ffa938652e1ea091b13"
+    },
+    {
+      "file": "assets/claude-pl-anim/slime/6.png",
+      "sha256": "a09464b1e4275ce30b343fd7aba0b29683b6de440e6b7e02c70f6b5a14d22bd6"
+    },
+    {
+      "file": "assets/claude-pl-anim/fruit/6.png",
+      "sha256": "fe179358a3402e2ce5d8e1d5e7e247e43f9bf10b6ea564082e03f79e74a0e2f0"
+    },
+    {
+      "file": "assets/claude-pl-anim/slime/0.png",
+      "sha256": "a7416975b321a4ca0ee9f511548f3d29e778968ab2a238eb7fa90b1292882cce"
+    },
+    {
+      "file": "assets/claude-pl-anim/orc/base.png",
+      "sha256": "f4354dfc1aa993e433e0c744a6dfbd5db8130eb7c19effc06e09a4a6bad350e6"
+    },
+    {
+      "file": "assets/claude-pl-anim/wisp/3.png",
+      "sha256": "b10e78ec3e585f09add89b2ce4a5ad7147a22ea6f565585d0f7a3655aed83ad4"
+    },
+    {
+      "file": "assets/claude-pl-anim/orc/3.png",
+      "sha256": "3bb16e5a183a0ae6c48326f1ff1a633c4a9fd717eb80019bca60bfc1bc894e64"
+    },
+    {
+      "file": "assets/claude-pl-anim/desert/background.png",
+      "sha256": "0fb864121f1f14405c210c67dbb9319d8d6d03d656446fb9ee4a4c00871e7ca5"
+    },
+    {
+      "file": "assets/claude-pl-anim/imp/3.png",
+      "sha256": "019288d2aa87b5540ce26cda9ca88d168282ba24a91523130cb394830f9ec2ec"
+    },
+    {
+      "file": "assets/claude-pl-anim/wisp/2.png",
+      "sha256": "d7e0b8464d427a10c846fbb9c7098c087efae8fb326c110c66d2af66a9ac4757"
+    },
+    {
+      "file": "assets/claude-pl-anim/raft/2.png",
+      "sha256": "02ee72f97f04b9d8a2c238854d8ced17dbb4c86f4ac511aa561d35d818060487"
+    },
+    {
+      "file": "assets/claude-pl-anim/imp/2.png",
+      "sha256": "559151b1ebf86a93fe6c6b22567915f606db81bc55882b75074aef21b5db27f7"
+    },
+    {
+      "file": "assets/claude-pl-anim/ogre/1.png",
+      "sha256": "e7ab0a0a31ea85fd7552ec8b36fdb2765a7bfaf82450fe0d9f0028a42971918e"
+    },
+    {
+      "file": "assets/claude-pl-anim/ogre/0.png",
+      "sha256": "9820ab5b03eded2ab2e492e6a71bdc6ed7bc2012104507e6f51d5b78a2dd51a0"
+    },
+    {
+      "file": "assets/claude-pl-anim/wisp/5.png",
+      "sha256": "a6ed8f22e716a6ca97422b6547bbae0acb0bcda69986c96d4e6488b1731f94b2"
+    },
+    {
+      "file": "assets/claude-pl-anim/wisp/1.png",
+      "sha256": "69ccfa79568db3bc6b06cad9a07304296a33651a10ca3bc97772169f823a8660"
+    },
+    {
+      "file": "assets/claude-pl-anim/ogre/7.png",
+      "sha256": "36a2c1b4a7e6a630b9eea4e44feb8cdb2bf189ac8d4e004de19b693f0bca34ee"
+    },
+    {
+      "file": "assets/claude-pl-anim/orc/6.png",
+      "sha256": "989669a29d7fd1ec94a315110c1134ca87b27615da1a0874da4e7bcaca6b7ec4"
+    },
+    {
+      "file": "assets/claude-pl-anim/orc/1.png",
+      "sha256": "6eada582173505bbcb16f17ccadd2dc828d964e6f57f43ee7f9f94b00cae9a1c"
+    },
+    {
+      "file": "assets/claude-pl-anim/raft/4.png",
+      "sha256": "b795adfb6b9b6f3c48b2b564d1e3293dd008d92069cd06d43e86cfb3b58d7816"
+    },
+    {
+      "file": "assets/claude-pl-anim/hero/2.png",
+      "sha256": "4e3fb0108a94b6b26d97acedeca848571752ce57bdbdf305252a236a42e26f25"
+    },
+    {
+      "file": "assets/claude-pl-anim/wyvern/7.png",
+      "sha256": "48906f989f358cbb358894480c94d263fda59894422892aa5bd81caba7793ea4"
+    },
+    {
+      "file": "assets/claude-pl-anim/slime/4.png",
+      "sha256": "458353987ea179ddec70e5fab9524ece9a1373010764021d42d38ee8869ad794"
+    },
+    {
+      "file": "assets/claude-pl-anim/raft/0.png",
+      "sha256": "86ac47b0bd177f2d2009673ad1fb2f088890ebc4d7868c5358620101c12d4e7e"
+    },
+    {
+      "file": "assets/claude-pl-anim/wyvern/3.png",
+      "sha256": "760929ae03166b2c2cf28824f002e034de11d65e898350b38d43053274ae3cb6"
+    },
+    {
+      "file": "assets/claude-pl-anim/goblin/2.png",
+      "sha256": "8d5902f0698b30d23850d416fd156dac8ab9baf0989e6ab32f7d67b6adcf22b0"
+    },
+    {
+      "file": "assets/claude-pl-anim/wyvern/6.png",
+      "sha256": "fac24bda103a4dbd65a537fdc3d0bb467571f63da488aa0d3d955217ec55422b"
+    },
+    {
+      "file": "assets/claude-pl-anim/goblin/6.png",
+      "sha256": "97b3eadd8d6b23261400f158b88275bdcb00049836801824679a3cafa7b95083"
+    },
+    {
+      "file": "assets/claude-pl-anim/hero/7.png",
+      "sha256": "7e8f493ee1d58cdb4b793c7f62f65c9caf41cfd9db3df7e6f79ea0990c7ab242"
+    },
+    {
+      "file": "assets/claude-pl-anim/orc/2.png",
+      "sha256": "d2ecefb8556b4b682819cfaa9b13f3c7900695c78223234ddde616172d65370c"
+    },
+    {
+      "file": "assets/claude-pl-anim/snow/background.png",
+      "sha256": "ac1fc0a5c382ac13d66fe8585b5b68cc73b9f3ecf822f80299f9b76d9cc94861"
+    },
+    {
+      "file": "assets/claude-pl-anim/orc/0.png",
+      "sha256": "2b4bd26512b21954da1c1b3707b64234784efd38e13d588a0b68ee58ff0b3366"
+    },
+    {
+      "file": "assets/claude-pl-anim/imp/4.png",
+      "sha256": "39ab02ef160717797d00eda37b3b93214f6a78cae293f4b05660f0d0479458c8"
+    },
+    {
+      "file": "assets/claude-pl-anim/slime/2.png",
+      "sha256": "ce5d11e6a10e5a22b7a141d94b0f07f305bc61e4985447103532ca58e2b9406d"
+    },
+    {
+      "file": "assets/claude-pl-anim/fruit/4.png",
+      "sha256": "11b4a5da28a3c41260c575f7bab93498423da381381dd47115d1e362e1300058"
+    },
+    {
+      "file": "assets/claude-pl-anim/goblin/4.png",
+      "sha256": "8d2a0e1e0795d2315023131ae35c075471e5618e6992b24077e640ce2cdcc0c4"
+    },
+    {
+      "file": "assets/claude-pl-anim/raft/base.png",
+      "sha256": "cc79caa952eb5cf4d836545549f8adc982fcea46093fb85307ee82dbdcbbd816"
+    },
+    {
+      "file": "assets/claude-pl-anim/ogre/4.png",
+      "sha256": "2c99b2d913778ac41f215751c47f7f51cde7d561653d612b881f773eae167aa9"
+    },
+    {
+      "file": "assets/claude-pl-anim/raft/1.png",
+      "sha256": "d8adcbe216fd30e94b524d2296d18fef042d3aba9b2fa073a328d355541ddbde"
+    },
+    {
+      "file": "assets/claude-pl-anim/goblin/3.png",
+      "sha256": "106c6f1360883a392abd2b003baa4a2d2196b386ca855539490fe50e9fe49062"
+    },
+    {
+      "file": "assets/claude-pl-anim/hero/0.png",
+      "sha256": "1fc37758f7dd855c27877f0f701c0a896297ab9833c097c14682242198ae43ae"
+    },
+    {
+      "file": "assets/claude-pl-anim/wyvern/0.png",
+      "sha256": "fdf829f4077ee6189f741c5be276813f97b0527e4a0485e5e245443cf89dcf13"
+    },
+    {
+      "file": "assets/claude-pl-anim/hero/6.png",
+      "sha256": "250d2f1bb9e766c1cd2be2f1f6551b5ed78257f050a512a0220348be5dd5d91f"
+    },
+    {
+      "file": "assets/claude-pl-anim/wyvern/1.png",
+      "sha256": "4f4e059a3c91e0e8a177d38ecb9546563c45d4a4b9444e7a90e529dcf6a0fbf8"
+    },
+    {
+      "file": "assets/claude-pl-anim/ogre/2.png",
+      "sha256": "c195b7e9aa77cafd7e5852c4692353561a644ad9d63ef1284f7eced3e05765ce"
+    },
+    {
+      "file": "assets/claude-pl-anim/fruit/2.png",
+      "sha256": "4c4f5f947fa17d177dae0cc7dd10e081fef45ebaa5e9058c632d7d3246a7fe9f"
+    },
+    {
+      "file": "assets/claude-pl-anim/orc/4.png",
+      "sha256": "012c395e96b1b6edbb6f1bdb18bcc1ea5cc37c7466cdb10be8ad216ce0695cb0"
+    },
+    {
+      "file": "assets/claude-pl-anim/wisp/4.png",
+      "sha256": "864c282e4472a573674f7765caca3f7954afaf53ad7c7786e94e615cc6798237"
+    },
+    {
+      "file": "assets/claude-pl-anim/slime/5.png",
+      "sha256": "0aec06658d6f6994e24799116d712c8fe482c14582472cf71a9471e8696a1b34"
+    },
+    {
+      "file": "assets/claude-pl-anim/grass/background.png",
+      "sha256": "483bf5bd1027939e849bc4e0c87ce2e61eb7adad2ad111fd3796cd4ca47667e0"
+    },
+    {
+      "file": "assets/claude-pl-anim/raft/5.png",
+      "sha256": "0fdb481fbcb6f12cfee34f98a23b9fc5ab742fd962032178356799d9f5152510"
+    },
+    {
+      "file": "assets/claude-pl-anim/fruit/0.png",
+      "sha256": "2c366f23e552049f3aafb2cd500d8df35fbaa49f4ef4c156c050845152d742a2"
+    },
+    {
+      "file": "assets/claude-pl-repaint/slime/6.png",
+      "sha256": "277502a4e731b089ddb399ec3b573c0412833272f847b64c275ca2d70157355a"
+    },
+    {
+      "file": "assets/claude-pl-repaint/wyvern/base.png",
+      "sha256": "fef4135a03e2f6dcaa912293fc3b8a08c9918e0169c4d38d69a7914353ce5318"
+    },
+    {
+      "file": "assets/claude-pl-repaint/slime/5.png",
+      "sha256": "3523c601557bcf5ec247dde0ad48ee00832f3e57071d657aaa9175505be62cd9"
+    },
+    {
+      "file": "assets/claude-pl-repaint/wyvern/0.png",
+      "sha256": "a368de5dccc049814d1f0a447df541c511ef83326c83404f095e75ae86fac004"
+    },
+    {
+      "file": "assets/claude-pl-repaint/wyvern/1.png",
+      "sha256": "ec934c4b7af11c35467845c27051da46eb80883f142434150a50c042f068724e"
+    },
+    {
+      "file": "assets/claude-pl-repaint/ogre/base.png",
+      "sha256": "3715ea921a7c6bfc95a5fb686a19ef7d3d12efd10114ba5fb0d1c2b06cda7c24"
+    },
+    {
+      "file": "assets/claude-pl-repaint/orc/base.png",
+      "sha256": "29fee47e58b1d18cbc5fcfefa1b8685ac73864900913c2ab68b02ed25152b918"
+    },
+    {
+      "file": "assets/claude-pl-repaint/wisp/2.png",
+      "sha256": "aa3dfaac2001b74c00d17936bd732e4347d9250bb940f35a669456e604899715"
+    },
+    {
+      "file": "assets/claude-pl-repaint/imp/4.png",
+      "sha256": "d17a564fc449c22d87983283c07936d630f38506ca4bf77fa397dfadb14ecd52"
+    },
+    {
+      "file": "assets/claude-pl-repaint/raft/4.png",
+      "sha256": "ae6b4b7db8f73be999230d710df084eb4ae32146ceda987791467014e5afaa23"
+    },
+    {
+      "file": "assets/claude-pl-repaint/raft/3.png",
+      "sha256": "4cfd146d129a539216c38853dfb5b352c216f43bf1365243ab566ba74ac2fe8e"
+    },
+    {
+      "file": "assets/claude-pl-repaint/imp/7.png",
+      "sha256": "7161861ede07b68244037aa1528f13b0fee7e54f9489d3f4db04e46bb1610645"
+    },
+    {
+      "file": "assets/claude-pl-repaint/hero/0.png",
+      "sha256": "e72ffaaad5fe4d217933a8abd2b819731087035b3cc577b2ed11e49674b551fe"
+    },
+    {
+      "file": "assets/claude-pl-repaint/hero/4.png",
+      "sha256": "512a3abb787d6c8b5857c79c73f72da75ce541cdd7c76588be713f86dc7b9bae"
+    },
+    {
+      "file": "assets/claude-pl-repaint/wyvern/3.png",
+      "sha256": "fdfe433941d6a19a75359a9d218a00654226a19cb666954e40439860488f413d"
+    },
+    {
+      "file": "assets/claude-pl-repaint/goblin/7.png",
+      "sha256": "7d23428801bbf41cdf87e0a4876bc0a90a7d7cc10c5176a0ff7085c1327e9b40"
+    },
+    {
+      "file": "assets/claude-pl-repaint/hero/2.png",
+      "sha256": "211dba2611ca32e585a1135af017e9636d73b8d4065ae93068dc360e8284f1be"
+    },
+    {
+      "file": "assets/claude-pl-repaint/ogre/6.png",
+      "sha256": "955661e68ab8f415ec9925bb3dc9de8b684ce15379b487ed595a5fbcf5c29c58"
+    },
+    {
+      "file": "assets/claude-pl-repaint/orc/7.png",
+      "sha256": "371bacab3363bac9f1d91fb96f8f5545c1b0fab23a29f3322f560f567be4e5e3"
+    },
+    {
+      "file": "assets/claude-pl-repaint/wisp/5.png",
+      "sha256": "1a6cf47d835e7b7eae3b2ca9b7586377b3faf12b751e8b19354e15f4f85134fc"
+    },
+    {
+      "file": "assets/claude-pl-repaint/slime/3.png",
+      "sha256": "388738460b7fe575b4d3efde9b5da53e4ddc2e6f6b23419fbdcf585ab739b217"
+    },
+    {
+      "file": "assets/claude-pl-repaint/raft/base.png",
+      "sha256": "bf8c8c05aab38457754e78e150692a3e4631564dd4b8ea83ee9e8eeeae1c1cb8"
+    },
+    {
+      "file": "assets/claude-pl-repaint/orc/1.png",
+      "sha256": "47e554f808fa7acb7252e868e5a0b7f4f0df05a06900dc1222b0aadd285342db"
+    },
+    {
+      "file": "assets/claude-pl-repaint/fruit/3.png",
+      "sha256": "72ab8346ef3ee5bf2d68143ca211c7b29d5b71439876c42e00f7401b5a572a5e"
+    },
+    {
+      "file": "assets/claude-pl-repaint/goblin/base.png",
+      "sha256": "6ce7b03d54664c9c40b16b6bb3fadfbd643f9ad8aa5c981865fc97702b8db60b"
+    },
+    {
+      "file": "assets/claude-pl-repaint/goblin/0.png",
+      "sha256": "74bb815e8eda1be4c0606640da1edf79ad53e25ecb5593cba993347c8a8eb80e"
+    },
+    {
+      "file": "assets/claude-pl-repaint/hero/3.png",
+      "sha256": "34cbe0c73caf5d579e6db1762763644240e5a68bce3b763112a1ed9ba5eef92c"
+    },
+    {
+      "file": "assets/claude-pl-repaint/goblin/1.png",
+      "sha256": "d04f0c9f9370da7db34dd84dc9117ae4aa4203d819a70efa2e82e0a9c4b70ea8"
+    },
+    {
+      "file": "assets/claude-pl-repaint/wisp/3.png",
+      "sha256": "f3ba6c9761cf0a3105db2e542501d922ca3b5fb3e8eb0836beed9a1b47f36587"
+    },
+    {
+      "file": "assets/claude-pl-repaint/orc/0.png",
+      "sha256": "6babc72be16121bd6b72b8604ab1390829adc04b54597e2b52dc5227782d638b"
+    },
+    {
+      "file": "assets/claude-pl-repaint/wisp/6.png",
+      "sha256": "64a97dfcd02fd3696c28398b116de0ca9b734383959db4ee0bab2d4e7c354bda"
+    },
+    {
+      "file": "assets/claude-pl-repaint/hero/7.png",
+      "sha256": "f82de51d125e8bece01dfe018a50d3f9649c78faa9ed0d5dfd7e59c8a18336c0"
+    },
+    {
+      "file": "assets/claude-pl-repaint/imp/5.png",
+      "sha256": "e6545ffc2a81439a21241a294bd714b31ec3568274a93cc32635ba4b8612944b"
+    },
+    {
+      "file": "assets/claude-pl-repaint/ogre/4.png",
+      "sha256": "f8e844164a777e418508643ed1e4efbcb01d89573831c2117c96cda0dc2d7a91"
+    },
+    {
+      "file": "assets/claude-pl-repaint/slime/1.png",
+      "sha256": "788919a66977c9a48626196866330bf29ed16fe7f4035d591dbbcf9d3c9be0d7"
+    },
+    {
+      "file": "assets/claude-pl-repaint/raft/6.png",
+      "sha256": "970e07c69df141f966aa4f965cfb5894387b0adb6891636751b96a56fced25c1"
+    },
+    {
+      "file": "assets/claude-pl-repaint/fruit/4.png",
+      "sha256": "58b5e84c1b01e39bf74ac752e5bc1a495727d25062d3852ba59b747e798f4ffb"
+    },
+    {
+      "file": "assets/claude-pl-repaint/ogre/7.png",
+      "sha256": "440413ff78ca4a524916abd6b6349a2838d8426db56100118b60732eaa9001c4"
+    },
+    {
+      "file": "assets/claude-pl-repaint/fruit/1.png",
+      "sha256": "7f241e1c8be0a11405aaab34c20d8b2530a045da87b90e595c749db103bd77d6"
+    },
+    {
+      "file": "assets/claude-pl-repaint/wyvern/2.png",
+      "sha256": "f260c85c0da699fc592c27facd127c882106e8cad27685213e5f918ab37b3eec"
+    },
+    {
+      "file": "assets/claude-pl-repaint/imp/3.png",
+      "sha256": "66b757c6a77919e255d026de8af9bcc45bc288db6935ae2c8d793e716831d085"
+    },
+    {
+      "file": "assets/claude-pl-repaint/orc/5.png",
+      "sha256": "e8665e858d2416aa5610b7425d5458f4126902bc879b0c3e17c2dc7a55c20e1c"
+    },
+    {
+      "file": "assets/claude-pixel/swamp/background.png",
+      "sha256": "d42ddd8dd7fcfc6ec9ecd6ed3085e5fa86e66eec3c98f37e90fe7f05c4c7b10e"
+    },
+    {
+      "file": "assets/claude-pl-repaint/imp/base.png",
+      "sha256": "0bb9bd3ac61c9b181495c4fb577d37381c3d4ad35b05fa86d557174c2c8713c0"
+    },
+    {
+      "file": "assets/claude-pl-repaint/slime/4.png",
+      "sha256": "2d7e6687572c032519c2f5923afa407bb0f748cec3b5ae414be9959210e3ab1a"
+    },
+    {
+      "file": "assets/claude-pl-repaint/raft/2.png",
+      "sha256": "022f90ec06aa9d30d7e7c177a011cbb9631e43f8f3322108e5ec3de008280467"
+    },
+    {
+      "file": "assets/claude-pl-repaint/wyvern/4.png",
+      "sha256": "c5ee996c3de0186415863ce6386c8e786f1f5a02d832b201193a86dea4fa2e2e"
+    },
+    {
+      "file": "assets/claude-pl-repaint/raft/1.png",
+      "sha256": "51996495f55d820e0f66e3cb65e0c968c32d7806074e85c84dd64abd8ec75cbc"
+    },
+    {
+      "file": "assets/claude-pl-repaint/wyvern/5.png",
+      "sha256": "d028199b0032f9f285f24af1709aa634d216dd320e65a4cd7dda834f37d321e5"
+    },
+    {
+      "file": "assets/claude-pl-repaint/orc/6.png",
+      "sha256": "85b35df7598b7f232ace11a109afdfdf5a04dc9bc6c59c2723918373a7e7861c"
+    },
+    {
+      "file": "assets/claude-pl-repaint/raft/0.png",
+      "sha256": "d19c6f7997e97d1b2000bbbc557240be0b6b8a2a0eb1cb51c92c6630992434c4"
+    },
+    {
+      "file": "assets/claude-pl-repaint/slime/2.png",
+      "sha256": "f2655927d24dd8b08972ce7981790b4c6cbb07f88588964db220598f46674355"
+    },
+    {
+      "file": "assets/claude-pl-repaint/goblin/2.png",
+      "sha256": "1fcb620701f1829e10b28051699c014ad3b54061ce4b0c92c3361c904cafbfce"
+    },
+    {
+      "file": "assets/claude-pl-repaint/wisp/7.png",
+      "sha256": "7af70fcf21f166f74ea30f5447ac8864f5048903355afa74fc4fe073aa681f2b"
+    },
+    {
+      "file": "assets/claude-pl-repaint/fruit/2.png",
+      "sha256": "8eb9e57544a272121d83aab200fae6e52fb7b30fd345b5acacf14cb717056dbc"
+    },
+    {
+      "file": "assets/claude-pl-repaint/hero/5.png",
+      "sha256": "dc552064603c71048009da2dc3a55b535637dc3da4d8e09da14c6a161d30a79a"
+    },
+    {
+      "file": "assets/claude-pl-repaint/ogre/3.png",
+      "sha256": "c44cb8e287d511522311c3aed9f0c00a98e9c22f6e61c7574e77d36e607de7a4"
+    },
+    {
+      "file": "assets/claude-pl-repaint/hero/1.png",
+      "sha256": "5327d734d17bd6d5a2af4412f3e982338b685d70bb031077060ab93759e78e71"
+    },
+    {
+      "file": "assets/claude-pl-repaint/ogre/0.png",
+      "sha256": "0792d9099d80d68f4dd2f9d59e7c6c6b9c9bc594129cc101e041ae6d5233b7a3"
+    },
+    {
+      "file": "assets/claude-pl-repaint/wisp/base.png",
+      "sha256": "dadc8d2a49cf9830bfbe7218156727a719ec0c41db161626bcc9aab10dd1e1d0"
+    },
+    {
+      "file": "assets/claude-pl-repaint/imp/6.png",
+      "sha256": "f9929166c2c4ea329229c8872d37a45437b802e9d94708b5fb37b417d712eec2"
+    },
+    {
+      "file": "assets/claude-pl-repaint/wisp/4.png",
+      "sha256": "c0c9e245c5ed84e4a9c22056b750fc7e434d648fdd84a9ac5895606a14357542"
+    },
+    {
+      "file": "assets/claude-pl-repaint/raft/5.png",
+      "sha256": "c50fe1c27ec1810719d52da30aab6f45c2b6a2368646c3ab412cf3dba992b61e"
+    },
+    {
+      "file": "assets/claude-pixel/desert/background.png",
+      "sha256": "5de725a559433e1d6ca6751a1562c184e984bb6f9c0db7b3dc8e2cbca0acc357"
+    },
+    {
+      "file": "assets/claude-pl-repaint/slime/base.png",
+      "sha256": "7a7009f21869ac54cac2f228f029a50b6ceba3541ef0c2eb1b52a3313df4460b"
+    },
+    {
+      "file": "assets/claude-pl-repaint/ogre/5.png",
+      "sha256": "564014990798588748df34fa45b67dccf894e09c9bbe081097cfcb82298832f4"
+    },
+    {
+      "file": "assets/claude-pl-repaint/raft/7.png",
+      "sha256": "7897de3921be2a4c0fe3942ffe72359c57243fbc6c149860537d45f78fc93cbe"
+    },
+    {
+      "file": "assets/claude-pl-repaint/wyvern/6.png",
+      "sha256": "8c9483310c6e41ed149153501ed31a5f7bb155043dc9803f000e6dba51e72b81"
+    },
+    {
+      "file": "assets/claude-pl-repaint/hero/6.png",
+      "sha256": "18dc06f97c613bdab186150d4ce22fc38fc7abf3216753bae162f986a0dcfb5d"
+    },
+    {
+      "file": "assets/claude-pixel/snow/background.png",
+      "sha256": "fbd532e9a336e108319990d2bd4ffb8bee178c8ea2693a97fd30ab25f69c34af"
+    },
+    {
+      "file": "assets/claude-pl-repaint/wisp/1.png",
+      "sha256": "762ba0db194f8031bdc3ae49214341a74602a81a0cc02eba99ba6fbf1a44b2ae"
+    },
+    {
+      "file": "assets/claude-pl-repaint/goblin/3.png",
+      "sha256": "99ceb9cb3d69f0034cd7860b8d6b3e0bb058cace2f5070fde8036bf45f6eee9f"
+    },
+    {
+      "file": "assets/claude-pl-repaint/goblin/6.png",
+      "sha256": "95944c389440b4ae99e3e8bc4b55c277e590dd8de82fca32a106ab25b716dcd0"
+    },
+    {
+      "file": "assets/claude-pl-repaint/fruit/base.png",
+      "sha256": "bf5cdd67a5bf4deecad9113b6c19f8957664772b7ca537bce0a278c1c6e87019"
+    },
+    {
+      "file": "assets/claude-pixel/grass/background.png",
+      "sha256": "5854b7a464461e7ef7885ffe2190ffb2b10418e112fc0b8509e7f9ef5158b80a"
+    },
+    {
+      "file": "assets/claude-pl-repaint/fruit/6.png",
+      "sha256": "e5340da14568b0005e19cbc1f742a7872982b96275e5e0b643a44ed3c4488e4f"
+    },
+    {
+      "file": "assets/claude-pl-repaint/orc/3.png",
+      "sha256": "14bad2f8a97d13d966af20c2d9ab57745255e5f573714d92ac8a59454595fab8"
+    },
+    {
+      "file": "assets/claude-pl-repaint/orc/4.png",
+      "sha256": "4776898d509acc405c7940123083ce2c18731053051232c3168804132708e71b"
+    },
+    {
+      "file": "assets/claude-pl-repaint/slime/7.png",
+      "sha256": "8bb6004157f0209aacda3c9a9a73d75309b0799c8e8511bced73798cc332dbe2"
+    },
+    {
+      "file": "assets/claude-pl-repaint/imp/2.png",
+      "sha256": "565ec8316c3fe0996a5488f5dfc4a9a363b18ccb535da1d61ebeec46de868d6f"
+    },
+    {
+      "file": "assets/claude-pl-repaint/hero/base.png",
+      "sha256": "152674cd0852a2801dc076578baef594ba1c39bf47d886fd7e66ebe7d732524e"
+    },
+    {
+      "file": "assets/claude-pl-repaint/goblin/4.png",
+      "sha256": "b28fae2d254b8e684e8b880394eae11152cbde9e0c6f542c1fc861c9193d6523"
+    },
+    {
+      "file": "assets/claude-pl-repaint/imp/1.png",
+      "sha256": "770134e5f5e2a83a1a9041f4dde27fcdfde4749512c7c1608a02174201d455cb"
+    },
+    {
+      "file": "assets/claude-pl-repaint/orc/2.png",
+      "sha256": "1f7afad007fff48593d099a0ed7511892a13f592f22dd9abc1b0ca0234c75b4f"
+    },
+    {
+      "file": "assets/claude-pl-repaint/slime/0.png",
+      "sha256": "acca21e732be0c2d7297972145b0b925c9099bfcb86b1e65909808802355c940"
+    },
+    {
+      "file": "assets/claude-pl-repaint/goblin/5.png",
+      "sha256": "b9e694d585c5db4aafd23cb6d685c36704f0cd2395b60a57028db07848fd0d61"
+    },
+    {
+      "file": "assets/claude-pl-repaint/fruit/7.png",
+      "sha256": "175ff3284b8d5c3d4bc30c8e089155f57723880e07537cabd98b0643a4de9d88"
+    },
+    {
+      "file": "assets/claude-pl-repaint/ogre/1.png",
+      "sha256": "01f4237e8b0fbb53b5e743c0fd222a069422d14742b079657715fdd03602b7f3"
+    },
+    {
+      "file": "assets/claude-pl-repaint/wisp/0.png",
+      "sha256": "6592b156582b80b37f19570c018d771349e3ac5ed68423cd437e495d47808ff5"
+    },
+    {
+      "file": "assets/claude-pl-repaint/fruit/0.png",
+      "sha256": "5b7a1867ba922ceced3598d474142082a27bdd4ed7d684e828ab1b0df98267fa"
+    },
+    {
+      "file": "assets/claude-pl-repaint/imp/0.png",
+      "sha256": "ead2a97ecfd0a84a578de326ee7065891272db89d344bd0650b6e318d04b3293"
+    },
+    {
+      "file": "assets/claude-pl-repaint/ogre/2.png",
+      "sha256": "73414d5ed0af0e2dfb490948ee1357a178c30de988a607ae00d881e0520290e6"
+    },
+    {
+      "file": "assets/claude-pl-repaint/fruit/5.png",
+      "sha256": "c91c70b0c01f4782e72ff94d32d88055e58e6276577d1645e1fb0f63bd6664d1"
+    },
+    {
+      "file": "assets/claude-pl-repaint/wyvern/7.png",
+      "sha256": "a87c9cc211d8588e697957c3c95b46da1bedf3f5b7428616281a811baf5e9693"
+    }
+  ]
+}

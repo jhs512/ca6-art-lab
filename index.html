@@ -20,10 +20,10 @@
             <section class="intro">
                 <div>
                     <p class="eyebrow">FANTASY ART DIRECTION / 2026</p>
-                    <h1>같은 모험,<br /><em>세 가지 그림.</em></h1>
+                    <h1>같은 모험,<br /><em>일곱 가지 그림.</em></h1>
                     <p class="lead">
                         설명이 아니라, 움직이는 그림을 보고 골라주세요.<br />같은 10종과 네 가지
-                        세계를 세 제작 방식으로 비교합니다.
+                        세계를 Codex 3종과 Claude Code 4종으로 비교합니다.
                     </p>
                 </div>
                 <aside>
@@ -38,8 +38,10 @@
                         <p class="eyebrow">01 / SIDE BY SIDE</p>
                         <h2>한 장면에서 비교하기</h2>
                     </div>
-                    <p>세 화면은 같은 시간·배율·방향으로 움직입니다.</p>
+                    <p>선택한 버전은 같은 시간·배율·방향으로 움직입니다.</p>
                 </div>
+                <p class="view-warning"><strong>게임 적용 기준: 모든 캐릭터는 수직 정수리 뷰.</strong> B는 주인공과 몬스터 시점이 섞여 있어 현재 기준에 미달합니다. 아래 7개는 비교 시안이며, 그림을 회전해도 측면 시점이 정수리 뷰로 바뀌지는 않습니다.</p>
+                <div class="pack-filters" id="pack-filters" aria-label="비교할 버전 선택"></div>
                 <div class="toolbar">
                     <div class="segmented" id="biomes"></div>
                     <div class="tools">
@@ -90,11 +92,11 @@
                         브라우저에만 저장됩니다.
                     </p>
                 </div>
-                <div class="column-labels">
+                <div class="comparison-scroll"><div class="column-labels">
                     <span>비교 대상</span><b>A · PixelLab 기본</b><b>B · PixelLab + 스킬</b
                     ><b>C · 이미지 생성 + 프레임 파이프라인</b>
                 </div>
-                <div id="actors"></div>
+                <div id="actors"></div></div>
             </section>
             <section id="backgrounds">
                 <div class="section-title">
@@ -102,7 +104,7 @@
                         <p class="eyebrow">03 / FOUR WORLDS</p>
                         <h2>캐릭터가 살아갈 세계</h2>
                     </div>
-                    <p>초원 · 설원 · 사막 · 늪지<br />각 제작 방식으로 별도 생성한 배경입니다.</p>
+                    <p>초원 · 설원 · 사막 · 늪지<br />버전별 배경을 비교합니다. G는 D 배경을 공유합니다.</p>
                 </div>
                 <div id="terrain"></div>
             </section>
@@ -149,6 +151,10 @@
                             비교
                         </p>
                     </article>
+<article><span>D / CLAUDE PIXEL RIG</span><h3>Claude 코드 픽셀 리그</h3><p>Claude가 코드로 원화를 그리고 파츠 포즈를 바꾼 실제 8프레임입니다. 배경은 codeart2d 타일·레이아웃으로 만들었습니다.</p></article>
+<article><span>E / CLAUDE SVG RIG</span><h3>Claude SVG 컷아웃 리그</h3><p>SVG 원화와 본 리그를 사용한 8프레임입니다. 배경도 SVG 코드 드로잉입니다. 이미지 생성 모델을 사용하지 않았습니다.</p></article>
+<article><span>F / CLAUDE + PIXELLAB MOTION</span><h3>Claude 원화 + PixelLab 동작</h3><p>D 원화를 PixelLab으로 움직였습니다. 배경은 PixelLab 타일셋을 Claude가 조립했습니다.</p></article>
+<article><span>G / CLAUDE + PIXELLAB REPAINT</span><h3>Claude 원화 리페인트 + 동작</h3><p>D 원화를 PixelLab으로 다시 칠하고 동작을 생성했습니다. 배경은 D와 공유하므로 별도로 생성한 배경이 아닙니다.</p></article>
                 </div>
                 <div class="honest">
                     <strong>비교 범위</strong>
@@ -163,7 +169,7 @@
                 <details>
                     <summary>출처 · 프롬프트 · 생성 기록</summary>
                     <p>
-                        <a href="verification.json">패키지 검사</a> ·
+                        <a href="verification.json">패키지 검사</a> · <a href="claude-import.json">Claude 결과물 출처·파일 해시</a> ·
                         <a href="qa.json">프레임 검사</a> ·
                         <a href="processing.json">스킬 처리 기록</a> ·
                         <a href="provenance.json">전체 제작 명세와 공개용 생성 기록</a> ·

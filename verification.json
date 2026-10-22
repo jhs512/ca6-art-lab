@@ -1,8 +1,8 @@
 {
-  "groups": 3,
+  "groups": 7,
   "actorsPerGroup": 10,
   "backgroundsPerGroup": 4,
-  "motionFrames": 240,
+  "motionFrames": 560,
   "uniqueFrames": [
     {
       "group": "plain",
@@ -153,8 +153,208 @@
       "group": "painted",
       "actor": "raft",
       "uniqueFrames": 8
+    },
+    {
+      "group": "claude-pixel",
+      "actor": "hero",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "claude-pixel",
+      "actor": "goblin",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "claude-pixel",
+      "actor": "slime",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "claude-pixel",
+      "actor": "orc",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "claude-pixel",
+      "actor": "ogre",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "claude-pixel",
+      "actor": "wisp",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "claude-pixel",
+      "actor": "imp",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "claude-pixel",
+      "actor": "wyvern",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "claude-pixel",
+      "actor": "fruit",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "claude-pixel",
+      "actor": "raft",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "claude-vector",
+      "actor": "hero",
+      "uniqueSvgFrames": 8
+    },
+    {
+      "group": "claude-vector",
+      "actor": "goblin",
+      "uniqueSvgFrames": 8
+    },
+    {
+      "group": "claude-vector",
+      "actor": "slime",
+      "uniqueSvgFrames": 8
+    },
+    {
+      "group": "claude-vector",
+      "actor": "orc",
+      "uniqueSvgFrames": 8
+    },
+    {
+      "group": "claude-vector",
+      "actor": "ogre",
+      "uniqueSvgFrames": 8
+    },
+    {
+      "group": "claude-vector",
+      "actor": "wisp",
+      "uniqueSvgFrames": 8
+    },
+    {
+      "group": "claude-vector",
+      "actor": "imp",
+      "uniqueSvgFrames": 8
+    },
+    {
+      "group": "claude-vector",
+      "actor": "wyvern",
+      "uniqueSvgFrames": 8
+    },
+    {
+      "group": "claude-vector",
+      "actor": "fruit",
+      "uniqueSvgFrames": 8
+    },
+    {
+      "group": "claude-vector",
+      "actor": "raft",
+      "uniqueSvgFrames": 8
+    },
+    {
+      "group": "claude-pl-anim",
+      "actor": "hero",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "claude-pl-anim",
+      "actor": "goblin",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "claude-pl-anim",
+      "actor": "slime",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "claude-pl-anim",
+      "actor": "orc",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "claude-pl-anim",
+      "actor": "ogre",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "claude-pl-anim",
+      "actor": "wisp",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "claude-pl-anim",
+      "actor": "imp",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "claude-pl-anim",
+      "actor": "wyvern",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "claude-pl-anim",
+      "actor": "fruit",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "claude-pl-anim",
+      "actor": "raft",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "claude-pl-repaint",
+      "actor": "hero",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "claude-pl-repaint",
+      "actor": "goblin",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "claude-pl-repaint",
+      "actor": "slime",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "claude-pl-repaint",
+      "actor": "orc",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "claude-pl-repaint",
+      "actor": "ogre",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "claude-pl-repaint",
+      "actor": "wisp",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "claude-pl-repaint",
+      "actor": "imp",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "claude-pl-repaint",
+      "actor": "wyvern",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "claude-pl-repaint",
+      "actor": "fruit",
+      "uniqueFrames": 8
+    },
+    {
+      "group": "claude-pl-repaint",
+      "actor": "raft",
+      "uniqueFrames": 8
     }
   ],
   "errors": [],
-  "scope": "Actual package integrity, transparency, identical per-clip canvas and B shared palette; not an automated approval of anatomy or motion quality."
+  "scope": "Actual package integrity, transparency, identical per-clip canvas and B shared palette; SVG frames checked for valid inactive XML and distinct source; not an automated approval of anatomy or motion quality."
 }

@@ -677,3 +677,15 @@ dialog::backdrop {
     background: var(--green);
     color: white;
 }
+
+/* Keep selected versions large enough to judge; scroll character rows together. */
+[hidden] { display: none !important; }
+.pack-filters { display:flex; flex-wrap:wrap; gap:10px 18px; margin:18px 0; }
+.pack-filters label { display:flex; align-items:center; gap:6px; font-size:12px; cursor:pointer; }
+.pack-filters input { accent-color:var(--green); }
+.comparison-scroll { overflow-x:auto; }
+.column-labels,.actor-row { grid-template-columns:145px repeat(var(--compare-count,7),minmax(180px,1fr)); min-width:calc(145px + var(--compare-count,7) * 196px); }
+.methods { grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); }
+@media(max-width:700px) { .stages {grid-template-columns:1fr;} .column-labels,.actor-row { grid-template-columns:95px repeat(var(--compare-count,7),180px); min-width:calc(95px + var(--compare-count,7) * 196px); } .actor-name {grid-column:auto;} .column-labels > span {display:block;} }
+
+.view-warning {padding:14px 18px;border-left:4px solid #a06a28;background:#fff4db;font-size:13px;line-height:1.7;} .pack-head .view-note {display:block;color:#805015;margin-top:5px;white-space:normal;}

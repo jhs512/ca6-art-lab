@@ -293,7 +293,8 @@
         "snow": "assets/plain/snow/background.png",
         "desert": "assets/plain/desert/background.png",
         "swamp": "assets/plain/swamp/background.png"
-      }
+      },
+      "viewNote": "측면·사선 시점 혼합"
     },
     {
       "id": "styled",
@@ -497,7 +498,8 @@
         "snow": "assets/styled/snow/background.png",
         "desert": "assets/styled/desert/background.png",
         "swamp": "assets/styled/swamp/background.png"
-      }
+      },
+      "viewNote": "혼합: 주인공은 위, 여러 몬스터는 측면"
     },
     {
       "id": "painted",
@@ -701,7 +703,1306 @@
         "snow": "assets/painted/snow/background.png",
         "desert": "assets/painted/desert/background.png",
         "swamp": "assets/painted/swamp/background.png"
-      }
+      },
+      "viewNote": "사선 위에서 내려다보는 시점"
+    },
+    {
+      "id": "claude-pixel",
+      "letter": "D",
+      "label": "Claude 코드 픽셀 리그",
+      "actors": {
+        "hero": {
+          "base": "assets/claude-pixel/hero/base.png",
+          "frames": [
+            "assets/claude-pixel/hero/0.png",
+            "assets/claude-pixel/hero/1.png",
+            "assets/claude-pixel/hero/2.png",
+            "assets/claude-pixel/hero/3.png",
+            "assets/claude-pixel/hero/4.png",
+            "assets/claude-pixel/hero/5.png",
+            "assets/claude-pixel/hero/6.png",
+            "assets/claude-pixel/hero/7.png"
+          ],
+          "canvas": [
+            72,
+            72
+          ],
+          "anchor": [
+            36.0,
+            36.0
+          ],
+          "referenceExtent": 58,
+          "bodyBox": [
+            10,
+            7,
+            58,
+            65
+          ],
+          "frameMs": 105,
+          "actionLabel": "걷기",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "goblin": {
+          "base": "assets/claude-pixel/goblin/base.png",
+          "frames": [
+            "assets/claude-pixel/goblin/0.png",
+            "assets/claude-pixel/goblin/1.png",
+            "assets/claude-pixel/goblin/2.png",
+            "assets/claude-pixel/goblin/3.png",
+            "assets/claude-pixel/goblin/4.png",
+            "assets/claude-pixel/goblin/5.png",
+            "assets/claude-pixel/goblin/6.png",
+            "assets/claude-pixel/goblin/7.png"
+          ],
+          "canvas": [
+            40,
+            40
+          ],
+          "anchor": [
+            20.0,
+            20.0
+          ],
+          "referenceExtent": 28,
+          "bodyBox": [
+            10,
+            6,
+            31,
+            34
+          ],
+          "frameMs": 85,
+          "actionLabel": "살금살금 걷기",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "slime": {
+          "base": "assets/claude-pixel/slime/base.png",
+          "frames": [
+            "assets/claude-pixel/slime/0.png",
+            "assets/claude-pixel/slime/1.png",
+            "assets/claude-pixel/slime/2.png",
+            "assets/claude-pixel/slime/3.png",
+            "assets/claude-pixel/slime/4.png",
+            "assets/claude-pixel/slime/5.png",
+            "assets/claude-pixel/slime/6.png",
+            "assets/claude-pixel/slime/7.png"
+          ],
+          "canvas": [
+            40,
+            40
+          ],
+          "anchor": [
+            20.0,
+            20.0
+          ],
+          "referenceExtent": 26,
+          "bodyBox": [
+            7,
+            8,
+            33,
+            32
+          ],
+          "frameMs": 95,
+          "actionLabel": "탄성 도약",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "orc": {
+          "base": "assets/claude-pixel/orc/base.png",
+          "frames": [
+            "assets/claude-pixel/orc/0.png",
+            "assets/claude-pixel/orc/1.png",
+            "assets/claude-pixel/orc/2.png",
+            "assets/claude-pixel/orc/3.png",
+            "assets/claude-pixel/orc/4.png",
+            "assets/claude-pixel/orc/5.png",
+            "assets/claude-pixel/orc/6.png",
+            "assets/claude-pixel/orc/7.png"
+          ],
+          "canvas": [
+            64,
+            64
+          ],
+          "anchor": [
+            32.0,
+            32.0
+          ],
+          "referenceExtent": 50,
+          "bodyBox": [
+            12,
+            7,
+            54,
+            57
+          ],
+          "frameMs": 80,
+          "actionLabel": "돌진 달리기",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "ogre": {
+          "base": "assets/claude-pixel/ogre/base.png",
+          "frames": [
+            "assets/claude-pixel/ogre/0.png",
+            "assets/claude-pixel/ogre/1.png",
+            "assets/claude-pixel/ogre/2.png",
+            "assets/claude-pixel/ogre/3.png",
+            "assets/claude-pixel/ogre/4.png",
+            "assets/claude-pixel/ogre/5.png",
+            "assets/claude-pixel/ogre/6.png",
+            "assets/claude-pixel/ogre/7.png"
+          ],
+          "canvas": [
+            84,
+            84
+          ],
+          "anchor": [
+            42.0,
+            42.0
+          ],
+          "referenceExtent": 68,
+          "bodyBox": [
+            9,
+            9,
+            66,
+            77
+          ],
+          "frameMs": 140,
+          "actionLabel": "육중하게 걷기",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "wisp": {
+          "base": "assets/claude-pixel/wisp/base.png",
+          "frames": [
+            "assets/claude-pixel/wisp/0.png",
+            "assets/claude-pixel/wisp/1.png",
+            "assets/claude-pixel/wisp/2.png",
+            "assets/claude-pixel/wisp/3.png",
+            "assets/claude-pixel/wisp/4.png",
+            "assets/claude-pixel/wisp/5.png",
+            "assets/claude-pixel/wisp/6.png",
+            "assets/claude-pixel/wisp/7.png"
+          ],
+          "canvas": [
+            64,
+            64
+          ],
+          "anchor": [
+            32.0,
+            32.0
+          ],
+          "referenceExtent": 48,
+          "bodyBox": [
+            5,
+            18,
+            53,
+            46
+          ],
+          "frameMs": 110,
+          "actionLabel": "부유·꼬리 소용돌이",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "imp": {
+          "base": "assets/claude-pixel/imp/base.png",
+          "frames": [
+            "assets/claude-pixel/imp/0.png",
+            "assets/claude-pixel/imp/1.png",
+            "assets/claude-pixel/imp/2.png",
+            "assets/claude-pixel/imp/3.png",
+            "assets/claude-pixel/imp/4.png",
+            "assets/claude-pixel/imp/5.png",
+            "assets/claude-pixel/imp/6.png",
+            "assets/claude-pixel/imp/7.png"
+          ],
+          "canvas": [
+            60,
+            60
+          ],
+          "anchor": [
+            30.0,
+            30.0
+          ],
+          "referenceExtent": 46,
+          "bodyBox": [
+            5,
+            7,
+            42,
+            53
+          ],
+          "frameMs": 70,
+          "actionLabel": "날갯짓 호버링",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "wyvern": {
+          "base": "assets/claude-pixel/wyvern/base.png",
+          "frames": [
+            "assets/claude-pixel/wyvern/0.png",
+            "assets/claude-pixel/wyvern/1.png",
+            "assets/claude-pixel/wyvern/2.png",
+            "assets/claude-pixel/wyvern/3.png",
+            "assets/claude-pixel/wyvern/4.png",
+            "assets/claude-pixel/wyvern/5.png",
+            "assets/claude-pixel/wyvern/6.png",
+            "assets/claude-pixel/wyvern/7.png"
+          ],
+          "canvas": [
+            76,
+            76
+          ],
+          "anchor": [
+            38.0,
+            38.0
+          ],
+          "referenceExtent": 53,
+          "bodyBox": [
+            7,
+            12,
+            60,
+            64
+          ],
+          "frameMs": 95,
+          "actionLabel": "비행 날갯짓",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "fruit": {
+          "base": "assets/claude-pixel/fruit/base.png",
+          "frames": [
+            "assets/claude-pixel/fruit/0.png",
+            "assets/claude-pixel/fruit/1.png",
+            "assets/claude-pixel/fruit/2.png",
+            "assets/claude-pixel/fruit/3.png",
+            "assets/claude-pixel/fruit/4.png",
+            "assets/claude-pixel/fruit/5.png",
+            "assets/claude-pixel/fruit/6.png",
+            "assets/claude-pixel/fruit/7.png"
+          ],
+          "canvas": [
+            30,
+            30
+          ],
+          "anchor": [
+            15.0,
+            15.0
+          ],
+          "referenceExtent": 19,
+          "bodyBox": [
+            8,
+            9,
+            27,
+            21
+          ],
+          "frameMs": 120,
+          "actionLabel": "잎 흔들기·빛 맥동",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "raft": {
+          "base": "assets/claude-pixel/raft/base.png",
+          "frames": [
+            "assets/claude-pixel/raft/0.png",
+            "assets/claude-pixel/raft/1.png",
+            "assets/claude-pixel/raft/2.png",
+            "assets/claude-pixel/raft/3.png",
+            "assets/claude-pixel/raft/4.png",
+            "assets/claude-pixel/raft/5.png",
+            "assets/claude-pixel/raft/6.png",
+            "assets/claude-pixel/raft/7.png"
+          ],
+          "canvas": [
+            200,
+            128
+          ],
+          "anchor": [
+            100.0,
+            64.0
+          ],
+          "referenceExtent": 160,
+          "bodyBox": [
+            20,
+            24,
+            180,
+            103
+          ],
+          "frameMs": 130,
+          "actionLabel": "물 위 흔들림·룬 점멸",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        }
+      },
+      "backgrounds": {
+        "grass": "assets/claude-pixel/grass/background.png",
+        "snow": "assets/claude-pixel/snow/background.png",
+        "desert": "assets/claude-pixel/desert/background.png",
+        "swamp": "assets/claude-pixel/swamp/background.png"
+      },
+      "subtitle": "Claude · 코드로 그린 픽셀 원화와 파츠 애니메이션",
+      "author": "Claude Code",
+      "smoothing": false,
+      "viewNote": "수직 탑다운을 기준으로 코드 제작"
+    },
+    {
+      "id": "claude-vector",
+      "letter": "E",
+      "label": "Claude SVG 컷아웃 리그",
+      "actors": {
+        "hero": {
+          "base": "assets/claude-vector/hero/base.svg",
+          "frames": [
+            "assets/claude-vector/hero/0.svg",
+            "assets/claude-vector/hero/1.svg",
+            "assets/claude-vector/hero/2.svg",
+            "assets/claude-vector/hero/3.svg",
+            "assets/claude-vector/hero/4.svg",
+            "assets/claude-vector/hero/5.svg",
+            "assets/claude-vector/hero/6.svg",
+            "assets/claude-vector/hero/7.svg"
+          ],
+          "canvas": [
+            68,
+            66
+          ],
+          "anchor": [
+            34.0,
+            33.0
+          ],
+          "referenceExtent": 58,
+          "bodyBox": null,
+          "frameMs": 110,
+          "actionLabel": "걷기 (발 교차 · 팔 흔들기 · 망토 펄럭)",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "goblin": {
+          "base": "assets/claude-vector/goblin/base.svg",
+          "frames": [
+            "assets/claude-vector/goblin/0.svg",
+            "assets/claude-vector/goblin/1.svg",
+            "assets/claude-vector/goblin/2.svg",
+            "assets/claude-vector/goblin/3.svg",
+            "assets/claude-vector/goblin/4.svg",
+            "assets/claude-vector/goblin/5.svg",
+            "assets/claude-vector/goblin/6.svg",
+            "assets/claude-vector/goblin/7.svg"
+          ],
+          "canvas": [
+            26,
+            34
+          ],
+          "anchor": [
+            13.0,
+            17.0
+          ],
+          "referenceExtent": 28,
+          "bodyBox": null,
+          "frameMs": 105,
+          "actionLabel": "살금살금 걷기 (웅크림 · 귀 쫑긋)",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "slime": {
+          "base": "assets/claude-vector/slime/base.svg",
+          "frames": [
+            "assets/claude-vector/slime/0.svg",
+            "assets/claude-vector/slime/1.svg",
+            "assets/claude-vector/slime/2.svg",
+            "assets/claude-vector/slime/3.svg",
+            "assets/claude-vector/slime/4.svg",
+            "assets/claude-vector/slime/5.svg",
+            "assets/claude-vector/slime/6.svg",
+            "assets/claude-vector/slime/7.svg"
+          ],
+          "canvas": [
+            40,
+            38
+          ],
+          "anchor": [
+            20.0,
+            19.0
+          ],
+          "referenceExtent": 27,
+          "bodyBox": null,
+          "frameMs": 115,
+          "actionLabel": "통통 점프 (찌그러짐→늘어남→공중→착지)",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "orc": {
+          "base": "assets/claude-vector/orc/base.svg",
+          "frames": [
+            "assets/claude-vector/orc/0.svg",
+            "assets/claude-vector/orc/1.svg",
+            "assets/claude-vector/orc/2.svg",
+            "assets/claude-vector/orc/3.svg",
+            "assets/claude-vector/orc/4.svg",
+            "assets/claude-vector/orc/5.svg",
+            "assets/claude-vector/orc/6.svg",
+            "assets/claude-vector/orc/7.svg"
+          ],
+          "canvas": [
+            56,
+            56
+          ],
+          "anchor": [
+            28.0,
+            28.0
+          ],
+          "referenceExtent": 51,
+          "bodyBox": null,
+          "frameMs": 90,
+          "actionLabel": "돌진 달리기 (팔 펌핑 · 먼지)",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "ogre": {
+          "base": "assets/claude-vector/ogre/base.svg",
+          "frames": [
+            "assets/claude-vector/ogre/0.svg",
+            "assets/claude-vector/ogre/1.svg",
+            "assets/claude-vector/ogre/2.svg",
+            "assets/claude-vector/ogre/3.svg",
+            "assets/claude-vector/ogre/4.svg",
+            "assets/claude-vector/ogre/5.svg",
+            "assets/claude-vector/ogre/6.svg",
+            "assets/claude-vector/ogre/7.svg"
+          ],
+          "canvas": [
+            64,
+            86
+          ],
+          "anchor": [
+            32.0,
+            43.0
+          ],
+          "referenceExtent": 67,
+          "bodyBox": null,
+          "frameMs": 140,
+          "actionLabel": "육중한 걸음 (몸 흔들림 · 쿵)",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "wisp": {
+          "base": "assets/claude-vector/wisp/base.svg",
+          "frames": [
+            "assets/claude-vector/wisp/0.svg",
+            "assets/claude-vector/wisp/1.svg",
+            "assets/claude-vector/wisp/2.svg",
+            "assets/claude-vector/wisp/3.svg",
+            "assets/claude-vector/wisp/4.svg",
+            "assets/claude-vector/wisp/5.svg",
+            "assets/claude-vector/wisp/6.svg",
+            "assets/claude-vector/wisp/7.svg"
+          ],
+          "canvas": [
+            72,
+            40
+          ],
+          "anchor": [
+            36.0,
+            20.0
+          ],
+          "referenceExtent": 48,
+          "bodyBox": null,
+          "frameMs": 120,
+          "actionLabel": "부유 + 꼬리 소용돌이",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "imp": {
+          "base": "assets/claude-vector/imp/base.svg",
+          "frames": [
+            "assets/claude-vector/imp/0.svg",
+            "assets/claude-vector/imp/1.svg",
+            "assets/claude-vector/imp/2.svg",
+            "assets/claude-vector/imp/3.svg",
+            "assets/claude-vector/imp/4.svg",
+            "assets/claude-vector/imp/5.svg",
+            "assets/claude-vector/imp/6.svg",
+            "assets/claude-vector/imp/7.svg"
+          ],
+          "canvas": [
+            54,
+            50
+          ],
+          "anchor": [
+            27.0,
+            25.0
+          ],
+          "referenceExtent": 45,
+          "bodyBox": null,
+          "frameMs": 90,
+          "actionLabel": "날갯짓 호버링",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "wyvern": {
+          "base": "assets/claude-vector/wyvern/base.svg",
+          "frames": [
+            "assets/claude-vector/wyvern/0.svg",
+            "assets/claude-vector/wyvern/1.svg",
+            "assets/claude-vector/wyvern/2.svg",
+            "assets/claude-vector/wyvern/3.svg",
+            "assets/claude-vector/wyvern/4.svg",
+            "assets/claude-vector/wyvern/5.svg",
+            "assets/claude-vector/wyvern/6.svg",
+            "assets/claude-vector/wyvern/7.svg"
+          ],
+          "canvas": [
+            64,
+            54
+          ],
+          "anchor": [
+            32.0,
+            27.0
+          ],
+          "referenceExtent": 53,
+          "bodyBox": null,
+          "frameMs": 110,
+          "actionLabel": "비행 날갯짓 (꼬리 S자)",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "fruit": {
+          "base": "assets/claude-vector/fruit/base.svg",
+          "frames": [
+            "assets/claude-vector/fruit/0.svg",
+            "assets/claude-vector/fruit/1.svg",
+            "assets/claude-vector/fruit/2.svg",
+            "assets/claude-vector/fruit/3.svg",
+            "assets/claude-vector/fruit/4.svg",
+            "assets/claude-vector/fruit/5.svg",
+            "assets/claude-vector/fruit/6.svg",
+            "assets/claude-vector/fruit/7.svg"
+          ],
+          "canvas": [
+            36,
+            28
+          ],
+          "anchor": [
+            18.0,
+            14.0
+          ],
+          "referenceExtent": 19,
+          "bodyBox": null,
+          "frameMs": 130,
+          "actionLabel": "잎 흔들림 + 빛 맥동",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "raft": {
+          "base": "assets/claude-vector/raft/base.svg",
+          "frames": [
+            "assets/claude-vector/raft/0.svg",
+            "assets/claude-vector/raft/1.svg",
+            "assets/claude-vector/raft/2.svg",
+            "assets/claude-vector/raft/3.svg",
+            "assets/claude-vector/raft/4.svg",
+            "assets/claude-vector/raft/5.svg",
+            "assets/claude-vector/raft/6.svg",
+            "assets/claude-vector/raft/7.svg"
+          ],
+          "canvas": [
+            170,
+            82
+          ],
+          "anchor": [
+            85.0,
+            41.0
+          ],
+          "referenceExtent": 160,
+          "bodyBox": null,
+          "frameMs": 140,
+          "actionLabel": "물결 출렁임 + 룬 빛 맥동",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        }
+      },
+      "backgrounds": {
+        "grass": "assets/claude-vector/grass/background.svg",
+        "snow": "assets/claude-vector/snow/background.svg",
+        "desert": "assets/claude-vector/desert/background.svg",
+        "swamp": "assets/claude-vector/swamp/background.svg"
+      },
+      "subtitle": "Claude · SVG 원화와 컷아웃 애니메이션",
+      "author": "Claude Code",
+      "smoothing": true,
+      "viewNote": "수직 탑다운을 기준으로 SVG 제작"
+    },
+    {
+      "id": "claude-pl-anim",
+      "letter": "F",
+      "label": "Claude 원화 + PixelLab 동작",
+      "actors": {
+        "hero": {
+          "base": "assets/claude-pl-anim/hero/base.png",
+          "frames": [
+            "assets/claude-pl-anim/hero/0.png",
+            "assets/claude-pl-anim/hero/1.png",
+            "assets/claude-pl-anim/hero/2.png",
+            "assets/claude-pl-anim/hero/3.png",
+            "assets/claude-pl-anim/hero/4.png",
+            "assets/claude-pl-anim/hero/5.png",
+            "assets/claude-pl-anim/hero/6.png",
+            "assets/claude-pl-anim/hero/7.png"
+          ],
+          "canvas": [
+            72,
+            72
+          ],
+          "anchor": [
+            36.0,
+            36.0
+          ],
+          "referenceExtent": 58,
+          "bodyBox": [
+            10,
+            7,
+            58,
+            65
+          ],
+          "frameMs": 105,
+          "actionLabel": "PixelLab 생성 · 걷기",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "goblin": {
+          "base": "assets/claude-pl-anim/goblin/base.png",
+          "frames": [
+            "assets/claude-pl-anim/goblin/0.png",
+            "assets/claude-pl-anim/goblin/1.png",
+            "assets/claude-pl-anim/goblin/2.png",
+            "assets/claude-pl-anim/goblin/3.png",
+            "assets/claude-pl-anim/goblin/4.png",
+            "assets/claude-pl-anim/goblin/5.png",
+            "assets/claude-pl-anim/goblin/6.png",
+            "assets/claude-pl-anim/goblin/7.png"
+          ],
+          "canvas": [
+            40,
+            40
+          ],
+          "anchor": [
+            20.0,
+            20.0
+          ],
+          "referenceExtent": 28,
+          "bodyBox": [
+            10,
+            6,
+            31,
+            34
+          ],
+          "frameMs": 85,
+          "actionLabel": "PixelLab 생성 · 살금살금 걷기",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "slime": {
+          "base": "assets/claude-pl-anim/slime/base.png",
+          "frames": [
+            "assets/claude-pl-anim/slime/0.png",
+            "assets/claude-pl-anim/slime/1.png",
+            "assets/claude-pl-anim/slime/2.png",
+            "assets/claude-pl-anim/slime/3.png",
+            "assets/claude-pl-anim/slime/4.png",
+            "assets/claude-pl-anim/slime/5.png",
+            "assets/claude-pl-anim/slime/6.png",
+            "assets/claude-pl-anim/slime/7.png"
+          ],
+          "canvas": [
+            40,
+            40
+          ],
+          "anchor": [
+            20.0,
+            20.0
+          ],
+          "referenceExtent": 26,
+          "bodyBox": [
+            7,
+            8,
+            33,
+            32
+          ],
+          "frameMs": 95,
+          "actionLabel": "PixelLab 생성 · 탄성 도약",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "orc": {
+          "base": "assets/claude-pl-anim/orc/base.png",
+          "frames": [
+            "assets/claude-pl-anim/orc/0.png",
+            "assets/claude-pl-anim/orc/1.png",
+            "assets/claude-pl-anim/orc/2.png",
+            "assets/claude-pl-anim/orc/3.png",
+            "assets/claude-pl-anim/orc/4.png",
+            "assets/claude-pl-anim/orc/5.png",
+            "assets/claude-pl-anim/orc/6.png",
+            "assets/claude-pl-anim/orc/7.png"
+          ],
+          "canvas": [
+            64,
+            64
+          ],
+          "anchor": [
+            32.0,
+            32.0
+          ],
+          "referenceExtent": 50,
+          "bodyBox": [
+            12,
+            7,
+            54,
+            57
+          ],
+          "frameMs": 80,
+          "actionLabel": "PixelLab 생성 · 돌진 달리기",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "ogre": {
+          "base": "assets/claude-pl-anim/ogre/base.png",
+          "frames": [
+            "assets/claude-pl-anim/ogre/0.png",
+            "assets/claude-pl-anim/ogre/1.png",
+            "assets/claude-pl-anim/ogre/2.png",
+            "assets/claude-pl-anim/ogre/3.png",
+            "assets/claude-pl-anim/ogre/4.png",
+            "assets/claude-pl-anim/ogre/5.png",
+            "assets/claude-pl-anim/ogre/6.png",
+            "assets/claude-pl-anim/ogre/7.png"
+          ],
+          "canvas": [
+            84,
+            84
+          ],
+          "anchor": [
+            42.0,
+            42.0
+          ],
+          "referenceExtent": 67,
+          "bodyBox": [
+            20,
+            10,
+            65,
+            77
+          ],
+          "frameMs": 140,
+          "actionLabel": "PixelLab 생성 · 육중하게 걷기",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "wisp": {
+          "base": "assets/claude-pl-anim/wisp/base.png",
+          "frames": [
+            "assets/claude-pl-anim/wisp/0.png",
+            "assets/claude-pl-anim/wisp/1.png",
+            "assets/claude-pl-anim/wisp/2.png",
+            "assets/claude-pl-anim/wisp/3.png",
+            "assets/claude-pl-anim/wisp/4.png",
+            "assets/claude-pl-anim/wisp/5.png",
+            "assets/claude-pl-anim/wisp/6.png",
+            "assets/claude-pl-anim/wisp/7.png"
+          ],
+          "canvas": [
+            64,
+            64
+          ],
+          "anchor": [
+            32.0,
+            32.0
+          ],
+          "referenceExtent": 48,
+          "bodyBox": [
+            5,
+            18,
+            53,
+            46
+          ],
+          "frameMs": 110,
+          "actionLabel": "PixelLab 생성 · 부유·꼬리 소용돌이",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "imp": {
+          "base": "assets/claude-pl-anim/imp/base.png",
+          "frames": [
+            "assets/claude-pl-anim/imp/0.png",
+            "assets/claude-pl-anim/imp/1.png",
+            "assets/claude-pl-anim/imp/2.png",
+            "assets/claude-pl-anim/imp/3.png",
+            "assets/claude-pl-anim/imp/4.png",
+            "assets/claude-pl-anim/imp/5.png",
+            "assets/claude-pl-anim/imp/6.png",
+            "assets/claude-pl-anim/imp/7.png"
+          ],
+          "canvas": [
+            60,
+            60
+          ],
+          "anchor": [
+            30.0,
+            30.0
+          ],
+          "referenceExtent": 46,
+          "bodyBox": [
+            5,
+            7,
+            42,
+            53
+          ],
+          "frameMs": 70,
+          "actionLabel": "PixelLab 생성 · 날갯짓 호버링",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "wyvern": {
+          "base": "assets/claude-pl-anim/wyvern/base.png",
+          "frames": [
+            "assets/claude-pl-anim/wyvern/0.png",
+            "assets/claude-pl-anim/wyvern/1.png",
+            "assets/claude-pl-anim/wyvern/2.png",
+            "assets/claude-pl-anim/wyvern/3.png",
+            "assets/claude-pl-anim/wyvern/4.png",
+            "assets/claude-pl-anim/wyvern/5.png",
+            "assets/claude-pl-anim/wyvern/6.png",
+            "assets/claude-pl-anim/wyvern/7.png"
+          ],
+          "canvas": [
+            76,
+            76
+          ],
+          "anchor": [
+            38.0,
+            38.0
+          ],
+          "referenceExtent": 53,
+          "bodyBox": [
+            7,
+            12,
+            60,
+            64
+          ],
+          "frameMs": 95,
+          "actionLabel": "PixelLab 생성 · 비행 날갯짓",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "fruit": {
+          "base": "assets/claude-pl-anim/fruit/base.png",
+          "frames": [
+            "assets/claude-pl-anim/fruit/0.png",
+            "assets/claude-pl-anim/fruit/1.png",
+            "assets/claude-pl-anim/fruit/2.png",
+            "assets/claude-pl-anim/fruit/3.png",
+            "assets/claude-pl-anim/fruit/4.png",
+            "assets/claude-pl-anim/fruit/5.png",
+            "assets/claude-pl-anim/fruit/6.png",
+            "assets/claude-pl-anim/fruit/7.png"
+          ],
+          "canvas": [
+            30,
+            30
+          ],
+          "anchor": [
+            15.0,
+            15.0
+          ],
+          "referenceExtent": 19,
+          "bodyBox": [
+            8,
+            9,
+            27,
+            21
+          ],
+          "frameMs": 120,
+          "actionLabel": "PixelLab 생성 · 잎 흔들기·빛 맥동",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "raft": {
+          "base": "assets/claude-pl-anim/raft/base.png",
+          "frames": [
+            "assets/claude-pl-anim/raft/0.png",
+            "assets/claude-pl-anim/raft/1.png",
+            "assets/claude-pl-anim/raft/2.png",
+            "assets/claude-pl-anim/raft/3.png",
+            "assets/claude-pl-anim/raft/4.png",
+            "assets/claude-pl-anim/raft/5.png",
+            "assets/claude-pl-anim/raft/6.png",
+            "assets/claude-pl-anim/raft/7.png"
+          ],
+          "canvas": [
+            200,
+            128
+          ],
+          "anchor": [
+            100.0,
+            64.0
+          ],
+          "referenceExtent": 160,
+          "bodyBox": [
+            20,
+            24,
+            180,
+            103
+          ],
+          "frameMs": 130,
+          "actionLabel": "PixelLab 생성 · 물 위 흔들림·룬 점멸",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        }
+      },
+      "backgrounds": {
+        "grass": "assets/claude-pl-anim/grass/background.png",
+        "snow": "assets/claude-pl-anim/snow/background.png",
+        "desert": "assets/claude-pl-anim/desert/background.png",
+        "swamp": "assets/claude-pl-anim/swamp/background.png"
+      },
+      "subtitle": "Claude 픽셀 원화 + PixelLab 생성 동작",
+      "author": "Claude Code",
+      "smoothing": false,
+      "viewNote": "D 기반 생성 · 동작 중 시점 검수 필요"
+    },
+    {
+      "id": "claude-pl-repaint",
+      "letter": "G",
+      "label": "Claude 원화 → PixelLab 리페인트 + 동작",
+      "actors": {
+        "hero": {
+          "base": "assets/claude-pl-repaint/hero/base.png",
+          "frames": [
+            "assets/claude-pl-repaint/hero/0.png",
+            "assets/claude-pl-repaint/hero/1.png",
+            "assets/claude-pl-repaint/hero/2.png",
+            "assets/claude-pl-repaint/hero/3.png",
+            "assets/claude-pl-repaint/hero/4.png",
+            "assets/claude-pl-repaint/hero/5.png",
+            "assets/claude-pl-repaint/hero/6.png",
+            "assets/claude-pl-repaint/hero/7.png"
+          ],
+          "canvas": [
+            72,
+            72
+          ],
+          "anchor": [
+            36.0,
+            36.0
+          ],
+          "referenceExtent": 58,
+          "bodyBox": [
+            10,
+            7,
+            58,
+            65
+          ],
+          "frameMs": 105,
+          "actionLabel": "PixelLab 리페인트·생성 · 걷기",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "goblin": {
+          "base": "assets/claude-pl-repaint/goblin/base.png",
+          "frames": [
+            "assets/claude-pl-repaint/goblin/0.png",
+            "assets/claude-pl-repaint/goblin/1.png",
+            "assets/claude-pl-repaint/goblin/2.png",
+            "assets/claude-pl-repaint/goblin/3.png",
+            "assets/claude-pl-repaint/goblin/4.png",
+            "assets/claude-pl-repaint/goblin/5.png",
+            "assets/claude-pl-repaint/goblin/6.png",
+            "assets/claude-pl-repaint/goblin/7.png"
+          ],
+          "canvas": [
+            40,
+            40
+          ],
+          "anchor": [
+            20.0,
+            20.0
+          ],
+          "referenceExtent": 28,
+          "bodyBox": [
+            10,
+            6,
+            31,
+            34
+          ],
+          "frameMs": 85,
+          "actionLabel": "PixelLab 리페인트·생성 · 살금살금 걷기",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "slime": {
+          "base": "assets/claude-pl-repaint/slime/base.png",
+          "frames": [
+            "assets/claude-pl-repaint/slime/0.png",
+            "assets/claude-pl-repaint/slime/1.png",
+            "assets/claude-pl-repaint/slime/2.png",
+            "assets/claude-pl-repaint/slime/3.png",
+            "assets/claude-pl-repaint/slime/4.png",
+            "assets/claude-pl-repaint/slime/5.png",
+            "assets/claude-pl-repaint/slime/6.png",
+            "assets/claude-pl-repaint/slime/7.png"
+          ],
+          "canvas": [
+            40,
+            40
+          ],
+          "anchor": [
+            20.0,
+            20.0
+          ],
+          "referenceExtent": 26,
+          "bodyBox": [
+            7,
+            8,
+            33,
+            32
+          ],
+          "frameMs": 95,
+          "actionLabel": "PixelLab 리페인트·생성 · 탄성 도약",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "orc": {
+          "base": "assets/claude-pl-repaint/orc/base.png",
+          "frames": [
+            "assets/claude-pl-repaint/orc/0.png",
+            "assets/claude-pl-repaint/orc/1.png",
+            "assets/claude-pl-repaint/orc/2.png",
+            "assets/claude-pl-repaint/orc/3.png",
+            "assets/claude-pl-repaint/orc/4.png",
+            "assets/claude-pl-repaint/orc/5.png",
+            "assets/claude-pl-repaint/orc/6.png",
+            "assets/claude-pl-repaint/orc/7.png"
+          ],
+          "canvas": [
+            64,
+            64
+          ],
+          "anchor": [
+            32.0,
+            32.0
+          ],
+          "referenceExtent": 50,
+          "bodyBox": [
+            12,
+            7,
+            54,
+            57
+          ],
+          "frameMs": 80,
+          "actionLabel": "PixelLab 리페인트·생성 · 돌진 달리기",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "ogre": {
+          "base": "assets/claude-pl-repaint/ogre/base.png",
+          "frames": [
+            "assets/claude-pl-repaint/ogre/0.png",
+            "assets/claude-pl-repaint/ogre/1.png",
+            "assets/claude-pl-repaint/ogre/2.png",
+            "assets/claude-pl-repaint/ogre/3.png",
+            "assets/claude-pl-repaint/ogre/4.png",
+            "assets/claude-pl-repaint/ogre/5.png",
+            "assets/claude-pl-repaint/ogre/6.png",
+            "assets/claude-pl-repaint/ogre/7.png"
+          ],
+          "canvas": [
+            84,
+            84
+          ],
+          "anchor": [
+            42.0,
+            42.0
+          ],
+          "referenceExtent": 67,
+          "bodyBox": [
+            20,
+            10,
+            65,
+            77
+          ],
+          "frameMs": 140,
+          "actionLabel": "PixelLab 리페인트·생성 · 육중하게 걷기",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "wisp": {
+          "base": "assets/claude-pl-repaint/wisp/base.png",
+          "frames": [
+            "assets/claude-pl-repaint/wisp/0.png",
+            "assets/claude-pl-repaint/wisp/1.png",
+            "assets/claude-pl-repaint/wisp/2.png",
+            "assets/claude-pl-repaint/wisp/3.png",
+            "assets/claude-pl-repaint/wisp/4.png",
+            "assets/claude-pl-repaint/wisp/5.png",
+            "assets/claude-pl-repaint/wisp/6.png",
+            "assets/claude-pl-repaint/wisp/7.png"
+          ],
+          "canvas": [
+            64,
+            64
+          ],
+          "anchor": [
+            32.0,
+            32.0
+          ],
+          "referenceExtent": 44,
+          "bodyBox": [
+            5,
+            18,
+            49,
+            46
+          ],
+          "frameMs": 110,
+          "actionLabel": "PixelLab 리페인트·생성 · 부유·꼬리 소용돌이",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "imp": {
+          "base": "assets/claude-pl-repaint/imp/base.png",
+          "frames": [
+            "assets/claude-pl-repaint/imp/0.png",
+            "assets/claude-pl-repaint/imp/1.png",
+            "assets/claude-pl-repaint/imp/2.png",
+            "assets/claude-pl-repaint/imp/3.png",
+            "assets/claude-pl-repaint/imp/4.png",
+            "assets/claude-pl-repaint/imp/5.png",
+            "assets/claude-pl-repaint/imp/6.png",
+            "assets/claude-pl-repaint/imp/7.png"
+          ],
+          "canvas": [
+            60,
+            60
+          ],
+          "anchor": [
+            30.0,
+            30.0
+          ],
+          "referenceExtent": 47,
+          "bodyBox": [
+            5,
+            6,
+            42,
+            53
+          ],
+          "frameMs": 70,
+          "actionLabel": "PixelLab 리페인트·생성 · 날갯짓 호버링",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "wyvern": {
+          "base": "assets/claude-pl-repaint/wyvern/base.png",
+          "frames": [
+            "assets/claude-pl-repaint/wyvern/0.png",
+            "assets/claude-pl-repaint/wyvern/1.png",
+            "assets/claude-pl-repaint/wyvern/2.png",
+            "assets/claude-pl-repaint/wyvern/3.png",
+            "assets/claude-pl-repaint/wyvern/4.png",
+            "assets/claude-pl-repaint/wyvern/5.png",
+            "assets/claude-pl-repaint/wyvern/6.png",
+            "assets/claude-pl-repaint/wyvern/7.png"
+          ],
+          "canvas": [
+            76,
+            76
+          ],
+          "anchor": [
+            38.0,
+            38.0
+          ],
+          "referenceExtent": 54,
+          "bodyBox": [
+            7,
+            11,
+            60,
+            65
+          ],
+          "frameMs": 95,
+          "actionLabel": "PixelLab 리페인트·생성 · 비행 날갯짓",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "fruit": {
+          "base": "assets/claude-pl-repaint/fruit/base.png",
+          "frames": [
+            "assets/claude-pl-repaint/fruit/0.png",
+            "assets/claude-pl-repaint/fruit/1.png",
+            "assets/claude-pl-repaint/fruit/2.png",
+            "assets/claude-pl-repaint/fruit/3.png",
+            "assets/claude-pl-repaint/fruit/4.png",
+            "assets/claude-pl-repaint/fruit/5.png",
+            "assets/claude-pl-repaint/fruit/6.png",
+            "assets/claude-pl-repaint/fruit/7.png"
+          ],
+          "canvas": [
+            32,
+            32
+          ],
+          "anchor": [
+            16.0,
+            16.0
+          ],
+          "referenceExtent": 19,
+          "bodyBox": [
+            9,
+            10,
+            28,
+            22
+          ],
+          "frameMs": 120,
+          "actionLabel": "PixelLab 리페인트·생성 · 잎 흔들기·빛 맥동",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        },
+        "raft": {
+          "base": "assets/claude-pl-repaint/raft/base.png",
+          "frames": [
+            "assets/claude-pl-repaint/raft/0.png",
+            "assets/claude-pl-repaint/raft/1.png",
+            "assets/claude-pl-repaint/raft/2.png",
+            "assets/claude-pl-repaint/raft/3.png",
+            "assets/claude-pl-repaint/raft/4.png",
+            "assets/claude-pl-repaint/raft/5.png",
+            "assets/claude-pl-repaint/raft/6.png",
+            "assets/claude-pl-repaint/raft/7.png"
+          ],
+          "canvas": [
+            200,
+            128
+          ],
+          "anchor": [
+            100.0,
+            64.0
+          ],
+          "referenceExtent": 160,
+          "bodyBox": [
+            20,
+            24,
+            180,
+            104
+          ],
+          "frameMs": 130,
+          "actionLabel": "PixelLab 리페인트·생성 · 물 위 흔들림·룬 점멸",
+          "uniqueFrames": 8,
+          "edgeContact": false
+        }
+      },
+      "backgrounds": {
+        "grass": "assets/claude-pixel/grass/background.png",
+        "snow": "assets/claude-pixel/snow/background.png",
+        "desert": "assets/claude-pixel/desert/background.png",
+        "swamp": "assets/claude-pixel/swamp/background.png"
+      },
+      "subtitle": "Claude 원화 → PixelLab 리페인트 + 생성 동작",
+      "author": "Claude Code",
+      "smoothing": false,
+      "viewNote": "D 리페인트 · 동작 중 시점 검수 필요"
     }
   ]
 }
