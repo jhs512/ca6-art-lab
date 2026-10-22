@@ -1,8 +1,11 @@
 {
-  "groups": 7,
+  "groups": 8,
   "actorsPerGroup": 10,
   "backgroundsPerGroup": 4,
   "motionFrames": 560,
+  "live3DRigs": 10,
+  "liveRigPoses": 80,
+  "live3DTerrains": 4,
   "uniqueFrames": [
     {
       "group": "plain",

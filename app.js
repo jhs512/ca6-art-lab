@@ -1,3 +1,4 @@
+import {drawVoxelActor,voxelAvailable,voxelFailure,setVoxelTilt,voxelTerrain} from './voxel.js';
 const $ = (id) => document.getElementById(id);
 const data = await (await fetch("manifest.json")).json();
 const images = new Map(),
@@ -38,6 +39,7 @@ function load(file) {
 }
 const jobs = [];
 for (const pack of packs) {
+    if (pack.procedural) continue;
     for (const actor of actors) {
         const entry = pack.actors[actor.id];
         if (entry) {
@@ -54,24 +56,30 @@ const completed = packs.reduce(
 );
 loaded.then(() => {
     const clips = packs.reduce((n,p)=>n+actors.filter(a=>{
+        if(p.procedural)return voxelAvailable();
         const entry=p.actors[a.id];
         return entry?.frames.length===8 && [entry.base,...entry.frames].every(f=>images.get(f)?.naturalWidth>0);
     }).length,0);
-    const backgrounds=packs.reduce((n,p)=>n+Object.values(p.backgrounds).filter(f=>images.get(f)?.naturalWidth>0).length,0);
+    const backgrounds=packs.reduce((n,p)=>n+(p.procedural?(voxelAvailable()?biomes.length:0):Object.values(p.backgrounds).filter(f=>images.get(f)?.naturalWidth>0).length),0);
     $("coverage").dataset.loadedClips=clips;
     $("coverage").dataset.loadedBackgrounds=backgrounds;
     $("coverage").textContent =
         `${clips} / ${packs.length * actors.length} 대표 동작 · ${backgrounds} / ${packs.length * biomes.length} 배경 구성`;
+    if(!voxelAvailable()) $('voxel-status').textContent='3D 표시 불가: '+voxelFailure();
 });
-const visiblePacks = new Set(packs.map(p => p.id));
+const requestedPacks=new URLSearchParams(location.search).get('compare')?.split(',').filter(id=>packs.some(p=>p.id===id));
+const visiblePacks = new Set(requestedPacks?.length?requestedPacks:packs.map(p => p.id));
+function filterPacks(){
+    document.querySelectorAll('[data-pack]').forEach(el=>el.hidden=!visiblePacks.has(el.dataset.pack));
+    document.documentElement.style.setProperty('--compare-count',visiblePacks.size);
+}
 for (const pack of packs) {
     const label = document.createElement('label'), input = document.createElement('input');
-    input.type='checkbox'; input.checked=true; input.value=pack.id;
+    input.type='checkbox'; input.checked=visiblePacks.has(pack.id); input.value=pack.id;
     input.onchange=()=>{
         if (!input.checked && visiblePacks.size===1) { input.checked=true; return; }
         if (input.checked) visiblePacks.add(pack.id); else visiblePacks.delete(pack.id);
-        document.querySelectorAll('[data-pack]').forEach(el=>el.hidden=!visiblePacks.has(el.dataset.pack));
-        document.documentElement.style.setProperty('--compare-count',visiblePacks.size);
+        filterPacks();
     };
     label.append(input,`${pack.letter} · ${pack.label}`); $('pack-filters').append(label);
     const option=document.createElement('option'); option.value=pack.id; option.textContent=`${pack.letter} 배경으로 통일`;
@@ -98,7 +106,7 @@ for (const pack of packs) {
     const card = document.createElement("article");
     card.className = "pack";
     card.dataset.pack = pack.id;
-    card.innerHTML = `<div class="pack-head"><span class="letter">${pack.letter}</span><div><h3>${pack.label}</h3><small>${pack.subtitle}</small><small class="view-note">시점 · ${pack.viewNote}</small></div></div><canvas class="stage-canvas" width="1024" height="640" aria-label="${pack.label} 10종 대표 동작"></canvas><div class="pack-foot"><span>동일한 월드 크기 · 대표 동작</span><span>8프레임 / 10fps</span></div>`;
+    card.innerHTML = `<div class="pack-head"><span class="letter">${pack.letter}</span><div><h3>${pack.label}</h3><small>${pack.subtitle}</small><small class="view-note">시점 · ${pack.viewNote}</small></div></div><canvas class="stage-canvas" width="1024" height="640" aria-label="${pack.label} 10종 대표 동작"></canvas><div class="pack-foot"><span>동일한 월드 크기 · 대표 동작</span><span>${pack.procedural?'실제 3D 리그 · 8포즈':'8프레임 / 10fps'}</span></div>`;
     $("stages").append(card);
     stageViews.push({ canvas: card.querySelector("canvas"), pack });
     const button = document.createElement("button");
@@ -132,7 +140,7 @@ for (const actor of actors) {
         const info = document.createElement("div");
         info.className = "asset-info";
         const label = document.createElement("span");
-        label.textContent = entry?.frames.length
+        label.textContent = pack.procedural ? 'H · 실제 3D 리그 · 8포즈' : entry?.frames.length
             ? `${pack.letter} · ${entry.frames.length}프레임 · ${entry.uniqueFrames}장 고유 이미지`
             : "동작 미완료";
         const button = document.createElement("button");
@@ -181,7 +189,8 @@ for (const b of biomes) {
         card.className = "terrain-card";
         card.dataset.pack = p.id;
         const image = document.createElement("img");
-        image.src = p.backgrounds[b.id] || "";
+        if(p.procedural) {const terrain=voxelTerrain(b.id);if(terrain)image.src=terrain.toDataURL();}
+        else image.src = p.backgrounds[b.id] || "";
         image.alt = `${p.letter} ${b.label} 배경`;
         image.loading = "lazy";
         const caption = document.createElement("figcaption");
@@ -208,6 +217,8 @@ for (const b of biomes) {
     row.append(grid);
     $("terrain").append(row);
 }
+filterPacks();
+$("voxel-tilt").oninput=()=>{const value=+$("voxel-tilt").value;setVoxelTilt(value);$('voxel-tilt-label').value=value===0?'0° · 정수리':`${value}° · 기울임`;};
 $("notes").value = choices.notes;
 $("notes").oninput = () => {
     choices.notes = $("notes").value;
@@ -265,6 +276,7 @@ $("detail").onclick = (e) => {
     if (e.target === $("detail")) $("detail").close();
 };
 function drawActor(ctx, pack, actor, x, y, frame, zoom = 1, rotation = angle) {
+    if(pack.procedural){drawVoxelActor(ctx,actor.id,x,y,actor.extent,showOriginal?0:frame,zoom,rotation);return;}
     const entry = pack.actors[actor.id];
     if (!entry) return;
     const file = showOriginal ? entry.base : entry.frames[frame] || entry.base,
@@ -317,8 +329,8 @@ function paint(now) {
             $("background-source").value === "own"
                 ? pack
                 : packs.find((p) => p.id === $("background-source").value);
-        const bg = images.get(backgroundPack.backgrounds[biome]);
-        if (bg?.complete && bg.naturalWidth) ctx.drawImage(bg, 0, 0, 512, 320);
+        const bg = backgroundPack.procedural?voxelTerrain(biome):images.get(backgroundPack.backgrounds[biome]);
+        if (bg && (backgroundPack.procedural || (bg.complete && bg.naturalWidth))) ctx.drawImage(bg, 0, 0, 512, 320);
         else {
             ctx.fillStyle = "#dbe4d0";
             ctx.fillRect(0, 0, 512, 320);

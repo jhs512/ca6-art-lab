@@ -689,3 +689,5 @@ dialog::backdrop {
 @media(max-width:700px) { .stages {grid-template-columns:1fr;} .column-labels,.actor-row { grid-template-columns:95px repeat(var(--compare-count,7),180px); min-width:calc(95px + var(--compare-count,7) * 196px); } .actor-name {grid-column:auto;} .column-labels > span {display:block;} }
 
 .view-warning {padding:14px 18px;border-left:4px solid #a06a28;background:#fff4db;font-size:13px;line-height:1.7;} .pack-head .view-note {display:block;color:#805015;margin-top:5px;white-space:normal;}
+
+.voxel-control{padding:14px 18px;background:#e4ece7;margin:15px 0;display:flex;flex-direction:column;gap:8px}.voxel-control label{display:flex;gap:12px;align-items:center;flex-wrap:wrap;font-size:13px}.voxel-control small{color:var(--muted)}.voxel-method{padding:20px;border:1px solid var(--line);margin:20px 0;}

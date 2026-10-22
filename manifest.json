@@ -2003,6 +2003,62 @@
       "author": "Claude Code",
       "smoothing": false,
       "viewNote": "D 리페인트 · 동작 중 시점 검수 필요"
+    },
+    {
+      "id": "voxel",
+      "letter": "H",
+      "label": "3D 복셀 리그",
+      "subtitle": "실제 WebGL 입체 모델 · 파츠 동작 · 복셀 지형",
+      "viewNote": "기본 수직 정수리 뷰 · 카메라 기울임 선택 가능",
+      "procedural": true,
+      "actors": {
+        "hero": {
+          "frames": [],
+          "rigPoses": 8
+        },
+        "goblin": {
+          "frames": [],
+          "rigPoses": 8
+        },
+        "slime": {
+          "frames": [],
+          "rigPoses": 8
+        },
+        "orc": {
+          "frames": [],
+          "rigPoses": 8
+        },
+        "ogre": {
+          "frames": [],
+          "rigPoses": 8
+        },
+        "wisp": {
+          "frames": [],
+          "rigPoses": 8
+        },
+        "imp": {
+          "frames": [],
+          "rigPoses": 8
+        },
+        "wyvern": {
+          "frames": [],
+          "rigPoses": 8
+        },
+        "fruit": {
+          "frames": [],
+          "rigPoses": 8
+        },
+        "raft": {
+          "frames": [],
+          "rigPoses": 8
+        }
+      },
+      "backgrounds": {
+        "grass": null,
+        "snow": null,
+        "desert": null,
+        "swamp": null
+      }
     }
   ]
 }
